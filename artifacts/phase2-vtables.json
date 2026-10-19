@@ -1,0 +1,111 @@
+﻿{
+    "source_path":  "G:\\Projects\\CK2Analysis\\CK2game.exe",
+    "sha256":  "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+    "method":  "Read-only File.ReadAllBytes and BitConverter.ToUInt64. No target loading/execution. VA mapping verified against artifacts/pe-overview.json",
+    "rdata_va":  "0x140ff9000",
+    "rdata_raw_offset":  16745472,
+    "text_va":  "0x140001000",
+    "text_raw_offset":  1024,
+    "entries":  [
+                    {
+                        "table_va":  "0x1411430f8",
+                        "slot_offset":  "0x50",
+                        "pointer_cell_va":  "0x141143148",
+                        "pointer_cell_file_offset":  18097480,
+                        "pointer_cell_raw_bytes":  "60-E5-0A-40-01-00-00-00",
+                        "target_va":  "0x1400ae560",
+                        "target_file_offset":  711008,
+                        "target_first_16_bytes":  "33-C0-C3-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC"
+                    },
+                    {
+                        "table_va":  "0x1411430f8",
+                        "slot_offset":  "0x60",
+                        "pointer_cell_va":  "0x141143158",
+                        "pointer_cell_file_offset":  18097496,
+                        "pointer_cell_raw_bytes":  "20-12-0B-40-01-00-00-00",
+                        "target_va":  "0x1400b1220",
+                        "target_file_offset":  722464,
+                        "target_first_16_bytes":  "48-8B-C1-C3-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC"
+                    },
+                    {
+                        "table_va":  "0x1411430f8",
+                        "slot_offset":  "0x68",
+                        "pointer_cell_va":  "0x141143160",
+                        "pointer_cell_file_offset":  18097504,
+                        "pointer_cell_raw_bytes":  "40-E5-0A-40-01-00-00-00",
+                        "target_va":  "0x1400ae540",
+                        "target_file_offset":  710976,
+                        "target_first_16_bytes":  "32-C0-C3-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC"
+                    },
+                    {
+                        "table_va":  "0x1411430f8",
+                        "slot_offset":  "0x70",
+                        "pointer_cell_va":  "0x141143168",
+                        "pointer_cell_file_offset":  18097512,
+                        "pointer_cell_raw_bytes":  "50-E5-0A-40-01-00-00-00",
+                        "target_va":  "0x1400ae550",
+                        "target_file_offset":  710992,
+                        "target_first_16_bytes":  "B0-01-C3-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC"
+                    },
+                    {
+                        "table_va":  "0x1411430f8",
+                        "slot_offset":  "0x80",
+                        "pointer_cell_va":  "0x141143178",
+                        "pointer_cell_file_offset":  18097528,
+                        "pointer_cell_raw_bytes":  "80-73-BA-40-01-00-00-00",
+                        "target_va":  "0x140ba7380",
+                        "target_file_offset":  12216192,
+                        "target_first_16_bytes":  "40-53-56-57-41-56-48-83-EC-38-48-8B-81-80-00-00"
+                    },
+                    {
+                        "table_va":  "0x141075b70",
+                        "slot_offset":  "0x50",
+                        "pointer_cell_va":  "0x141075bc0",
+                        "pointer_cell_file_offset":  17256384,
+                        "pointer_cell_raw_bytes":  "20-12-0B-40-01-00-00-00",
+                        "target_va":  "0x1400b1220",
+                        "target_file_offset":  722464,
+                        "target_first_16_bytes":  "48-8B-C1-C3-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC"
+                    },
+                    {
+                        "table_va":  "0x141075b70",
+                        "slot_offset":  "0x60",
+                        "pointer_cell_va":  "0x141075bd0",
+                        "pointer_cell_file_offset":  17256400,
+                        "pointer_cell_raw_bytes":  "60-E5-0A-40-01-00-00-00",
+                        "target_va":  "0x1400ae560",
+                        "target_file_offset":  711008,
+                        "target_first_16_bytes":  "33-C0-C3-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC"
+                    },
+                    {
+                        "table_va":  "0x141075b70",
+                        "slot_offset":  "0x68",
+                        "pointer_cell_va":  "0x141075bd8",
+                        "pointer_cell_file_offset":  17256408,
+                        "pointer_cell_raw_bytes":  "50-E5-0A-40-01-00-00-00",
+                        "target_va":  "0x1400ae550",
+                        "target_file_offset":  710992,
+                        "target_first_16_bytes":  "B0-01-C3-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC"
+                    },
+                    {
+                        "table_va":  "0x141075b70",
+                        "slot_offset":  "0x70",
+                        "pointer_cell_va":  "0x141075be0",
+                        "pointer_cell_file_offset":  17256416,
+                        "pointer_cell_raw_bytes":  "40-E5-0A-40-01-00-00-00",
+                        "target_va":  "0x1400ae540",
+                        "target_file_offset":  710976,
+                        "target_first_16_bytes":  "32-C0-C3-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC-CC"
+                    },
+                    {
+                        "table_va":  "0x141075b70",
+                        "slot_offset":  "0x80",
+                        "pointer_cell_va":  "0x141075bf0",
+                        "pointer_cell_file_offset":  17256432,
+                        "pointer_cell_raw_bytes":  "60-63-BA-40-01-00-00-00",
+                        "target_va":  "0x140ba6360",
+                        "target_file_offset":  12212064,
+                        "target_first_16_bytes":  "40-56-48-83-EC-20-48-8B-82-F0-00-00-00-48-8B-F1"
+                    }
+                ]
+}

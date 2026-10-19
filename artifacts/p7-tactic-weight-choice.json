@@ -1,0 +1,432 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "function",
+  "query": "140c41f80",
+  "result": [
+    {
+      "entry": "140c41f80",
+      "name": "FUN_140c41f80",
+      "signature": "undefined FUN_140c41f80(void)",
+      "body": "[[140c41f80, 140c42015]]",
+      "decompile_completed": true,
+      "decompile_error": "",
+      "pseudocode": "\r\nulonglong FUN_140c41f80(int param_1,longlong param_2,int param_3,uint param_4)\r\n\r\n{\r\n  int iVar1;\r\n  uint uVar2;\r\n  ulonglong uVar3;\r\n  ulonglong uVar4;\r\n  uint uVar5;\r\n  ulonglong uVar6;\r\n  \r\n  uVar3 \u003d 0;\r\n  uVar4 \u003d uVar3;\r\n  uVar6 \u003d uVar3;\r\n  if (0 \u003c param_1) {\r\n    do {\r\n      iVar1 \u003d *(int *)(param_2 + uVar6 * 4);\r\n      uVar6 \u003d uVar6 + 1;\r\n      uVar2 \u003d iVar1 + (uint)uVar4;\r\n      if (iVar1 \u003c 1) {\r\n        uVar2 \u003d (uint)uVar4;\r\n      }\r\n      uVar4 \u003d (ulonglong)uVar2;\r\n    } while ((longlong)uVar6 \u003c (longlong)param_1);\r\n    if (uVar2 !\u003d 0) {\r\n      uVar4 \u003d uVar3;\r\n      uVar6 \u003d uVar3;\r\n      do {\r\n        iVar1 \u003d *(int *)(param_2 + uVar3 * 4);\r\n        if ((0 \u003c iVar1) \u0026\u0026\r\n           (uVar5 \u003d (int)uVar6 + iVar1, uVar6 \u003d (ulonglong)uVar5, param_3 % (int)uVar2 \u003c (int)uVar5)\r\n           ) {\r\n          return uVar4;\r\n        }\r\n        uVar4 \u003d (ulonglong)((int)uVar4 + 1);\r\n        uVar3 \u003d uVar3 + 1;\r\n      } while ((longlong)uVar3 \u003c (longlong)param_1);\r\n    }\r\n  }\r\n  return (ulonglong)param_4;\r\n}\r\n\r\n",
+      "incoming_references": {
+        "items": [
+          {
+            "from": "141928a28",
+            "to": "140c41f80",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "1406cdc74",
+            "to": "140c41f80",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "1406cd7f0",
+            "function_name": "FUN_1406cd7f0"
+          },
+          {
+            "from": "14090d305",
+            "to": "140c41f80",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14090d1f0",
+            "function_name": "FUN_14090d1f0"
+          },
+          {
+            "from": "14017cb10",
+            "to": "140c41f80",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14017ca20",
+            "function_name": "FUN_14017ca20"
+          },
+          {
+            "from": "1400f7cd6",
+            "to": "140c41f80",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "1400f65e0",
+            "function_name": "FUN_1400f65e0"
+          },
+          {
+            "from": "1400f600b",
+            "to": "140c41f80",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "1400f4ca0",
+            "function_name": "FUN_1400f4ca0"
+          },
+          {
+            "from": "1409c9a51",
+            "to": "140c41f80",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "1409c94c0",
+            "function_name": "FUN_1409c94c0"
+          },
+          {
+            "from": "14039d33b",
+            "to": "140c41f80",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14039cf80",
+            "function_name": "FUN_14039cf80"
+          },
+          {
+            "from": "140355e7e",
+            "to": "140c41f80",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140355d30",
+            "function_name": "FUN_140355d30"
+          },
+          {
+            "from": "14035662e",
+            "to": "140c41f80",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "1403564e0",
+            "function_name": "FUN_1403564e0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      },
+      "instructions": [
+        {
+          "address": "140c41f80",
+          "text": "MOV qword ptr [RSP + 0x8],RBX",
+          "references": [
+            {
+              "to": "Stack[0x8]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140c41f85",
+          "text": "MOV qword ptr [RSP + 0x10],RSI",
+          "references": [
+            {
+              "to": "Stack[0x10]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140c41f8a",
+          "text": "MOV qword ptr [RSP + 0x18],RDI",
+          "references": [
+            {
+              "to": "Stack[0x18]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140c41f8f",
+          "text": "XOR R10D,R10D",
+          "references": []
+        },
+        {
+          "address": "140c41f92",
+          "text": "MOVSXD RDI,ECX",
+          "references": []
+        },
+        {
+          "address": "140c41f95",
+          "text": "MOV RSI,RDX",
+          "references": []
+        },
+        {
+          "address": "140c41f98",
+          "text": "MOV EBX,R10D",
+          "references": []
+        },
+        {
+          "address": "140c41f9b",
+          "text": "MOV R11D,R10D",
+          "references": []
+        },
+        {
+          "address": "140c41f9e",
+          "text": "TEST ECX,ECX",
+          "references": []
+        },
+        {
+          "address": "140c41fa0",
+          "text": "JLE 0x140c41ff0",
+          "references": [
+            {
+              "to": "140c41ff0",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140c41fa2",
+          "text": "NOP dword ptr [RAX]",
+          "references": []
+        },
+        {
+          "address": "140c41fa6",
+          "text": "NOP dword ptr [RAX + RAX*0x1]",
+          "references": []
+        },
+        {
+          "address": "140c41fb0",
+          "text": "MOV ECX,dword ptr [RDX + R11*0x4]",
+          "references": []
+        },
+        {
+          "address": "140c41fb4",
+          "text": "INC R11",
+          "references": []
+        },
+        {
+          "address": "140c41fb7",
+          "text": "TEST ECX,ECX",
+          "references": []
+        },
+        {
+          "address": "140c41fb9",
+          "text": "LEA EAX,[RCX + RBX*0x1]",
+          "references": []
+        },
+        {
+          "address": "140c41fbc",
+          "text": "CMOVLE EAX,EBX",
+          "references": []
+        },
+        {
+          "address": "140c41fbf",
+          "text": "MOV EBX,EAX",
+          "references": []
+        },
+        {
+          "address": "140c41fc1",
+          "text": "CMP R11,RDI",
+          "references": []
+        },
+        {
+          "address": "140c41fc4",
+          "text": "JL 0x140c41fb0",
+          "references": [
+            {
+              "to": "140c41fb0",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140c41fc6",
+          "text": "TEST EAX,EAX",
+          "references": []
+        },
+        {
+          "address": "140c41fc8",
+          "text": "JZ 0x140c41ff0",
+          "references": [
+            {
+              "to": "140c41ff0",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140c41fca",
+          "text": "MOV EAX,R8D",
+          "references": []
+        },
+        {
+          "address": "140c41fcd",
+          "text": "MOV R8D,R10D",
+          "references": []
+        },
+        {
+          "address": "140c41fd0",
+          "text": "CDQ",
+          "references": []
+        },
+        {
+          "address": "140c41fd1",
+          "text": "IDIV EBX",
+          "references": []
+        },
+        {
+          "address": "140c41fd3",
+          "text": "MOV RAX,R10",
+          "references": []
+        },
+        {
+          "address": "140c41fd6",
+          "text": "MOV ECX,dword ptr [RSI + RAX*0x4]",
+          "references": []
+        },
+        {
+          "address": "140c41fd9",
+          "text": "TEST ECX,ECX",
+          "references": []
+        },
+        {
+          "address": "140c41fdb",
+          "text": "JLE 0x140c41fe5",
+          "references": [
+            {
+              "to": "140c41fe5",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140c41fdd",
+          "text": "ADD R10D,ECX",
+          "references": []
+        },
+        {
+          "address": "140c41fe0",
+          "text": "CMP R10D,EDX",
+          "references": []
+        },
+        {
+          "address": "140c41fe3",
+          "text": "JG 0x140c42003",
+          "references": [
+            {
+              "to": "140c42003",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140c41fe5",
+          "text": "INC R8D",
+          "references": []
+        },
+        {
+          "address": "140c41fe8",
+          "text": "INC RAX",
+          "references": []
+        },
+        {
+          "address": "140c41feb",
+          "text": "CMP RAX,RDI",
+          "references": []
+        },
+        {
+          "address": "140c41fee",
+          "text": "JL 0x140c41fd6",
+          "references": [
+            {
+              "to": "140c41fd6",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140c41ff0",
+          "text": "MOV EAX,R9D",
+          "references": []
+        },
+        {
+          "address": "140c41ff3",
+          "text": "MOV RBX,qword ptr [RSP + 0x8]",
+          "references": [
+            {
+              "to": "Stack[0x8]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140c41ff8",
+          "text": "MOV RSI,qword ptr [RSP + 0x10]",
+          "references": [
+            {
+              "to": "Stack[0x10]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140c41ffd",
+          "text": "MOV RDI,qword ptr [RSP + 0x18]",
+          "references": [
+            {
+              "to": "Stack[0x18]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140c42002",
+          "text": "RET",
+          "references": []
+        },
+        {
+          "address": "140c42003",
+          "text": "MOV RBX,qword ptr [RSP + 0x8]",
+          "references": [
+            {
+              "to": "Stack[0x8]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140c42008",
+          "text": "MOV EAX,R8D",
+          "references": []
+        },
+        {
+          "address": "140c4200b",
+          "text": "MOV RSI,qword ptr [RSP + 0x10]",
+          "references": [
+            {
+              "to": "Stack[0x10]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140c42010",
+          "text": "MOV RDI,qword ptr [RSP + 0x18]",
+          "references": [
+            {
+              "to": "Stack[0x18]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140c42015",
+          "text": "RET",
+          "references": []
+        }
+      ],
+      "instructions_truncated": false
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

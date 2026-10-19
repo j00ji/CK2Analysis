@@ -1,0 +1,75 @@
+{
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "method": "Static PE pointer-window read; table extent and meaning need code corroboration",
+  "size": 72,
+  "tables": [
+    {
+      "start": "0x1410971c0",
+      "entries": [
+        {
+          "slot": "0x0",
+          "cell": "0x1410971c0",
+          "file_offset": 17393088,
+          "bytes": "207a3f4001000000",
+          "target": "0x1403f7a20"
+        },
+        {
+          "slot": "0x8",
+          "cell": "0x1410971c8",
+          "file_offset": 17393096,
+          "bytes": "d080c34001000000",
+          "target": "0x140c380d0"
+        },
+        {
+          "slot": "0x10",
+          "cell": "0x1410971d0",
+          "file_offset": 17393104,
+          "bytes": "10803f4001000000",
+          "target": "0x1403f8010"
+        },
+        {
+          "slot": "0x18",
+          "cell": "0x1410971d8",
+          "file_offset": 17393112,
+          "bytes": "1081c34001000000",
+          "target": "0x140c38110"
+        },
+        {
+          "slot": "0x20",
+          "cell": "0x1410971e0",
+          "file_offset": 17393120,
+          "bytes": "60813f4001000000",
+          "target": "0x1403f8160"
+        },
+        {
+          "slot": "0x28",
+          "cell": "0x1410971e8",
+          "file_offset": 17393128,
+          "bytes": "d0fb0a4001000000",
+          "target": "0x1400afbd0"
+        },
+        {
+          "slot": "0x30",
+          "cell": "0x1410971f0",
+          "file_offset": 17393136,
+          "bytes": "c07b3f4001000000",
+          "target": "0x1403f7bc0"
+        },
+        {
+          "slot": "0x38",
+          "cell": "0x1410971f8",
+          "file_offset": 17393144,
+          "bytes": "00803f4001000000",
+          "target": "0x1403f8000"
+        },
+        {
+          "slot": "0x40",
+          "cell": "0x141097200",
+          "file_offset": 17393152,
+          "bytes": "f0e94d4001000000",
+          "target": "0x1404de9f0"
+        }
+      ]
+    }
+  ]
+}

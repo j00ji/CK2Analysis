@@ -1,0 +1,33 @@
+{
+  "target_sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "all_requested_markdown_present": true,
+  "markdown_local_links_valid": true,
+  "persistent_project_saved_and_unlocked": true,
+  "rea_and_persistent_counts_match": true,
+  "functions": 93650,
+  "defined_strings": 29423,
+  "validated_query_exports": [
+    "fleet-seed-xrefs-v2",
+    "fleet-search",
+    "sea-zone-function",
+    "fleet-functions-initial",
+    "naval-distance-cache",
+    "keyword-initialization-listing",
+    "keyword-and-file-helpers"
+  ],
+  "successfully_decompiled_function_entries": [
+    "140877040",
+    "140b768f0",
+    "140bd3060",
+    "14081eb60",
+    "140817c00",
+    "14081b0f0",
+    "140a98220",
+    "140a981f0",
+    "140a98370",
+    "140a982b0",
+    "140d68080"
+  ],
+  "decompiled_functions_count": 11,
+  "limitations": "Bounded workflow verification; no target execution, behavior validation, or naval-combat feasibility proof."
+}

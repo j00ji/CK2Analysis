@@ -1,0 +1,161 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "xrefs",
+  "query": "1415590bc,1415590c0,14167b0b4,14167b0b8,14167b2b8,14167b2bc,141142de0,141143270,1410fb940",
+  "result": [
+    {
+      "address": "1415590bc",
+      "references": {
+        "items": [
+          {
+            "from": "14008a0ce",
+            "to": "1415590bc",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1415590c0",
+      "references": {
+        "items": [],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "14167b0b4",
+      "references": {
+        "items": [
+          {
+            "from": "14009783e",
+            "to": "14167b0b4",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "14167b0b8",
+      "references": {
+        "items": [],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "14167b2b8",
+      "references": {
+        "items": [
+          {
+            "from": "140097856",
+            "to": "14167b2b8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "14167b2bc",
+      "references": {
+        "items": [],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "141142de0",
+      "references": {
+        "items": [
+          {
+            "from": "140ba51c7",
+            "to": "141142de0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140ba5040",
+            "function_name": "FUN_140ba5040"
+          },
+          {
+            "from": "140ba54a9",
+            "to": "141142de0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140ba5040",
+            "function_name": "FUN_140ba5040"
+          },
+          {
+            "from": "140ba56a7",
+            "to": "141142de0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140ba5040",
+            "function_name": "FUN_140ba5040"
+          },
+          {
+            "from": "140ba317f",
+            "to": "141142de0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140ba2870",
+            "function_name": "FUN_140ba2870"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "141143270",
+      "references": {
+        "items": [
+          {
+            "from": "140ba9520",
+            "to": "141143270",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140ba94a0",
+            "function_name": "FUN_140ba94a0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1410fb940",
+      "references": {
+        "items": [
+          {
+            "from": "140a2b690",
+            "to": "1410fb940",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140a2b5c0",
+            "function_name": "FUN_140a2b5c0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

@@ -1,0 +1,588 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "xrefs",
+  "query": "141090388,141090398,1416d5ee0,1416d68a0,1417e3b48,140b97bb0",
+  "result": [
+    {
+      "address": "141090388",
+      "references": {
+        "items": [],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "141090398",
+      "references": {
+        "items": [
+          {
+            "from": "14077bcfd",
+            "to": "141090398",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "14077bb10",
+            "function_name": "FUN_14077bb10"
+          },
+          {
+            "from": "14077bd04",
+            "to": "141090398",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "14077bb10",
+            "function_name": "FUN_14077bb10"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1416d5ee0",
+      "references": {
+        "items": [
+          {
+            "from": "140c4a8e1",
+            "to": "1416d5ee0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140c4a8c0",
+            "function_name": "FUN_140c4a8c0"
+          },
+          {
+            "from": "140c4a911",
+            "to": "1416d5ee0",
+            "type": "PARAM",
+            "operand": 0,
+            "function_entry": "140c4a8c0",
+            "function_name": "FUN_140c4a8c0"
+          },
+          {
+            "from": "140c4a922",
+            "to": "1416d5ee0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140c4a8c0",
+            "function_name": "FUN_140c4a8c0"
+          },
+          {
+            "from": "140c4a80a",
+            "to": "1416d5ee0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140c4a7f0",
+            "function_name": "FUN_140c4a7f0"
+          },
+          {
+            "from": "140c4a81a",
+            "to": "1416d5ee0",
+            "type": "PARAM",
+            "operand": 0,
+            "function_entry": "140c4a7f0",
+            "function_name": "FUN_140c4a7f0"
+          },
+          {
+            "from": "140c4a82b",
+            "to": "1416d5ee0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140c4a7f0",
+            "function_name": "FUN_140c4a7f0"
+          },
+          {
+            "from": "140c4a75d",
+            "to": "1416d5ee0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140c4a720",
+            "function_name": "FUN_140c4a720"
+          },
+          {
+            "from": "140c4a7a4",
+            "to": "1416d5ee0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140c4a720",
+            "function_name": "FUN_140c4a720"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1416d68a0",
+      "references": {
+        "items": [
+          {
+            "from": "140c4a804",
+            "to": "1416d68a0",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "140c4a7f0",
+            "function_name": "FUN_140c4a7f0"
+          },
+          {
+            "from": "140c4a822",
+            "to": "1416d68a0",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "140c4a7f0",
+            "function_name": "FUN_140c4a7f0"
+          },
+          {
+            "from": "140c4a886",
+            "to": "1416d68a0",
+            "type": "WRITE",
+            "operand": 0,
+            "function_entry": "140c4a7f0",
+            "function_name": "FUN_140c4a7f0"
+          },
+          {
+            "from": "140c4a76f",
+            "to": "1416d68a0",
+            "type": "WRITE",
+            "operand": 0,
+            "function_entry": "140c4a720",
+            "function_name": "FUN_140c4a720"
+          },
+          {
+            "from": "140c4a790",
+            "to": "1416d68a0",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "140c4a720",
+            "function_name": "FUN_140c4a720"
+          },
+          {
+            "from": "140c4a7b0",
+            "to": "1416d68a0",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "140c4a720",
+            "function_name": "FUN_140c4a720"
+          },
+          {
+            "from": "140c4a907",
+            "to": "1416d68a0",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "140c4a8c0",
+            "function_name": "FUN_140c4a8c0"
+          },
+          {
+            "from": "140c4a919",
+            "to": "1416d68a0",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "140c4a8c0",
+            "function_name": "FUN_140c4a8c0"
+          },
+          {
+            "from": "140c4a975",
+            "to": "1416d68a0",
+            "type": "WRITE",
+            "operand": 0,
+            "function_entry": "140c4a8c0",
+            "function_name": "FUN_140c4a8c0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1417e3b48",
+      "references": {
+        "items": [
+          {
+            "from": "140c4a8a9",
+            "to": "1417e3b48",
+            "type": "READ_WRITE",
+            "operand": 0,
+            "function_entry": "140c4a7f0",
+            "function_name": "FUN_140c4a7f0"
+          },
+          {
+            "from": "14015e1a9",
+            "to": "1417e3b48",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "14015e0c0",
+            "function_name": "FUN_14015e0c0"
+          },
+          {
+            "from": "14075962f",
+            "to": "1417e3b48",
+            "type": "WRITE",
+            "operand": 0,
+            "function_entry": "1407594a0",
+            "function_name": "FUN_1407594a0"
+          },
+          {
+            "from": "140759650",
+            "to": "1417e3b48",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "1407594a0",
+            "function_name": "FUN_1407594a0"
+          },
+          {
+            "from": "1407590a1",
+            "to": "1417e3b48",
+            "type": "WRITE",
+            "operand": 0,
+            "function_entry": "140758fb0",
+            "function_name": "FUN_140758fb0"
+          },
+          {
+            "from": "140759340",
+            "to": "1417e3b48",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "140758fb0",
+            "function_name": "FUN_140758fb0"
+          },
+          {
+            "from": "14038417c",
+            "to": "1417e3b48",
+            "type": "WRITE",
+            "operand": 0,
+            "function_entry": "140384120",
+            "function_name": "FUN_140384120"
+          },
+          {
+            "from": "140711f9f",
+            "to": "1417e3b48",
+            "type": "WRITE",
+            "operand": 0,
+            "function_entry": "140711ef0",
+            "function_name": "FUN_140711ef0"
+          },
+          {
+            "from": "140711fc3",
+            "to": "1417e3b48",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "140711ef0",
+            "function_name": "FUN_140711ef0"
+          },
+          {
+            "from": "140712080",
+            "to": "1417e3b48",
+            "type": "WRITE",
+            "operand": 0,
+            "function_entry": "140711ef0",
+            "function_name": "FUN_140711ef0"
+          },
+          {
+            "from": "1407120a1",
+            "to": "1417e3b48",
+            "type": "WRITE",
+            "operand": 0,
+            "function_entry": "140711ef0",
+            "function_name": "FUN_140711ef0"
+          },
+          {
+            "from": "1407880d9",
+            "to": "1417e3b48",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "1407880a0",
+            "function_name": "FUN_1407880a0"
+          },
+          {
+            "from": "140c4a797",
+            "to": "1417e3b48",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "140c4a720",
+            "function_name": "FUN_140c4a720"
+          },
+          {
+            "from": "14071a67a",
+            "to": "1417e3b48",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "14071a640",
+            "function_name": "FUN_14071a640"
+          },
+          {
+            "from": "14077ca1d",
+            "to": "1417e3b48",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "14077c810",
+            "function_name": "FUN_14077c810"
+          },
+          {
+            "from": "140c4a996",
+            "to": "1417e3b48",
+            "type": "READ_WRITE",
+            "operand": 0,
+            "function_entry": "140c4a8c0",
+            "function_name": "FUN_140c4a8c0"
+          },
+          {
+            "from": "14078e641",
+            "to": "1417e3b48",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "14078e5b0",
+            "function_name": "FUN_14078e5b0"
+          },
+          {
+            "from": "1407d40ee",
+            "to": "1417e3b48",
+            "type": "WRITE",
+            "operand": 0,
+            "function_entry": "1407d40b0",
+            "function_name": "FUN_1407d40b0"
+          },
+          {
+            "from": "1407d4115",
+            "to": "1417e3b48",
+            "type": "WRITE",
+            "operand": 0,
+            "function_entry": "1407d40b0",
+            "function_name": "FUN_1407d40b0"
+          },
+          {
+            "from": "14077f956",
+            "to": "1417e3b48",
+            "type": "WRITE",
+            "operand": 0,
+            "function_entry": "14077edc0",
+            "function_name": "FUN_14077edc0"
+          },
+          {
+            "from": "14077f993",
+            "to": "1417e3b48",
+            "type": "WRITE",
+            "operand": 0,
+            "function_entry": "14077edc0",
+            "function_name": "FUN_14077edc0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "140b97bb0",
+      "references": {
+        "items": [
+          {
+            "from": "1419242f4",
+            "to": "140b97bb0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "14021fc0c",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14021a220",
+            "function_name": "FUN_14021a220"
+          },
+          {
+            "from": "140bb258a",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140bb2050",
+            "function_name": "FUN_140bb2050"
+          },
+          {
+            "from": "14023dda9",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14023d6b0",
+            "function_name": "FUN_14023d6b0"
+          },
+          {
+            "from": "140a77967",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140a76b50",
+            "function_name": "FUN_140a76b50"
+          },
+          {
+            "from": "140a78449",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140a76b50",
+            "function_name": "FUN_140a76b50"
+          },
+          {
+            "from": "1413d7210",
+            "to": "140b97bb0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "140241146",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14023fd90",
+            "function_name": "FUN_14023fd90"
+          },
+          {
+            "from": "14024124b",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14023fd90",
+            "function_name": "FUN_14023fd90"
+          },
+          {
+            "from": "140241706",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14023fd90",
+            "function_name": "FUN_14023fd90"
+          },
+          {
+            "from": "140241820",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14023fd90",
+            "function_name": "FUN_14023fd90"
+          },
+          {
+            "from": "140bac3c9",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140bac110",
+            "function_name": "FUN_140bac110"
+          },
+          {
+            "from": "140bae220",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140bad820",
+            "function_name": "FUN_140bad820"
+          },
+          {
+            "from": "140bae546",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140bad820",
+            "function_name": "FUN_140bad820"
+          },
+          {
+            "from": "1403e4235",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "1403e3f90",
+            "function_name": "FUN_1403e3f90"
+          },
+          {
+            "from": "1403f7dc9",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "1403f7bc0",
+            "function_name": "FUN_1403f7bc0"
+          },
+          {
+            "from": "1405c6041",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "1405c54e0",
+            "function_name": "FUN_1405c54e0"
+          },
+          {
+            "from": "1405c6230",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "1405c54e0",
+            "function_name": "FUN_1405c54e0"
+          },
+          {
+            "from": "1405c6932",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "1405c54e0",
+            "function_name": "FUN_1405c54e0"
+          },
+          {
+            "from": "1405c759b",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "1405c54e0",
+            "function_name": "FUN_1405c54e0"
+          },
+          {
+            "from": "14089993b",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140899270",
+            "function_name": "FUN_140899270"
+          },
+          {
+            "from": "140899a04",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140899270",
+            "function_name": "FUN_140899270"
+          },
+          {
+            "from": "140b97b6e",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140b97ae0",
+            "function_name": "FUN_140b97ae0"
+          },
+          {
+            "from": "140baf2fb",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140baed50",
+            "function_name": "FUN_140baed50"
+          },
+          {
+            "from": "140bb1144",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140bb0ed0",
+            "function_name": "FUN_140bb0ed0"
+          },
+          {
+            "from": "140bb39f9",
+            "to": "140b97bb0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140bb3970",
+            "function_name": "FUN_140bb3970"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

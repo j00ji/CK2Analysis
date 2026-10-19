@@ -1,0 +1,54 @@
+{
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "method": "Static read; role names from traced consumers, not recovered enum names",
+  "tables": [
+    {
+      "role": "attack_modifier_indices",
+      "va": "0x1410fbb78",
+      "file_offset": 17805176,
+      "raw_hex": "30000000350000003a0000003f00000044000000490000004e00000053000000",
+      "signed_i32": [
+        48,
+        53,
+        58,
+        63,
+        68,
+        73,
+        78,
+        83
+      ]
+    },
+    {
+      "role": "defense_modifier_indices",
+      "va": "0x1410fbb98",
+      "file_offset": 17805208,
+      "raw_hex": "31000000360000003b00000040000000450000004a0000004f00000054000000",
+      "signed_i32": [
+        49,
+        54,
+        59,
+        64,
+        69,
+        74,
+        79,
+        84
+      ]
+    },
+    {
+      "role": "morale_modifier_indices",
+      "va": "0x1410fbbb8",
+      "file_offset": 17805240,
+      "raw_hex": "2f00000034000000390000003e00000043000000480000004d00000052000000",
+      "signed_i32": [
+        47,
+        52,
+        57,
+        62,
+        67,
+        72,
+        77,
+        82
+      ]
+    }
+  ]
+}

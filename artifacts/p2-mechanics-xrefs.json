@@ -1,0 +1,270 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "xrefs",
+  "query": "1410c06b8,1410c0588,141142ef8,141142e50,141143028,141144988,141144ee8,141145238,1410ee310,1410ee328,14113bc40",
+  "result": [
+    {
+      "address": "1410c06b8",
+      "references": {
+        "items": [
+          {
+            "from": "1405c62b5",
+            "to": "1410c06b8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "1405c54e0",
+            "function_name": "FUN_1405c54e0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1410c0588",
+      "references": {
+        "items": [
+          {
+            "from": "1405c8c1c",
+            "to": "1410c0588",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "1405c78a0",
+            "function_name": "FUN_1405c78a0"
+          },
+          {
+            "from": "1405c8c23",
+            "to": "1410c0588",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "1405c78a0",
+            "function_name": "FUN_1405c78a0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "141142ef8",
+      "references": {
+        "items": [
+          {
+            "from": "140ba51e4",
+            "to": "141142ef8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140ba5040",
+            "function_name": "FUN_140ba5040"
+          },
+          {
+            "from": "140ba56c4",
+            "to": "141142ef8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140ba5040",
+            "function_name": "FUN_140ba5040"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "141142e50",
+      "references": {
+        "items": [
+          {
+            "from": "140ba953d",
+            "to": "141142e50",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140ba94a0",
+            "function_name": "FUN_140ba94a0"
+          },
+          {
+            "from": "140ba54c6",
+            "to": "141142e50",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140ba5040",
+            "function_name": "FUN_140ba5040"
+          },
+          {
+            "from": "140ba319c",
+            "to": "141142e50",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140ba2870",
+            "function_name": "FUN_140ba2870"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "141143028",
+      "references": {
+        "items": [
+          {
+            "from": "140b9cfbf",
+            "to": "141143028",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140b9cdc0",
+            "function_name": "FUN_140b9cdc0"
+          },
+          {
+            "from": "140b9cfe0",
+            "to": "141143028",
+            "type": "READ",
+            "operand": 0,
+            "function_entry": "140b9cdc0",
+            "function_name": "FUN_140b9cdc0"
+          },
+          {
+            "from": "140b9cff3",
+            "to": "141143028",
+            "type": "READ",
+            "operand": 0,
+            "function_entry": "140b9cdc0",
+            "function_name": "FUN_140b9cdc0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "141144988",
+      "references": {
+        "items": [
+          {
+            "from": "140bc83f0",
+            "to": "141144988",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140bc7930",
+            "function_name": "FUN_140bc7930"
+          },
+          {
+            "from": "140bc3ed5",
+            "to": "141144988",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140bc2e70",
+            "function_name": "FUN_140bc2e70"
+          },
+          {
+            "from": "140bc09d5",
+            "to": "141144988",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140bc0960",
+            "function_name": "FUN_140bc0960"
+          },
+          {
+            "from": "140bc07d1",
+            "to": "141144988",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140bc0530",
+            "function_name": "FUN_140bc0530"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "141144ee8",
+      "references": {
+        "items": [
+          {
+            "from": "140bc3ee8",
+            "to": "141144ee8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140bc2e70",
+            "function_name": "FUN_140bc2e70"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "141145238",
+      "references": {
+        "items": [
+          {
+            "from": "140bd4245",
+            "to": "141145238",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140bd3060",
+            "function_name": "FUN_140bd3060"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1410ee310",
+      "references": {
+        "items": [
+          {
+            "from": "14091d88e",
+            "to": "1410ee310",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "1409167c0",
+            "function_name": "FUN_1409167c0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1410ee328",
+      "references": {
+        "items": [
+          {
+            "from": "14091d913",
+            "to": "1410ee328",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "1409167c0",
+            "function_name": "FUN_1409167c0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "14113bc40",
+      "references": {
+        "items": [
+          {
+            "from": "140b68d75",
+            "to": "14113bc40",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140b68cf0",
+            "function_name": "FUN_140b68cf0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

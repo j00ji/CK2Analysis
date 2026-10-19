@@ -1,0 +1,36 @@
+{
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "strings": {
+    "0x14114a58c": "%c",
+    "0x14109b7d8": "NMilitary",
+    "0x14109b7e8": "common/defines.lua"
+  },
+  "workspace_data_candidates": [],
+  "inventory_excluded_directories": [
+    ".agents",
+    ".codex",
+    ".git",
+    "artifacts",
+    "docs",
+    "ghidra",
+    "logs",
+    "runtime",
+    "scripts"
+  ],
+  "raw_candidate_search": {
+    "pattern": "REX.W LEA mod=10 with bytes 40 02 00 00; raw bytes, not instruction validation",
+    "all_text_matches": 361,
+    "selected_va_interval": [
+      "0x14077b000",
+      "0x140791000"
+    ],
+    "selected_matches": [
+      "0x14078dc1e",
+      "0x14078dc2b",
+      "0x14078dc3b"
+    ],
+    "disposition": "Bounded Ghidra listing shows RBP stack addresses; no combat-hash consumer established",
+    "source": "p5-config-scope-hash-dispatch.json"
+  },
+  "scope": "Local copied PE and bounded workspace inventory; no installed game files read"
+}

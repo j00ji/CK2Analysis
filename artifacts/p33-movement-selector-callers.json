@@ -1,0 +1,72 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "xrefs",
+  "query": "14042da30",
+  "result": [
+    {
+      "address": "14042da30",
+      "references": {
+        "items": [
+          {
+            "from": "1418f6f4c",
+            "to": "14042da30",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "140a779c0",
+            "to": "14042da30",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140a76b50",
+            "function_name": "FUN_140a76b50"
+          },
+          {
+            "from": "140a7886e",
+            "to": "14042da30",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140a76b50",
+            "function_name": "FUN_140a76b50"
+          },
+          {
+            "from": "141272738",
+            "to": "14042da30",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "140bab9cf",
+            "to": "14042da30",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140bab530",
+            "function_name": "FUN_140bab530"
+          },
+          {
+            "from": "140bad7e7",
+            "to": "14042da30",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140bad790",
+            "function_name": "FUN_140bad790"
+          },
+          {
+            "from": "140baf55b",
+            "to": "14042da30",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140baed50",
+            "function_name": "FUN_140baed50"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

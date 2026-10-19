@@ -1,0 +1,129 @@
+{
+  "program": "CK2game.exe",
+  "executable_path": "/G:/Projects/CK2Analysis/CK2game.exe",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "compiler_spec": "windows",
+  "image_base": "140000000",
+  "format": "Portable Executable (PE)",
+  "function_count": 93650,
+  "memory_blocks": [
+    {
+      "name": "Headers",
+      "start": "140000000",
+      "end": "1400003ff",
+      "size": 1024,
+      "read": true,
+      "write": false,
+      "execute": false,
+      "initialized": true
+    },
+    {
+      "name": ".text",
+      "start": "140001000",
+      "end": "140ff8fff",
+      "size": 16744448,
+      "read": true,
+      "write": false,
+      "execute": true,
+      "initialized": true
+    },
+    {
+      "name": ".rdata",
+      "start": "140ff9000",
+      "end": "141445dff",
+      "size": 4509184,
+      "read": true,
+      "write": false,
+      "execute": false,
+      "initialized": true
+    },
+    {
+      "name": ".data",
+      "start": "141446000",
+      "end": "1418d8223",
+      "size": 4792868,
+      "read": true,
+      "write": true,
+      "execute": false,
+      "initialized": true
+    },
+    {
+      "name": ".pdata",
+      "start": "1418d9000",
+      "end": "1419689ff",
+      "size": 588288,
+      "read": true,
+      "write": false,
+      "execute": false,
+      "initialized": true
+    },
+    {
+      "name": ".gfids",
+      "start": "141969000",
+      "end": "141969bff",
+      "size": 3072,
+      "read": true,
+      "write": false,
+      "execute": false,
+      "initialized": true
+    },
+    {
+      "name": ".tls",
+      "start": "14196a000",
+      "end": "14196a1ff",
+      "size": 512,
+      "read": true,
+      "write": true,
+      "execute": false,
+      "initialized": true
+    },
+    {
+      "name": "_RDATA",
+      "start": "14196b000",
+      "end": "14196d3ff",
+      "size": 9216,
+      "read": true,
+      "write": false,
+      "execute": false,
+      "initialized": true
+    },
+    {
+      "name": ".rsrc",
+      "start": "14196e000",
+      "end": "1419749ff",
+      "size": 27136,
+      "read": true,
+      "write": false,
+      "execute": false,
+      "initialized": true
+    },
+    {
+      "name": ".reloc",
+      "start": "141975000",
+      "end": "1419995ff",
+      "size": 148992,
+      "read": true,
+      "write": false,
+      "execute": false,
+      "initialized": true
+    },
+    {
+      "name": "tdb",
+      "start": "ff00000000",
+      "end": "ff0000184f",
+      "size": 6224,
+      "read": true,
+      "write": true,
+      "execute": false,
+      "initialized": true
+    }
+  ],
+  "symbol_count": 681450,
+  "symbol_source_counts": {
+    "ANALYSIS": 108938,
+    "DEFAULT": 570468,
+    "IMPORTED": 2044
+  },
+  "defined_string_count": 29423
+}

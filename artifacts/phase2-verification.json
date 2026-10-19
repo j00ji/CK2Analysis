@@ -1,0 +1,85 @@
+{
+  "generated_utc": "2026-10-18T02:05:01.557671+00:00",
+  "target_sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "target_unchanged": true,
+  "queries": [
+    {
+      "file": "artifacts\\p2-arrival-path.json",
+      "mode": "function",
+      "sha256": "b1e9f2ca1e377cfc6bf0f7817512df180d06cc3bb915e0d68bff4050cce4ada0",
+      "bytes": 297222
+    },
+    {
+      "file": "artifacts\\p2-capacity-config.json",
+      "mode": "listing",
+      "sha256": "86550ea868524cedb8a0ab8aae7f430634755f1955e0f6bd56988bdb0d6806b1",
+      "bytes": 5741
+    },
+    {
+      "file": "artifacts\\p2-command-combat-boundary.json",
+      "mode": "function",
+      "sha256": "b973920c814e94412a73f55d4ed9b7cc8a94172144ab9fe9282db7295972ad52",
+      "bytes": 428777
+    },
+    {
+      "file": "artifacts\\p2-command-config-confirm.json",
+      "mode": "function",
+      "sha256": "c1feaec041bdc0fa1a5a767b271e2fd4bb6e4d5a3f5b4caa621ae7c7d4ab7def",
+      "bytes": 45752
+    },
+    {
+      "file": "artifacts\\p2-config-vtables-xrefs.json",
+      "mode": "xrefs",
+      "sha256": "16a9bd94c5fa5c6a2493b5b6643d676545a49bb58c148badf2213e6eb7f6f072",
+      "bytes": 9336
+    },
+    {
+      "file": "artifacts\\p2-core-functions.json",
+      "mode": "function",
+      "sha256": "315e2acdc9ae03d11214790e4ee207263d97948cbef15580267a861a3052dcd2",
+      "bytes": 1080327
+    },
+    {
+      "file": "artifacts\\p2-counts-path-movement.json",
+      "mode": "function",
+      "sha256": "be417fbd610aebd83bd8c43dc5e5b870527bb3a5e1da19a6e72db95d1b07d72f",
+      "bytes": 336992
+    },
+    {
+      "file": "artifacts\\p2-entry-xrefs.json",
+      "mode": "xrefs",
+      "sha256": "2d9be8dd8d0f8fe6aa0c73386afad29cef728e14072e4bcf514aea1a58db0d11",
+      "bytes": 3950
+    },
+    {
+      "file": "artifacts\\p2-fleet-structure.json",
+      "mode": "function",
+      "sha256": "50160ff5a70a59fc96c5d2dc05e7d7daca540a8e63d2abe76b0ad46e320ab1fe",
+      "bytes": 348035
+    },
+    {
+      "file": "artifacts\\p2-mechanics-xrefs.json",
+      "mode": "xrefs",
+      "sha256": "25c1652007982d5992e8f478b2db22b3a3799f88e00f80105ba63e5670b184ad",
+      "bytes": 6837
+    },
+    {
+      "file": "artifacts\\p2-selection-timing.json",
+      "mode": "function",
+      "sha256": "3509eb999b7e22fc45216a0fe916eb22f5010629a2398ca2cd8632c0197086b2",
+      "bytes": 99747
+    }
+  ],
+  "function_results": 51,
+  "unique_functions": 51,
+  "incoming_reference_caps": [
+    "140474ab0",
+    "140822200",
+    "140832620"
+  ],
+  "markdown_files_checked": 10,
+  "local_links_checked": 111,
+  "project_locks": [],
+  "failures": [],
+  "scope": "Artifact completeness and identity checks, not runtime or semantic validation"
+}

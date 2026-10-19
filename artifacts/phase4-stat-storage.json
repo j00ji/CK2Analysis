@@ -1,0 +1,77 @@
+{
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "method": "PE section mapping plus retained Ghidra loop evidence",
+  "loop_sources": [
+    "p4-stat-initialization-listing.json",
+    "p4-stat-key-loops.json",
+    "p4-stat-names-rng-checksum.json"
+  ],
+  "separator_va": "0x141061760",
+  "separator_bytes": "5f00",
+  "rows": [
+    {
+      "key_from_traced_concatenation": "GALLEYS_MORALE",
+      "va": "0x1417eae1c",
+      "base": "0x1417eae00",
+      "offset": "0x1c",
+      "section": ".data",
+      "file_backed": false,
+      "loaded_value": null
+    },
+    {
+      "key_from_traced_concatenation": "GALLEYS_PHASE_SKIRMISH_ATTACK",
+      "va": "0x1417eadd4",
+      "base": "0x1417ead80",
+      "offset": "0x54",
+      "section": ".data",
+      "file_backed": false,
+      "loaded_value": null
+    },
+    {
+      "key_from_traced_concatenation": "GALLEYS_PHASE_MELEE_ATTACK",
+      "va": "0x1417eadd8",
+      "base": "0x1417ead80",
+      "offset": "0x58",
+      "section": ".data",
+      "file_backed": false,
+      "loaded_value": null
+    },
+    {
+      "key_from_traced_concatenation": "GALLEYS_PHASE_PURSUE_ATTACK",
+      "va": "0x1417eaddc",
+      "base": "0x1417ead80",
+      "offset": "0x5c",
+      "section": ".data",
+      "file_backed": false,
+      "loaded_value": null
+    },
+    {
+      "key_from_traced_concatenation": "GALLEYS_PHASE_SKIRMISH_DEFENSE",
+      "va": "0x1417ead44",
+      "base": "0x1417eacf0",
+      "offset": "0x54",
+      "section": ".data",
+      "file_backed": false,
+      "loaded_value": null
+    },
+    {
+      "key_from_traced_concatenation": "GALLEYS_PHASE_MELEE_DEFENSE",
+      "va": "0x1417ead48",
+      "base": "0x1417eacf0",
+      "offset": "0x58",
+      "section": ".data",
+      "file_backed": false,
+      "loaded_value": null
+    },
+    {
+      "key_from_traced_concatenation": "GALLEYS_PHASE_PURSUE_DEFENSE",
+      "va": "0x1417ead4c",
+      "base": "0x1417eacf0",
+      "offset": "0x5c",
+      "section": ".data",
+      "file_backed": false,
+      "loaded_value": null
+    }
+  ],
+  "limit": "Zero-filled image storage does not establish post-configuration values"
+}

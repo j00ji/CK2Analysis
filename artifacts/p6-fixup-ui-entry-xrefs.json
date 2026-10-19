@@ -1,0 +1,143 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "xrefs",
+  "query": "140490770,141145900,140782bf0,140711ef0",
+  "result": [
+    {
+      "address": "140490770",
+      "references": {
+        "items": [
+          {
+            "from": "1418f9334",
+            "to": "140490770",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "1412863f4",
+            "to": "140490770",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "141286404",
+            "to": "140490770",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "140206011",
+            "to": "140490770",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "1402051f0",
+            "function_name": "FUN_1402051f0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "141145900",
+      "references": {
+        "items": [
+          {
+            "from": "140bd29b2",
+            "to": "141145900",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140bd2990",
+            "function_name": "FUN_140bd2990"
+          },
+          {
+            "from": "140bd29b9",
+            "to": "141145900",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140bd2990",
+            "function_name": "FUN_140bd2990"
+          },
+          {
+            "from": "140bd2382",
+            "to": "141145900",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140bd2290",
+            "function_name": "FUN_140bd2290"
+          },
+          {
+            "from": "140bd2389",
+            "to": "141145900",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140bd2290",
+            "function_name": "FUN_140bd2290"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "140782bf0",
+      "references": {
+        "items": [
+          {
+            "from": "14190a2d8",
+            "to": "140782bf0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "1413123c8",
+            "to": "140782bf0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "140a45b97",
+            "to": "140782bf0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "140711ef0",
+      "references": {
+        "items": [
+          {
+            "from": "1419084d8",
+            "to": "140711ef0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "1412fac10",
+            "to": "140711ef0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "1407259f9",
+            "to": "140711ef0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "1407259e0",
+            "function_name": "FUN_1407259e0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

@@ -1,0 +1,1594 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "function",
+  "query": "140ba87a0,140474ab0",
+  "result": [
+    {
+      "entry": "140ba87a0",
+      "name": "FUN_140ba87a0",
+      "signature": "undefined FUN_140ba87a0(void)",
+      "body": "[[140ba87a0, 140ba887a]]",
+      "decompile_completed": true,
+      "decompile_error": "",
+      "pseudocode": "\r\nundefined8 *\r\nFUN_140ba87a0(undefined8 *param_1,longlong param_2,undefined4 param_3,undefined1 param_4,\r\n             undefined1 param_5)\r\n\r\n{\r\n  FUN_1401554f0(param_1,0x27f1,param_3,0,0,0);\r\n  *param_1 \u003d \u0026PTR_FUN_141144510;\r\n  param_1[0x10] \u003d param_2;\r\n  *(undefined4 *)(param_1 + 0x11) \u003d *(undefined4 *)(param_2 + 0x20);\r\n  *(undefined4 *)((longlong)param_1 + 0x8c) \u003d *(undefined4 *)(param_2 + 0x24);\r\n  *(undefined4 *)(param_1 + 0x12) \u003d param_3;\r\n  *(undefined1 *)((longlong)param_1 + 0x94) \u003d param_4;\r\n  *(uint *)(param_1 + 0x13) \u003d (uint)*(ushort *)(*(longlong *)(param_2 + 0x80) + 0xe8);\r\n  param_1[0x14] \u003d 0;\r\n  param_1[0x15] \u003d 0;\r\n  *(undefined4 *)(param_1 + 0x16) \u003d 0;\r\n  *(undefined1 *)((longlong)param_1 + 0xb4) \u003d 0;\r\n  *(undefined4 *)(param_1 + 0x17) \u003d 0;\r\n  param_1[0x18] \u003d 0;\r\n  *(undefined1 *)(param_1 + 0x19) \u003d param_5;\r\n  return param_1;\r\n}\r\n\r\n",
+      "incoming_references": {
+        "items": [
+          {
+            "from": "141924b64",
+            "to": "140ba87a0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "140b96ec0",
+            "to": "140ba87a0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140b96e00",
+            "function_name": "FUN_140b96e00"
+          },
+          {
+            "from": "140b9cf41",
+            "to": "140ba87a0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140b9cdc0",
+            "function_name": "FUN_140b9cdc0"
+          },
+          {
+            "from": "140b9d0cc",
+            "to": "140ba87a0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140b9cdc0",
+            "function_name": "FUN_140b9cdc0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      },
+      "instructions": [
+        {
+          "address": "140ba87a0",
+          "text": "MOV qword ptr [RSP + 0x8],RBX",
+          "references": [
+            {
+              "to": "Stack[0x8]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140ba87a5",
+          "text": "MOV qword ptr [RSP + 0x10],RBP",
+          "references": [
+            {
+              "to": "Stack[0x10]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140ba87aa",
+          "text": "MOV qword ptr [RSP + 0x18],RSI",
+          "references": [
+            {
+              "to": "Stack[0x18]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140ba87af",
+          "text": "MOV qword ptr [RSP + 0x20],RDI",
+          "references": [
+            {
+              "to": "Stack[0x20]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140ba87b4",
+          "text": "PUSH R14",
+          "references": []
+        },
+        {
+          "address": "140ba87b6",
+          "text": "SUB RSP,0x30",
+          "references": []
+        },
+        {
+          "address": "140ba87ba",
+          "text": "XOR EBP,EBP",
+          "references": []
+        },
+        {
+          "address": "140ba87bc",
+          "text": "MOVZX ESI,R9B",
+          "references": []
+        },
+        {
+          "address": "140ba87c0",
+          "text": "MOV RDI,RDX",
+          "references": []
+        },
+        {
+          "address": "140ba87c3",
+          "text": "MOV word ptr [RSP + 0x28],BP",
+          "references": [
+            {
+              "to": "Stack[-0x10]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140ba87c8",
+          "text": "XOR R9D,R9D",
+          "references": []
+        },
+        {
+          "address": "140ba87cb",
+          "text": "MOV dword ptr [RSP + 0x20],EBP",
+          "references": [
+            {
+              "to": "Stack[-0x18]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140ba87cf",
+          "text": "MOV EDX,0x27f1",
+          "references": []
+        },
+        {
+          "address": "140ba87d4",
+          "text": "MOV EBX,R8D",
+          "references": []
+        },
+        {
+          "address": "140ba87d7",
+          "text": "MOV R14,RCX",
+          "references": []
+        },
+        {
+          "address": "140ba87da",
+          "text": "CALL 0x1401554f0",
+          "references": [
+            {
+              "to": "1401554f0",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140ba87df",
+          "text": "LEA RAX,[0x141144510]",
+          "references": [
+            {
+              "to": "141144510",
+              "type": "DATA",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140ba87e6",
+          "text": "MOV qword ptr [R14],RAX",
+          "references": [
+            {
+              "to": "141144510",
+              "type": "DATA",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140ba87e9",
+          "text": "MOV qword ptr [R14 + 0x80],RDI",
+          "references": []
+        },
+        {
+          "address": "140ba87f0",
+          "text": "MOV EAX,dword ptr [RDI + 0x20]",
+          "references": []
+        },
+        {
+          "address": "140ba87f3",
+          "text": "MOV dword ptr [R14 + 0x88],EAX",
+          "references": []
+        },
+        {
+          "address": "140ba87fa",
+          "text": "MOV EAX,dword ptr [RDI + 0x24]",
+          "references": []
+        },
+        {
+          "address": "140ba87fd",
+          "text": "MOV dword ptr [R14 + 0x8c],EAX",
+          "references": []
+        },
+        {
+          "address": "140ba8804",
+          "text": "MOV dword ptr [R14 + 0x90],EBX",
+          "references": []
+        },
+        {
+          "address": "140ba880b",
+          "text": "MOV RBX,qword ptr [RSP + 0x40]",
+          "references": [
+            {
+              "to": "Stack[0x8]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140ba8810",
+          "text": "MOV byte ptr [R14 + 0x94],SIL",
+          "references": []
+        },
+        {
+          "address": "140ba8817",
+          "text": "MOV RAX,qword ptr [RDI + 0x80]",
+          "references": []
+        },
+        {
+          "address": "140ba881e",
+          "text": "MOV RSI,qword ptr [RSP + 0x50]",
+          "references": [
+            {
+              "to": "Stack[0x18]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140ba8823",
+          "text": "MOV RDI,qword ptr [RSP + 0x58]",
+          "references": [
+            {
+              "to": "Stack[0x20]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140ba8828",
+          "text": "MOVZX ECX,word ptr [RAX + 0xe8]",
+          "references": []
+        },
+        {
+          "address": "140ba882f",
+          "text": "MOVZX EAX,byte ptr [RSP + 0x60]",
+          "references": [
+            {
+              "to": "Stack[0x28]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140ba8834",
+          "text": "MOV dword ptr [R14 + 0x98],ECX",
+          "references": []
+        },
+        {
+          "address": "140ba883b",
+          "text": "MOV qword ptr [R14 + 0xa0],RBP",
+          "references": []
+        },
+        {
+          "address": "140ba8842",
+          "text": "MOV qword ptr [R14 + 0xa8],RBP",
+          "references": []
+        },
+        {
+          "address": "140ba8849",
+          "text": "MOV dword ptr [R14 + 0xb0],EBP",
+          "references": []
+        },
+        {
+          "address": "140ba8850",
+          "text": "MOV byte ptr [R14 + 0xb4],BPL",
+          "references": []
+        },
+        {
+          "address": "140ba8857",
+          "text": "MOV dword ptr [R14 + 0xb8],EBP",
+          "references": []
+        },
+        {
+          "address": "140ba885e",
+          "text": "MOV qword ptr [R14 + 0xc0],RBP",
+          "references": []
+        },
+        {
+          "address": "140ba8865",
+          "text": "MOV RBP,qword ptr [RSP + 0x48]",
+          "references": [
+            {
+              "to": "Stack[0x10]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140ba886a",
+          "text": "MOV byte ptr [R14 + 0xc8],AL",
+          "references": []
+        },
+        {
+          "address": "140ba8871",
+          "text": "MOV RAX,R14",
+          "references": []
+        },
+        {
+          "address": "140ba8874",
+          "text": "ADD RSP,0x30",
+          "references": []
+        },
+        {
+          "address": "140ba8878",
+          "text": "POP R14",
+          "references": []
+        },
+        {
+          "address": "140ba887a",
+          "text": "RET",
+          "references": []
+        }
+      ],
+      "instructions_truncated": false
+    },
+    {
+      "entry": "140474ab0",
+      "name": "FUN_140474ab0",
+      "signature": "undefined FUN_140474ab0(void)",
+      "body": "[[140474ab0, 140474b77]]",
+      "decompile_completed": true,
+      "decompile_error": "",
+      "pseudocode": "\r\nvoid FUN_140474ab0(undefined8 param_1,undefined8 param_2,int *param_3)\r\n\r\n{\r\n  int iVar1;\r\n  undefined8 uVar2;\r\n  float fVar3;\r\n  undefined8 local_res10;\r\n  longlong local_30;\r\n  int local_28;\r\n  longlong local_20 [3];\r\n  \r\n  local_res10 \u003d param_2;\r\n  uVar2 \u003d FUN_14048c910(param_1,local_20,\u0026local_res10);\r\n  FUN_14048c870(uVar2,\u0026local_30);\r\n  if (local_20[0] !\u003d 0) {\r\n    FUN_140db0bd0(local_20[0],0xfffffffe);\r\n  }\r\n  FUN_140db0780(local_30,0xffffd8f0,local_28);\r\n  iVar1 \u003d FUN_140db0f70(local_30,0xffffffff);\r\n  FUN_140db0bd0(local_30,0xfffffffe);\r\n  if (iVar1 \u003d\u003d 3) {\r\n    fVar3 \u003d (float)FUN_14048ca00(\u0026local_30);\r\n    *param_3 \u003d (int)fVar3;\r\n  }\r\n  if ((local_30 !\u003d 0) \u0026\u0026 (local_28 !\u003d -2)) {\r\n    FUN_140db2650(local_30,0xffffd8f0,local_28);\r\n  }\r\n  return;\r\n}\r\n\r\n",
+      "incoming_references": {
+        "items": [
+          {
+            "from": "1418f9190",
+            "to": "140474ab0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "14127f888",
+            "to": "140474ab0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "140475c4a",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140475cbc",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140475d2e",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140475da0",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140475e12",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140476c52",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140476cd0",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140477336",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404774b0",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404777a4",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140477822",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404778a0",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047791e",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047799c",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140477a1a",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140477a98",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140477b16",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140477b94",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140477c12",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140477e0a",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140477f06",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140477f84",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140478002",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140478080",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404780fe",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047817c",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404781fa",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140478278",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404782f6",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140478374",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404783f2",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140478470",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404784ee",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047856c",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404785ea",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140478668",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404786e6",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140478764",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404788de",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047895c",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404789da",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404795aa",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404796a6",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479724",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404797a2",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479820",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047989e",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047991c",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047999a",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479a18",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479a96",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479b14",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479c06",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479c61",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479cbc",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479d17",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479d72",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479dcd",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479e28",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479e83",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479ede",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479f39",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479f94",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140479fef",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047a04a",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047a0a5",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047a100",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047a15b",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047a1b6",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047a211",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047a7c1",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047a81c",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047a877",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047a8d2",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047a92d",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047a988",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047a9e3",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047aa3e",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047aa99",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047aaf4",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047ab4f",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047abaa",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047ae82",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047aedd",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047af38",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047af93",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047afee",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047b049",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047b0a4",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047b0ff",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047b15a",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047b1b5",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047b210",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047b26b",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047b2c6",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047b321",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047b37c",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14047b3d7",
+            "to": "140474ab0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          }
+        ],
+        "truncated": true,
+        "limit": 100
+      },
+      "instructions": [
+        {
+          "address": "140474ab0",
+          "text": "MOV RAX,RSP",
+          "references": []
+        },
+        {
+          "address": "140474ab3",
+          "text": "MOV qword ptr [RAX + 0x10],RDX",
+          "references": [
+            {
+              "to": "Stack[0x10]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474ab7",
+          "text": "PUSH R14",
+          "references": []
+        },
+        {
+          "address": "140474ab9",
+          "text": "SUB RSP,0x60",
+          "references": []
+        },
+        {
+          "address": "140474abd",
+          "text": "MOV qword ptr [RAX + -0x38],-0x2",
+          "references": [
+            {
+              "to": "Stack[-0x38]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474ac5",
+          "text": "MOV qword ptr [RAX + 0x8],RBX",
+          "references": [
+            {
+              "to": "Stack[0x8]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474ac9",
+          "text": "MOV qword ptr [RAX + 0x18],RDI",
+          "references": [
+            {
+              "to": "Stack[0x18]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474acd",
+          "text": "MOV R14,R8",
+          "references": []
+        },
+        {
+          "address": "140474ad0",
+          "text": "LEA R8,[RAX + 0x10]",
+          "references": [
+            {
+              "to": "Stack[0x10]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474ad4",
+          "text": "LEA RDX,[RAX + -0x20]",
+          "references": [
+            {
+              "to": "Stack[-0x20]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474ad8",
+          "text": "CALL 0x14048c910",
+          "references": [
+            {
+              "to": "14048c910",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474add",
+          "text": "LEA RDX,[RSP + 0x38]",
+          "references": [
+            {
+              "to": "Stack[-0x30]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474ae2",
+          "text": "MOV RCX,RAX",
+          "references": []
+        },
+        {
+          "address": "140474ae5",
+          "text": "CALL 0x14048c870",
+          "references": [
+            {
+              "to": "14048c870",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474aea",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140474aeb",
+          "text": "MOV RCX,qword ptr [RSP + 0x48]",
+          "references": [
+            {
+              "to": "Stack[-0x20]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140474af0",
+          "text": "TEST RCX,RCX",
+          "references": []
+        },
+        {
+          "address": "140474af3",
+          "text": "JZ 0x140474aff",
+          "references": [
+            {
+              "to": "140474aff",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474af5",
+          "text": "MOV EDX,0xfffffffe",
+          "references": []
+        },
+        {
+          "address": "140474afa",
+          "text": "CALL 0x140db0bd0",
+          "references": [
+            {
+              "to": "140db0bd0",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474aff",
+          "text": "MOV R8D,dword ptr [RSP + 0x40]",
+          "references": [
+            {
+              "to": "Stack[-0x28]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140474b04",
+          "text": "MOV EDX,0xffffd8f0",
+          "references": []
+        },
+        {
+          "address": "140474b09",
+          "text": "MOV RDI,qword ptr [RSP + 0x38]",
+          "references": [
+            {
+              "to": "Stack[-0x30]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140474b0e",
+          "text": "MOV RCX,RDI",
+          "references": []
+        },
+        {
+          "address": "140474b11",
+          "text": "CALL 0x140db0780",
+          "references": [
+            {
+              "to": "140db0780",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474b16",
+          "text": "OR EDX,0xffffffff",
+          "references": []
+        },
+        {
+          "address": "140474b19",
+          "text": "MOV RCX,RDI",
+          "references": []
+        },
+        {
+          "address": "140474b1c",
+          "text": "CALL 0x140db0f70",
+          "references": [
+            {
+              "to": "140db0f70",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474b21",
+          "text": "MOV EBX,EAX",
+          "references": []
+        },
+        {
+          "address": "140474b23",
+          "text": "MOV EDX,0xfffffffe",
+          "references": []
+        },
+        {
+          "address": "140474b28",
+          "text": "MOV RCX,RDI",
+          "references": []
+        },
+        {
+          "address": "140474b2b",
+          "text": "CALL 0x140db0bd0",
+          "references": [
+            {
+              "to": "140db0bd0",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474b30",
+          "text": "CMP EBX,0x3",
+          "references": []
+        },
+        {
+          "address": "140474b33",
+          "text": "JNZ 0x140474b46",
+          "references": [
+            {
+              "to": "140474b46",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474b35",
+          "text": "LEA RCX,[RSP + 0x38]",
+          "references": [
+            {
+              "to": "Stack[-0x30]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474b3a",
+          "text": "CALL 0x14048ca00",
+          "references": [
+            {
+              "to": "14048ca00",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474b3f",
+          "text": "CVTTSS2SI EAX,XMM0",
+          "references": []
+        },
+        {
+          "address": "140474b43",
+          "text": "MOV dword ptr [R14],EAX",
+          "references": []
+        },
+        {
+          "address": "140474b46",
+          "text": "TEST RDI,RDI",
+          "references": []
+        },
+        {
+          "address": "140474b49",
+          "text": "JZ 0x140474b64",
+          "references": [
+            {
+              "to": "140474b64",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474b4b",
+          "text": "CMP dword ptr [RSP + 0x40],-0x2",
+          "references": [
+            {
+              "to": "Stack[-0x28]",
+              "type": "READ",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474b50",
+          "text": "JZ 0x140474b64",
+          "references": [
+            {
+              "to": "140474b64",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474b52",
+          "text": "MOV R8D,dword ptr [RSP + 0x40]",
+          "references": [
+            {
+              "to": "Stack[-0x28]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140474b57",
+          "text": "MOV EDX,0xffffd8f0",
+          "references": []
+        },
+        {
+          "address": "140474b5c",
+          "text": "MOV RCX,RDI",
+          "references": []
+        },
+        {
+          "address": "140474b5f",
+          "text": "CALL 0x140db2650",
+          "references": [
+            {
+              "to": "140db2650",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140474b64",
+          "text": "MOV RBX,qword ptr [RSP + 0x70]",
+          "references": [
+            {
+              "to": "Stack[0x8]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140474b69",
+          "text": "MOV RDI,qword ptr [RSP + 0x80]",
+          "references": [
+            {
+              "to": "Stack[0x18]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140474b71",
+          "text": "ADD RSP,0x60",
+          "references": []
+        },
+        {
+          "address": "140474b75",
+          "text": "POP R14",
+          "references": []
+        },
+        {
+          "address": "140474b77",
+          "text": "RET",
+          "references": []
+        }
+      ],
+      "instructions_truncated": false
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

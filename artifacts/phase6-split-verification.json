@@ -1,0 +1,33 @@
+{
+  "target_unchanged": true,
+  "new_ghidra_queries": 3,
+  "queries": [
+    {
+      "query": "p6-split-callback-constructor",
+      "target_matches": true,
+      "completed": true,
+      "instructions_truncated": false,
+      "references_truncated": false,
+      "export_matches": true
+    },
+    {
+      "query": "p6-split-button-handler",
+      "target_matches": true,
+      "completed": true,
+      "instructions_truncated": false,
+      "references_truncated": false,
+      "export_matches": true
+    },
+    {
+      "query": "p6-split-command-constructor",
+      "target_matches": true,
+      "completed": true,
+      "instructions_truncated": false,
+      "references_truncated": false,
+      "export_matches": true
+    }
+  ],
+  "missing_doc_links": [],
+  "project_locks": [],
+  "scope": "Artifact integrity only; no target execution or semantic validation"
+}

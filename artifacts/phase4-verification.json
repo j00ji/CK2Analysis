@@ -1,0 +1,182 @@
+{
+  "generated_utc": "2026-10-18T02:47:07.984234+00:00",
+  "target_sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "target_unchanged": true,
+  "query_count": 13,
+  "function_requests": 31,
+  "unique_function_addresses_requested": 31,
+  "unique_successful_decompilations": 31,
+  "requests_without_successful_decompilation": [],
+  "retained_analysis_limitations": [],
+  "incoming_reference_caps": [
+    "1401ac450",
+    "140c3d960",
+    "140c4a7f0"
+  ],
+  "decompiler_warnings": [
+    {
+      "artifact": "p4-assignment-save-checksum.json",
+      "address": "1403a1450",
+      "warnings": [
+        "/* WARNING: Could not recover jumptable at 0x0001403a14c7. Too many branches */",
+        "/* WARNING: Treating indirect jump as call */",
+        "/* WARNING: Could not recover jumptable at 0x0001403a14b4. Too many branches */",
+        "/* WARNING: Treating indirect jump as call */",
+        "/* WARNING: Could not recover jumptable at 0x0001403a149f. Too many branches */",
+        "/* WARNING: Treating indirect jump as call */"
+      ]
+    },
+    {
+      "artifact": "p4-flank-save-rng-seed.json",
+      "address": "14039c360",
+      "warnings": [
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */"
+      ]
+    },
+    {
+      "artifact": "p4-flank-stats-sync-manager.json",
+      "address": "14078dd40",
+      "warnings": [
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */"
+      ]
+    },
+    {
+      "artifact": "p4-flank-stats-sync-manager.json",
+      "address": "140a2fb10",
+      "warnings": [
+        "/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */"
+      ]
+    },
+    {
+      "artifact": "p4-insertion-rng-command.json",
+      "address": "140c3d960",
+      "warnings": [
+        "/* WARNING: Could not recover jumptable at 0x000140c3d9a1. Too many branches */",
+        "/* WARNING: Treating indirect jump as call */",
+        "/* WARNING: Could not recover jumptable at 0x000140c3d9d7. Too many branches */",
+        "/* WARNING: Treating indirect jump as call */"
+      ]
+    },
+    {
+      "artifact": "p4-stat-names-rng-checksum.json",
+      "address": "14078e5b0",
+      "warnings": [
+        "/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */"
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "file": "p4-assignment-save-checksum.json",
+      "sha256": "a236c9d1e0edb1cba1605a265084dcc4747621980dc124cd81c064326492304c",
+      "bytes": 279166,
+      "mode": "function"
+    },
+    {
+      "file": "p4-checksum-callbacks-rng-restore.json",
+      "sha256": "387630a0975fec84a064b32486992cc1d0545d84e58dd8e6421cf97ffb5a9968",
+      "bytes": 12964,
+      "mode": "function"
+    },
+    {
+      "file": "p4-checksum-rebuild-callers.json",
+      "sha256": "2e0d7208185d51fabec4b7b9336d4935e8cc3b8eecd815ddfe599ef0a95d9624",
+      "bytes": 4600,
+      "mode": "xrefs"
+    },
+    {
+      "file": "p4-constructor-navy-insertion-listing.json",
+      "sha256": "d4007b6579f1f748022b6ccf9aecef0b2f5a1502f30987a781a6c01fe89bdc52",
+      "bytes": 20807,
+      "mode": "listing"
+    },
+    {
+      "file": "p4-flank-save-rng-seed.json",
+      "sha256": "f33b4960346ecf40a404ef4557aa770cc6c7d148485935e225269ea5aa5e76a0",
+      "bytes": 160457,
+      "mode": "function"
+    },
+    {
+      "file": "p4-flank-stats-sync-manager.json",
+      "sha256": "6929650c1f8e9ed30cbec0824929bea08a8af52efb40bf8d6cbe77b2bcad0efc",
+      "bytes": 490163,
+      "mode": "function"
+    },
+    {
+      "file": "p4-insertion-rng-command.json",
+      "sha256": "1070b7df61303189f6f8ead3bc527b136e498f01d4c3c73aca3e02f22934c821",
+      "bytes": 84984,
+      "mode": "function"
+    },
+    {
+      "file": "p4-rng-identity-assignment-xrefs.json",
+      "sha256": "a32be2dcaea45a853459ffd01b0700cde5df8e0383a631149f906ba72e18d169",
+      "bytes": 16835,
+      "mode": "xrefs"
+    },
+    {
+      "file": "p4-rng-save-load-sites.json",
+      "sha256": "b6291b6bc0d360a765693ff57af09b3ef40935b162a6f572ef7c1b5581b7996f",
+      "bytes": 15109,
+      "mode": "listing"
+    },
+    {
+      "file": "p4-stat-initialization-listing.json",
+      "sha256": "db25622687dc3f507c36110a0c199c6cd070bf89b3eabed7b7f08ccc31f294b9",
+      "bytes": 32557,
+      "mode": "listing"
+    },
+    {
+      "file": "p4-stat-key-loops.json",
+      "sha256": "54907a3af3e59c8f20908ed6510fa83a0aee72c14bb13db69d18e1ea70da2ff8",
+      "bytes": 17198,
+      "mode": "listing"
+    },
+    {
+      "file": "p4-stat-names-rng-checksum.json",
+      "sha256": "4447c121623630fd36577d89afc1b26d958da1b96ae4af76834973d6809a3951",
+      "bytes": 293645,
+      "mode": "function"
+    },
+    {
+      "file": "p4-stats-sync-xrefs.json",
+      "sha256": "c329d9b973c1fe4c979120b4d540348956630683cde2aa66fca91a58ac09789b",
+      "bytes": 6972,
+      "mode": "xrefs"
+    }
+  ],
+  "support_artifacts": [
+    {
+      "file": "phase4-flank-serialization-table.json",
+      "sha256": "b5186f30261f6b6074bde59b16a5e3a358da98c56edb75d3ae2174c93414e6aa"
+    },
+    {
+      "file": "phase4-manager-table-window.json",
+      "sha256": "ac6b98ca19498705bd07fbb0483d717f6906f2ed7f8ff089c2ff88417a204370"
+    },
+    {
+      "file": "phase4-stat-storage.json",
+      "sha256": "9833fcbd308326ce872c0bb7c52c3253a3a9e9fb0392d1bec8e08b699a57fb32"
+    }
+  ],
+  "markdown_files_checked": 17,
+  "local_links_checked": 238,
+  "project_locks": [],
+  "integrity_failures": [],
+  "scope": "Static artifact identity/completeness checks; not runtime or semantic validation"
+}

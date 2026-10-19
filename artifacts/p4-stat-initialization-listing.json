@@ -1,0 +1,1408 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "listing",
+  "query": "1404839e0:65,140483c40:100",
+  "result": [
+    {
+      "requested_address": "1404839e0",
+      "limit": 65,
+      "instructions": [
+        {
+          "address": "1404839e1",
+          "text": "LEA RDX,[RBP + 0x9d88]",
+          "references": [
+            {
+              "to": "Stack[-0x380]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "1404839e8",
+          "text": "MOV RCX,RAX",
+          "references": []
+        },
+        {
+          "address": "1404839eb",
+          "text": "CALL 0x140d5f250",
+          "references": [
+            {
+              "to": "140d5f250",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "1404839f0",
+          "text": "MOV RDX,RAX",
+          "references": []
+        },
+        {
+          "address": "1404839f3",
+          "text": "LEA RCX,[RSP + 0x50]",
+          "references": [
+            {
+              "to": "Stack[-0xa1b8]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "1404839f8",
+          "text": "CALL 0x1400b32f0",
+          "references": [
+            {
+              "to": "1400b32f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "1404839fd",
+          "text": "LEA RCX,[RBP + 0x9d88]",
+          "references": [
+            {
+              "to": "Stack[-0x380]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483a04",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483a09",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483a0a",
+          "text": "LEA RCX,[RBP + 0x9da8]",
+          "references": [
+            {
+              "to": "Stack[-0x360]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483a11",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483a16",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483a17",
+          "text": "LEA RCX,[RBP + 0x4208]",
+          "references": [
+            {
+              "to": "Stack[-0x5f00]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483a1e",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483a23",
+          "text": "LEA R13,[0x140000000]",
+          "references": [
+            {
+              "to": "140000000",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483a2a",
+          "text": "LEA RDI,[R13 + 0x17eae00]",
+          "references": [
+            {
+              "to": "1417eae00",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483a31",
+          "text": "ADD RDI,R12",
+          "references": []
+        },
+        {
+          "address": "140483a34",
+          "text": "LEA RCX,[RSP + 0x50]",
+          "references": [
+            {
+              "to": "Stack[-0xa1b8]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483a39",
+          "text": "CALL 0x1400afde0",
+          "references": [
+            {
+              "to": "1400afde0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483a3e",
+          "text": "MOV RDX,RAX",
+          "references": []
+        },
+        {
+          "address": "140483a41",
+          "text": "MOV R8,RDI",
+          "references": [
+            {
+              "to": "1417eae4d",
+              "type": "PARAM"
+            }
+          ]
+        },
+        {
+          "address": "140483a44",
+          "text": "LEA RCX,[RSP + 0x40]",
+          "references": [
+            {
+              "to": "Stack[-0xa1c8]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483a49",
+          "text": "CALL 0x1404748c0",
+          "references": [
+            {
+              "to": "1404748c0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483a4e",
+          "text": "LEA RDX,[0x1410a01a8]",
+          "references": [
+            {
+              "to": "1410a01a8",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483a55",
+          "text": "LEA RCX,[RBP + 0x4228]",
+          "references": [
+            {
+              "to": "Stack[-0x5ee0]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483a5c",
+          "text": "CALL 0x1400afe20",
+          "references": [
+            {
+              "to": "1400afe20",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483a61",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483a62",
+          "text": "MOV RDX,R15",
+          "references": []
+        },
+        {
+          "address": "140483a65",
+          "text": "LEA RCX,[RBP + 0x9de8]",
+          "references": [
+            {
+              "to": "Stack[-0x320]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483a6c",
+          "text": "CALL 0x1400afe20",
+          "references": [
+            {
+              "to": "1400afe20",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483a71",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483a72",
+          "text": "LEA R8,[RBP + 0x4228]",
+          "references": [
+            {
+              "to": "Stack[-0x5ee0]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483a79",
+          "text": "LEA RDX,[RBP + 0x9dc8]",
+          "references": [
+            {
+              "to": "Stack[-0x340]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483a80",
+          "text": "MOV RCX,RAX",
+          "references": []
+        },
+        {
+          "address": "140483a83",
+          "text": "CALL 0x140d5f250",
+          "references": [
+            {
+              "to": "140d5f250",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483a88",
+          "text": "MOV RDX,RAX",
+          "references": []
+        },
+        {
+          "address": "140483a8b",
+          "text": "LEA RCX,[RSP + 0x50]",
+          "references": [
+            {
+              "to": "Stack[-0xa1b8]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483a90",
+          "text": "CALL 0x1400b32f0",
+          "references": [
+            {
+              "to": "1400b32f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483a95",
+          "text": "LEA RCX,[RBP + 0x9dc8]",
+          "references": [
+            {
+              "to": "Stack[-0x340]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483a9c",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483aa1",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483aa2",
+          "text": "LEA RCX,[RBP + 0x9de8]",
+          "references": [
+            {
+              "to": "Stack[-0x320]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483aa9",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483aae",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483aaf",
+          "text": "LEA RCX,[RBP + 0x4228]",
+          "references": [
+            {
+              "to": "Stack[-0x5ee0]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483ab6",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483abb",
+          "text": "LEA RDI,[R13 + 0x17ead50]",
+          "references": [
+            {
+              "to": "1417ead50",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483ac2",
+          "text": "ADD RDI,R12",
+          "references": []
+        },
+        {
+          "address": "140483ac5",
+          "text": "LEA RCX,[RSP + 0x50]",
+          "references": [
+            {
+              "to": "Stack[-0xa1b8]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483aca",
+          "text": "CALL 0x1400afde0",
+          "references": [
+            {
+              "to": "1400afde0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483acf",
+          "text": "MOV RDX,RAX",
+          "references": []
+        },
+        {
+          "address": "140483ad2",
+          "text": "MOV R8,RDI",
+          "references": [
+            {
+              "to": "1417ead9d",
+              "type": "PARAM"
+            }
+          ]
+        },
+        {
+          "address": "140483ad5",
+          "text": "LEA RCX,[RSP + 0x40]",
+          "references": [
+            {
+              "to": "Stack[-0xa1c8]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483ada",
+          "text": "CALL 0x1404748c0",
+          "references": [
+            {
+              "to": "1404748c0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483adf",
+          "text": "LEA RDX,[0x1410a0100]",
+          "references": [
+            {
+              "to": "1410a0100",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483ae6",
+          "text": "LEA RCX,[RBP + 0x42e8]",
+          "references": [
+            {
+              "to": "Stack[-0x5e20]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483aed",
+          "text": "CALL 0x1400afe20",
+          "references": [
+            {
+              "to": "1400afe20",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483af2",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483af3",
+          "text": "MOV RDX,R15",
+          "references": []
+        },
+        {
+          "address": "140483af6",
+          "text": "LEA RCX,[RBP + 0x9e28]",
+          "references": [
+            {
+              "to": "Stack[-0x2e0]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483afd",
+          "text": "CALL 0x1400afe20",
+          "references": [
+            {
+              "to": "1400afe20",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483b02",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483b03",
+          "text": "LEA R8,[RBP + 0x42e8]",
+          "references": [
+            {
+              "to": "Stack[-0x5e20]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483b0a",
+          "text": "LEA RDX,[RBP + 0x9e08]",
+          "references": [
+            {
+              "to": "Stack[-0x300]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483b11",
+          "text": "MOV RCX,RAX",
+          "references": []
+        }
+      ]
+    },
+    {
+      "requested_address": "140483c40",
+      "limit": 100,
+      "instructions": [
+        {
+          "address": "140483c43",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483c48",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483c49",
+          "text": "LEA RCX,[RBP + 0x9ea8]",
+          "references": [
+            {
+              "to": "Stack[-0x260]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483c50",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483c55",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483c56",
+          "text": "LEA RCX,[RBP + 0x9ec8]",
+          "references": [
+            {
+              "to": "Stack[-0x240]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483c5d",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483c62",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483c63",
+          "text": "LEA RCX,[RBP + 0x4268]",
+          "references": [
+            {
+              "to": "Stack[-0x5ea0]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483c6a",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483c6f",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483c70",
+          "text": "LEA RCX,[RBP + 0x4288]",
+          "references": [
+            {
+              "to": "Stack[-0x5e80]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483c77",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483c7c",
+          "text": "LEA RDI,[R13 + 0x17ead80]",
+          "references": [
+            {
+              "to": "1417ead80",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483c83",
+          "text": "ADD RDI,RBX",
+          "references": []
+        },
+        {
+          "address": "140483c86",
+          "text": "LEA RCX,[RSP + 0x50]",
+          "references": [
+            {
+              "to": "Stack[-0xa1b8]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483c8b",
+          "text": "CALL 0x1400afde0",
+          "references": [
+            {
+              "to": "1400afde0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483c90",
+          "text": "MOV RDX,RAX",
+          "references": []
+        },
+        {
+          "address": "140483c93",
+          "text": "MOV R8,RDI",
+          "references": [
+            {
+              "to": "1417ead80",
+              "type": "PARAM"
+            }
+          ]
+        },
+        {
+          "address": "140483c96",
+          "text": "LEA RCX,[RSP + 0x40]",
+          "references": [
+            {
+              "to": "Stack[-0xa1c8]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483c9b",
+          "text": "CALL 0x1404748c0",
+          "references": [
+            {
+              "to": "1404748c0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483ca0",
+          "text": "LEA RDX,[0x1410a0120]",
+          "references": [
+            {
+              "to": "1410a0120",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483ca7",
+          "text": "LEA RCX,[RBP + 0x42c8]",
+          "references": [
+            {
+              "to": "Stack[-0x5e40]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483cae",
+          "text": "CALL 0x1400afe20",
+          "references": [
+            {
+              "to": "1400afe20",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483cb3",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483cb4",
+          "text": "LEA RDX,[0x141061760]",
+          "references": [
+            {
+              "to": "141061760",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483cbb",
+          "text": "LEA RCX,[RBP + 0x42a8]",
+          "references": [
+            {
+              "to": "Stack[-0x5e60]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483cc2",
+          "text": "CALL 0x1400afe20",
+          "references": [
+            {
+              "to": "1400afe20",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483cc7",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483cc8",
+          "text": "MOV RDX,RSI",
+          "references": []
+        },
+        {
+          "address": "140483ccb",
+          "text": "LEA RCX,[RBP + 0x9f68]",
+          "references": [
+            {
+              "to": "Stack[-0x1a0]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483cd2",
+          "text": "CALL 0x1400afe20",
+          "references": [
+            {
+              "to": "1400afe20",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483cd7",
+          "text": "MOV RDI,RAX",
+          "references": []
+        },
+        {
+          "address": "140483cda",
+          "text": "MOV RDX,R15",
+          "references": []
+        },
+        {
+          "address": "140483cdd",
+          "text": "LEA RCX,[RBP + 0x9f48]",
+          "references": [
+            {
+              "to": "Stack[-0x1c0]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483ce4",
+          "text": "CALL 0x1400afe20",
+          "references": [
+            {
+              "to": "1400afe20",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483ce9",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483cea",
+          "text": "LEA R8,[RBP + 0x42a8]",
+          "references": [
+            {
+              "to": "Stack[-0x5e60]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483cf1",
+          "text": "LEA RDX,[RBP + 0x9f28]",
+          "references": [
+            {
+              "to": "Stack[-0x1e0]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483cf8",
+          "text": "MOV RCX,RAX",
+          "references": []
+        },
+        {
+          "address": "140483cfb",
+          "text": "CALL 0x140d5f250",
+          "references": [
+            {
+              "to": "140d5f250",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483d00",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483d01",
+          "text": "MOV R8,RDI",
+          "references": []
+        },
+        {
+          "address": "140483d04",
+          "text": "LEA RDX,[RBP + 0x9f08]",
+          "references": [
+            {
+              "to": "Stack[-0x200]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483d0b",
+          "text": "MOV RCX,RAX",
+          "references": []
+        },
+        {
+          "address": "140483d0e",
+          "text": "CALL 0x140d5f250",
+          "references": [
+            {
+              "to": "140d5f250",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483d13",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483d14",
+          "text": "LEA R8,[RBP + 0x42c8]",
+          "references": [
+            {
+              "to": "Stack[-0x5e40]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483d1b",
+          "text": "LEA RDX,[RBP + 0x9ee8]",
+          "references": [
+            {
+              "to": "Stack[-0x220]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483d22",
+          "text": "MOV RCX,RAX",
+          "references": []
+        },
+        {
+          "address": "140483d25",
+          "text": "CALL 0x140d5f250",
+          "references": [
+            {
+              "to": "140d5f250",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483d2a",
+          "text": "MOV RDX,RAX",
+          "references": []
+        },
+        {
+          "address": "140483d2d",
+          "text": "LEA RCX,[RSP + 0x50]",
+          "references": [
+            {
+              "to": "Stack[-0xa1b8]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483d32",
+          "text": "CALL 0x1400b32f0",
+          "references": [
+            {
+              "to": "1400b32f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483d37",
+          "text": "LEA RCX,[RBP + 0x9ee8]",
+          "references": [
+            {
+              "to": "Stack[-0x220]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483d3e",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483d43",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483d44",
+          "text": "LEA RCX,[RBP + 0x9f08]",
+          "references": [
+            {
+              "to": "Stack[-0x200]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483d4b",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483d50",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483d51",
+          "text": "LEA RCX,[RBP + 0x9f28]",
+          "references": [
+            {
+              "to": "Stack[-0x1e0]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483d58",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483d5d",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483d5e",
+          "text": "LEA RCX,[RBP + 0x9f48]",
+          "references": [
+            {
+              "to": "Stack[-0x1c0]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483d65",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483d6a",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483d6b",
+          "text": "LEA RCX,[RBP + 0x9f68]",
+          "references": [
+            {
+              "to": "Stack[-0x1a0]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483d72",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483d77",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483d78",
+          "text": "LEA RCX,[RBP + 0x42a8]",
+          "references": [
+            {
+              "to": "Stack[-0x5e60]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483d7f",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483d84",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140483d85",
+          "text": "LEA RCX,[RBP + 0x42c8]",
+          "references": [
+            {
+              "to": "Stack[-0x5e40]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483d8c",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483d91",
+          "text": "LEA RDI,[R13 + 0x17eacf0]",
+          "references": [
+            {
+              "to": "1417eacf0",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483d98",
+          "text": "ADD RDI,RBX",
+          "references": []
+        },
+        {
+          "address": "140483d9b",
+          "text": "LEA RCX,[RSP + 0x50]",
+          "references": [
+            {
+              "to": "Stack[-0xa1b8]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483da0",
+          "text": "CALL 0x1400afde0",
+          "references": [
+            {
+              "to": "1400afde0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483da5",
+          "text": "MOV RDX,RAX",
+          "references": []
+        },
+        {
+          "address": "140483da8",
+          "text": "MOV R8,RDI",
+          "references": [
+            {
+              "to": "1417eacf0",
+              "type": "PARAM"
+            }
+          ]
+        },
+        {
+          "address": "140483dab",
+          "text": "LEA RCX,[RSP + 0x40]",
+          "references": [
+            {
+              "to": "Stack[-0xa1c8]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483db0",
+          "text": "CALL 0x1404748c0",
+          "references": [
+            {
+              "to": "1404748c0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483db5",
+          "text": "INC R14D",
+          "references": []
+        },
+        {
+          "address": "140483db8",
+          "text": "ADD RBX,0x4",
+          "references": []
+        },
+        {
+          "address": "140483dbc",
+          "text": "CMP R14D,0x3",
+          "references": []
+        },
+        {
+          "address": "140483dc0",
+          "text": "JL 0x140483b80",
+          "references": [
+            {
+              "to": "140483b80",
+              "type": "CONDITIONAL_JUMP"
+            }
+          ]
+        },
+        {
+          "address": "140483dc6",
+          "text": "LEA RCX,[RSP + 0x50]",
+          "references": [
+            {
+              "to": "Stack[-0xa1b8]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483dcb",
+          "text": "CALL 0x1400ae4f0",
+          "references": [
+            {
+              "to": "1400ae4f0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483dd0",
+          "text": "MOV R13D,dword ptr [RBP + 0xa110]",
+          "references": [
+            {
+              "to": "Stack[0x8]",
+              "type": "READ"
+            }
+          ]
+        },
+        {
+          "address": "140483dd7",
+          "text": "INC R13D",
+          "references": []
+        },
+        {
+          "address": "140483dda",
+          "text": "MOV dword ptr [RBP + 0xa110],R13D",
+          "references": [
+            {
+              "to": "Stack[0x8]",
+              "type": "WRITE"
+            }
+          ]
+        },
+        {
+          "address": "140483de1",
+          "text": "ADD R12,0x4",
+          "references": []
+        },
+        {
+          "address": "140483de5",
+          "text": "CMP R13D,0x8",
+          "references": []
+        },
+        {
+          "address": "140483de9",
+          "text": "JL 0x1404839a0",
+          "references": [
+            {
+              "to": "1404839a0",
+              "type": "CONDITIONAL_JUMP"
+            }
+          ]
+        },
+        {
+          "address": "140483def",
+          "text": "LEA R8,[0x14109b7d8]",
+          "references": [
+            {
+              "to": "14109b7d8",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483df6",
+          "text": "LEA RDX,[RBP + 0x7398]",
+          "references": [
+            {
+              "to": "Stack[-0x2d70]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483dfd",
+          "text": "LEA RCX,[RSP + 0x20]",
+          "references": [
+            {
+              "to": "Stack[-0xa1e8]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483e02",
+          "text": "CALL 0x14048c960",
+          "references": [
+            {
+              "to": "14048c960",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140483e07",
+          "text": "LEA RDX,[RBP + 0x22b0]",
+          "references": [
+            {
+              "to": "Stack[-0x7e58]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140483e0e",
+          "text": "MOV RCX,RAX",
+          "references": []
+        }
+      ]
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

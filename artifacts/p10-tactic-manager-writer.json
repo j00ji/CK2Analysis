@@ -1,0 +1,170 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "function",
+  "query": "14080ebc0",
+  "result": [
+    {
+      "entry": "14080ebc0",
+      "name": "FUN_14080ebc0",
+      "signature": "undefined FUN_14080ebc0(void)",
+      "body": "[[14080ebc0, 14080ec03]]",
+      "decompile_completed": true,
+      "decompile_error": "",
+      "pseudocode": "\r\nvoid FUN_14080ebc0(void)\r\n\r\n{\r\n  void *pvVar1;\r\n  \r\n  if (DAT_1416e23d0 \u003d\u003d 0) {\r\n    pvVar1 \u003d operator_new(0xd70);\r\n    DAT_1416e23d0 \u003d FUN_1403becf0(pvVar1);\r\n  }\r\n  FUN_1403beeb0(DAT_1416e23d0);\r\n  return;\r\n}\r\n\r\n",
+      "incoming_references": {
+        "items": [
+          {
+            "from": "14190de00",
+            "to": "14080ebc0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "14132f318",
+            "to": "14080ebc0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "1410defa8",
+            "to": "14080ebc0",
+            "type": "DATA",
+            "operand": 0
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      },
+      "instructions": [
+        {
+          "address": "14080ebc0",
+          "text": "SUB RSP,0x38",
+          "references": []
+        },
+        {
+          "address": "14080ebc4",
+          "text": "MOV qword ptr [RSP + 0x20],-0x2",
+          "references": [
+            {
+              "to": "Stack[-0x18]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "14080ebcd",
+          "text": "MOV RAX,qword ptr [0x1416e23d0]",
+          "references": [
+            {
+              "to": "1416e23d0",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "14080ebd4",
+          "text": "TEST RAX,RAX",
+          "references": []
+        },
+        {
+          "address": "14080ebd7",
+          "text": "JNZ 0x14080ebf8",
+          "references": [
+            {
+              "to": "14080ebf8",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "14080ebd9",
+          "text": "MOV ECX,0xd70",
+          "references": []
+        },
+        {
+          "address": "14080ebde",
+          "text": "CALL 0x140e1c300",
+          "references": [
+            {
+              "to": "140e1c300",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "14080ebe3",
+          "text": "MOV qword ptr [RSP + 0x48],RAX",
+          "references": [
+            {
+              "to": "Stack[0x10]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "14080ebe8",
+          "text": "MOV RCX,RAX",
+          "references": []
+        },
+        {
+          "address": "14080ebeb",
+          "text": "CALL 0x1403becf0",
+          "references": [
+            {
+              "to": "1403becf0",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "14080ebf0",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "14080ebf1",
+          "text": "MOV qword ptr [0x1416e23d0],RAX",
+          "references": [
+            {
+              "to": "1416e23d0",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "14080ebf8",
+          "text": "MOV RCX,RAX",
+          "references": []
+        },
+        {
+          "address": "14080ebfb",
+          "text": "ADD RSP,0x38",
+          "references": []
+        },
+        {
+          "address": "14080ebff",
+          "text": "JMP 0x1403beeb0",
+          "references": [
+            {
+              "to": "1403beeb0",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        }
+      ],
+      "instructions_truncated": false
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

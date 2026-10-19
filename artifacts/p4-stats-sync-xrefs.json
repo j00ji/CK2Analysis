@@ -1,0 +1,271 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "xrefs",
+  "query": "1417ead80,1417eadd4,1417eacf0,1417ead44,1417eae00,1417eae1c,1410d8610,14114ab50,1403bd9e0",
+  "result": [
+    {
+      "address": "1417ead80",
+      "references": {
+        "items": [
+          {
+            "from": "140483c7c",
+            "to": "1417ead80",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140483c93",
+            "to": "1417ead80",
+            "type": "PARAM",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140a2fc37",
+            "to": "1417ead80",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "140a2fb10",
+            "function_name": "FUN_140a2fb10"
+          },
+          {
+            "from": "140847f40",
+            "to": "1417ead80",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140847de0",
+            "function_name": "FUN_140847de0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1417eadd4",
+      "references": {
+        "items": [],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1417eacf0",
+      "references": {
+        "items": [
+          {
+            "from": "140483d91",
+            "to": "1417eacf0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140483da8",
+            "to": "1417eacf0",
+            "type": "PARAM",
+            "operand": 0,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140a2fc42",
+            "to": "1417eacf0",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "140a2fb10",
+            "function_name": "FUN_140a2fb10"
+          },
+          {
+            "from": "140848605",
+            "to": "1417eacf0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "1408484d0",
+            "function_name": "FUN_1408484d0"
+          },
+          {
+            "from": "14084860f",
+            "to": "1417eacf0",
+            "type": "DATA",
+            "operand": 0,
+            "function_entry": "1408484d0",
+            "function_name": "FUN_1408484d0"
+          },
+          {
+            "from": "14084810f",
+            "to": "1417eacf0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140847fd0",
+            "function_name": "FUN_140847fd0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1417ead44",
+      "references": {
+        "items": [],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1417eae00",
+      "references": {
+        "items": [
+          {
+            "from": "140483a2a",
+            "to": "1417eae00",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140a2fc2d",
+            "to": "1417eae00",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "140a2fb10",
+            "function_name": "FUN_140a2fb10"
+          },
+          {
+            "from": "1408482b2",
+            "to": "1417eae00",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140848170",
+            "function_name": "FUN_140848170"
+          },
+          {
+            "from": "1408486dc",
+            "to": "1417eae00",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140848690",
+            "function_name": "FUN_140848690"
+          },
+          {
+            "from": "140848793",
+            "to": "1417eae00",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140848690",
+            "function_name": "FUN_140848690"
+          },
+          {
+            "from": "1408487c5",
+            "to": "1417eae00",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "140848690",
+            "function_name": "FUN_140848690"
+          },
+          {
+            "from": "140848811",
+            "to": "1417eae00",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140848690",
+            "function_name": "FUN_140848690"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1417eae1c",
+      "references": {
+        "items": [],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1410d8610",
+      "references": {
+        "items": [
+          {
+            "from": "14078dde1",
+            "to": "1410d8610",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "14078dd40",
+            "function_name": "FUN_14078dd40"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "14114ab50",
+      "references": {
+        "items": [
+          {
+            "from": "140c3df41",
+            "to": "14114ab50",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140c3d9e0",
+            "function_name": "FUN_140c3d9e0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1403bd9e0",
+      "references": {
+        "items": [
+          {
+            "from": "1418f4804",
+            "to": "1403bd9e0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "14125d3b8",
+            "to": "1403bd9e0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "14125d3c8",
+            "to": "1403bd9e0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "14125d3f0",
+            "to": "1403bd9e0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "141090390",
+            "to": "1403bd9e0",
+            "type": "DATA",
+            "operand": 0
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

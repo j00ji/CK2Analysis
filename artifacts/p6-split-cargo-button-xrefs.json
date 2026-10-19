@@ -1,0 +1,73 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "search",
+  "query": "^splitinhalfbutton$",
+  "result": {
+    "matches": [
+      {
+        "address": "141145428",
+        "value": "splitinhalfbutton",
+        "references": {
+          "items": [
+            {
+              "from": "140bd6c83",
+              "to": "141145428",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd5c40",
+              "function_name": "FUN_140bd5c40"
+            },
+            {
+              "from": "140bd6d4d",
+              "to": "141145428",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd5c40",
+              "function_name": "FUN_140bd5c40"
+            },
+            {
+              "from": "140bd56f5",
+              "to": "141145428",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd55f0",
+              "function_name": "FUN_140bd55f0"
+            },
+            {
+              "from": "140bd4f42",
+              "to": "141145428",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd4dc0",
+              "function_name": "FUN_140bd4dc0"
+            },
+            {
+              "from": "140bd316d",
+              "to": "141145428",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd3060",
+              "function_name": "FUN_140bd3060"
+            },
+            {
+              "from": "140bd2aa3",
+              "to": "141145428",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd2990",
+              "function_name": "FUN_140bd2990"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      }
+    ],
+    "scan_stopped_at_limit": false,
+    "limit": 250
+  },
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

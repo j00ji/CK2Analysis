@@ -1,0 +1,325 @@
+{
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "method": "Static PE pointer-window read; table extent and meaning need code corroboration",
+  "size": 176,
+  "tables": [
+    {
+      "start": "0x1410902d8",
+      "entries": [
+        {
+          "slot": "0x0",
+          "cell": "0x1410902d8",
+          "file_offset": 17364696,
+          "bytes": "a0413a4001000000",
+          "target": "0x1403a41a0"
+        },
+        {
+          "slot": "0x8",
+          "cell": "0x1410902e0",
+          "file_offset": 17364704,
+          "bytes": "d080c34001000000",
+          "target": "0x140c380d0"
+        },
+        {
+          "slot": "0x10",
+          "cell": "0x1410902e8",
+          "file_offset": 17364712,
+          "bytes": "c0473a4001000000",
+          "target": "0x1403a47c0"
+        },
+        {
+          "slot": "0x18",
+          "cell": "0x1410902f0",
+          "file_offset": 17364720,
+          "bytes": "1081c34001000000",
+          "target": "0x140c38110"
+        },
+        {
+          "slot": "0x20",
+          "cell": "0x1410902f8",
+          "file_offset": 17364728,
+          "bytes": "80423a4001000000",
+          "target": "0x1403a4280"
+        },
+        {
+          "slot": "0x28",
+          "cell": "0x141090300",
+          "file_offset": 17364736,
+          "bytes": "504c3a4001000000",
+          "target": "0x1403a4c50"
+        },
+        {
+          "slot": "0x30",
+          "cell": "0x141090308",
+          "file_offset": 17364744,
+          "bytes": "80713b4001000000",
+          "target": "0x1403b7180"
+        },
+        {
+          "slot": "0x38",
+          "cell": "0x141090310",
+          "file_offset": 17364752,
+          "bytes": "40e50a4001000000",
+          "target": "0x1400ae540"
+        },
+        {
+          "slot": "0x40",
+          "cell": "0x141090318",
+          "file_offset": 17364760,
+          "bytes": "d0fb0a4001000000",
+          "target": "0x1400afbd0"
+        },
+        {
+          "slot": "0x48",
+          "cell": "0x141090320",
+          "file_offset": 17364768,
+          "bytes": "40e50a4001000000",
+          "target": "0x1400ae540"
+        },
+        {
+          "slot": "0x50",
+          "cell": "0x141090328",
+          "file_offset": 17364776,
+          "bytes": "e0230b4001000000",
+          "target": "0x1400b23e0"
+        },
+        {
+          "slot": "0x58",
+          "cell": "0x141090330",
+          "file_offset": 17364784,
+          "bytes": "50733b4001000000",
+          "target": "0x1403b7350"
+        },
+        {
+          "slot": "0x60",
+          "cell": "0x141090338",
+          "file_offset": 17364792,
+          "bytes": "20250b4001000000",
+          "target": "0x1400b2520"
+        },
+        {
+          "slot": "0x68",
+          "cell": "0x141090340",
+          "file_offset": 17364800,
+          "bytes": "a0753b4001000000",
+          "target": "0x1403b75a0"
+        },
+        {
+          "slot": "0x70",
+          "cell": "0x141090348",
+          "file_offset": 17364808,
+          "bytes": "50e50a4001000000",
+          "target": "0x1400ae550"
+        },
+        {
+          "slot": "0x78",
+          "cell": "0x141090350",
+          "file_offset": 17364816,
+          "bytes": "00633a4001000000",
+          "target": "0x1403a6300"
+        },
+        {
+          "slot": "0x80",
+          "cell": "0x141090358",
+          "file_offset": 17364824,
+          "bytes": "c0533a4001000000",
+          "target": "0x1403a53c0"
+        },
+        {
+          "slot": "0x88",
+          "cell": "0x141090360",
+          "file_offset": 17364832,
+          "bytes": "60733b4001000000",
+          "target": "0x1403b7360"
+        },
+        {
+          "slot": "0x90",
+          "cell": "0x141090368",
+          "file_offset": 17364840,
+          "bytes": "a0a23a4001000000",
+          "target": "0x1403aa2a0"
+        },
+        {
+          "slot": "0x98",
+          "cell": "0x141090370",
+          "file_offset": 17364848,
+          "bytes": "d0e43b4001000000",
+          "target": "0x1403be4d0"
+        },
+        {
+          "slot": "0xa0",
+          "cell": "0x141090378",
+          "file_offset": 17364856,
+          "bytes": "80c9264001000000",
+          "target": "0x14026c980"
+        },
+        {
+          "slot": "0xa8",
+          "cell": "0x141090380",
+          "file_offset": 17364864,
+          "bytes": "f0e43b4001000000",
+          "target": "0x1403be4f0"
+        }
+      ]
+    },
+    {
+      "start": "0x141090000",
+      "entries": [
+        {
+          "slot": "0x0",
+          "cell": "0x141090000",
+          "file_offset": 17363968,
+          "bytes": "c0753b4001000000",
+          "target": "0x1403b75c0"
+        },
+        {
+          "slot": "0x8",
+          "cell": "0x141090008",
+          "file_offset": 17363976,
+          "bytes": "d080c34001000000",
+          "target": "0x140c380d0"
+        },
+        {
+          "slot": "0x10",
+          "cell": "0x141090010",
+          "file_offset": 17363984,
+          "bytes": "c0473a4001000000",
+          "target": "0x1403a47c0"
+        },
+        {
+          "slot": "0x18",
+          "cell": "0x141090018",
+          "file_offset": 17363992,
+          "bytes": "1081c34001000000",
+          "target": "0x140c38110"
+        },
+        {
+          "slot": "0x20",
+          "cell": "0x141090020",
+          "file_offset": 17364000,
+          "bytes": "80423a4001000000",
+          "target": "0x1403a4280"
+        },
+        {
+          "slot": "0x28",
+          "cell": "0x141090028",
+          "file_offset": 17364008,
+          "bytes": "504c3a4001000000",
+          "target": "0x1403a4c50"
+        },
+        {
+          "slot": "0x30",
+          "cell": "0x141090030",
+          "file_offset": 17364016,
+          "bytes": "60833b4001000000",
+          "target": "0x1403b8360"
+        },
+        {
+          "slot": "0x38",
+          "cell": "0x141090038",
+          "file_offset": 17364024,
+          "bytes": "f0763b4001000000",
+          "target": "0x1403b76f0"
+        },
+        {
+          "slot": "0x40",
+          "cell": "0x141090040",
+          "file_offset": 17364032,
+          "bytes": "d0813b4001000000",
+          "target": "0x1403b81d0"
+        },
+        {
+          "slot": "0x48",
+          "cell": "0x141090048",
+          "file_offset": 17364040,
+          "bytes": "20c10e4001000000",
+          "target": "0x1400ec120"
+        },
+        {
+          "slot": "0x50",
+          "cell": "0x141090050",
+          "file_offset": 17364048,
+          "bytes": "a0783b4001000000",
+          "target": "0x1403b78a0"
+        },
+        {
+          "slot": "0x58",
+          "cell": "0x141090058",
+          "file_offset": 17364056,
+          "bytes": "10873b4001000000",
+          "target": "0x1403b8710"
+        },
+        {
+          "slot": "0x60",
+          "cell": "0x141090060",
+          "file_offset": 17364064,
+          "bytes": "70b50e4001000000",
+          "target": "0x1400eb570"
+        },
+        {
+          "slot": "0x68",
+          "cell": "0x141090068",
+          "file_offset": 17364072,
+          "bytes": "20963b4001000000",
+          "target": "0x1403b9620"
+        },
+        {
+          "slot": "0x70",
+          "cell": "0x141090070",
+          "file_offset": 17364080,
+          "bytes": "40963b4001000000",
+          "target": "0x1403b9640"
+        },
+        {
+          "slot": "0x78",
+          "cell": "0x141090078",
+          "file_offset": 17364088,
+          "bytes": "00633a4001000000",
+          "target": "0x1403a6300"
+        },
+        {
+          "slot": "0x80",
+          "cell": "0x141090080",
+          "file_offset": 17364096,
+          "bytes": "30853b4001000000",
+          "target": "0x1403b8530"
+        },
+        {
+          "slot": "0x88",
+          "cell": "0x141090088",
+          "file_offset": 17364104,
+          "bytes": "a0913b4001000000",
+          "target": "0x1403b91a0"
+        },
+        {
+          "slot": "0x90",
+          "cell": "0x141090090",
+          "file_offset": 17364112,
+          "bytes": "a0a23a4001000000",
+          "target": "0x1403aa2a0"
+        },
+        {
+          "slot": "0x98",
+          "cell": "0x141090098",
+          "file_offset": 17364120,
+          "bytes": "70be394001000000",
+          "target": "0x14039be70"
+        },
+        {
+          "slot": "0xa0",
+          "cell": "0x1410900a0",
+          "file_offset": 17364128,
+          "bytes": "d080c34001000000",
+          "target": "0x140c380d0"
+        },
+        {
+          "slot": "0xa8",
+          "cell": "0x1410900a8",
+          "file_offset": 17364136,
+          "bytes": "60c3394001000000",
+          "target": "0x14039c360"
+        }
+      ]
+    }
+  ]
+}

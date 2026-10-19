@@ -1,0 +1,171 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "xrefs",
+  "query": "1416e2638,1416e2644,1416e261c,14109f1c0,14109f1e0,1403bd500",
+  "result": [
+    {
+      "address": "1416e2638",
+      "references": {
+        "items": [
+          {
+            "from": "1403a078d",
+            "to": "1416e2638",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "1403a05e0",
+            "function_name": "FUN_1403a05e0"
+          },
+          {
+            "from": "14048459a",
+            "to": "1416e2638",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1416e2644",
+      "references": {
+        "items": [
+          {
+            "from": "1403a37d9",
+            "to": "1416e2644",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "1403a3680",
+            "function_name": "FUN_1403a3680"
+          },
+          {
+            "from": "1403a2bf0",
+            "to": "1416e2644",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "1403a2a80",
+            "function_name": "FUN_1403a2a80"
+          },
+          {
+            "from": "1403a3b0a",
+            "to": "1416e2644",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "1403a3ac0",
+            "function_name": "FUN_1403a3ac0"
+          },
+          {
+            "from": "1404809d3",
+            "to": "1416e2644",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1416e261c",
+      "references": {
+        "items": [
+          {
+            "from": "1403a2e46",
+            "to": "1416e261c",
+            "type": "READ",
+            "operand": 1,
+            "function_entry": "1403a2a80",
+            "function_name": "FUN_1403a2a80"
+          },
+          {
+            "from": "140482643",
+            "to": "1416e261c",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "14109f1c0",
+      "references": {
+        "items": [
+          {
+            "from": "1404808c9",
+            "to": "14109f1c0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "14109f1e0",
+      "references": {
+        "items": [
+          {
+            "from": "140480924",
+            "to": "14109f1e0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1403bd500",
+      "references": {
+        "items": [
+          {
+            "from": "1418f4798",
+            "to": "1403bd500",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "14125d310",
+            "to": "1403bd500",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "14125d320",
+            "to": "1403bd500",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "1403b9d5e",
+            "to": "1403bd500",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "1403b9b30",
+            "function_name": "FUN_1403b9b30"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

@@ -1,0 +1,916 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "xrefs",
+  "query": "14080e730,140ba7fc0,14109b7d8,14109b7e8,140bb3970",
+  "result": [
+    {
+      "address": "14080e730",
+      "references": {
+        "items": [
+          {
+            "from": "14190dda0",
+            "to": "14080e730",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "14132f218",
+            "to": "14080e730",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "1403843af",
+            "to": "14080e730",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140384120",
+            "function_name": "FUN_140384120"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "140ba7fc0",
+      "references": {
+        "items": [
+          {
+            "from": "141924af8",
+            "to": "140ba7fc0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "140b96c49",
+            "to": "140ba7fc0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140b96b20",
+            "function_name": "FUN_140b96b20"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "14109b7d8",
+      "references": {
+        "items": [
+          {
+            "from": "14047503e",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14048088e",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404808e9",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480944",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14048099f",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404809fa",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480a55",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480ab0",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480b0b",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480b66",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480bc1",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480c1c",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480c77",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480cd2",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480d2d",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480d88",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480de3",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480e3e",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480e99",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480ef4",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480f4f",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140480faa",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481005",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481060",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404810bb",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481116",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481171",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404811cc",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481227",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481282",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404812dd",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481338",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481393",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404813ee",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481449",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404814a4",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404814ff",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14048155a",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404815b5",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481610",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14048166b",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404816c6",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481721",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14048177c",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404817d7",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481832",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14048188d",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404818e8",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481943",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14048199e",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404819f9",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481a54",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481aaf",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481b0a",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481b65",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481bc0",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481c1b",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481c76",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481cd1",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481d2c",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481d87",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481de2",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481e3d",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481e98",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481ef3",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481f4e",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140481fa9",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140482004",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14048205f",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404820ba",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140482115",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140482170",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404821cb",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140482226",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140482281",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404822dc",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140482337",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140482392",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404823ed",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140482448",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404824a3",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404824fe",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140482559",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404825b4",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14048260f",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14048266a",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404826c5",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140482720",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14048277b",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404827d6",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140482831",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14048288c",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404828e7",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140482942",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "14048299d",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "1404829f8",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140482a53",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140482aae",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140482b09",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          },
+          {
+            "from": "140482b64",
+            "to": "14109b7d8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          }
+        ],
+        "truncated": true,
+        "limit": 100
+      }
+    },
+    {
+      "address": "14109b7e8",
+      "references": {
+        "items": [
+          {
+            "from": "140474d88",
+            "to": "14109b7e8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140474d40",
+            "function_name": "FUN_140474d40"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "140bb3970",
+      "references": {
+        "items": [
+          {
+            "from": "141925164",
+            "to": "140bb3970",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "1413dacc8",
+            "to": "140bb3970",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "141143bc0",
+            "to": "140bb3970",
+            "type": "DATA",
+            "operand": 0
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

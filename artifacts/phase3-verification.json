@@ -1,0 +1,206 @@
+{
+  "generated_utc": "2026-10-18T02:32:02.825608+00:00",
+  "target_sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "target_unchanged": true,
+  "query_count": 13,
+  "function_requests": 57,
+  "unique_function_addresses_requested": 56,
+  "unique_successful_decompilations": 55,
+  "requests_without_successful_decompilation": [
+    "1403b7350"
+  ],
+  "retained_analysis_limitations": [
+    {
+      "artifact": "p3-battle-lifecycle.json",
+      "address": "1403b7350",
+      "reason": "No analyzed function contains this address"
+    },
+    {
+      "artifact": "p3-side-conclusion.json",
+      "address": "1403ad020",
+      "reason": "Exception while decompiling 1403ad020: process: timeout\n"
+    }
+  ],
+  "incoming_reference_caps": [
+    "14025d050",
+    "1404748c0"
+  ],
+  "decompiler_warnings": [
+    {
+      "artifact": "p3-conclusion-extended.json",
+      "address": "1403ad020",
+      "warnings": [
+        "/* WARNING: Function: _alloca_probe replaced with injection: alloca_probe */",
+        "/* WARNING: Type propagation algorithm not settling */"
+      ]
+    },
+    {
+      "artifact": "p3-damage-registry.json",
+      "address": "1403a8bb0",
+      "warnings": [
+        "/* WARNING: Function: _alloca_probe replaced with injection: alloca_probe */"
+      ]
+    },
+    {
+      "artifact": "p3-damage-registry.json",
+      "address": "1403a05e0",
+      "warnings": [
+        "/* WARNING: Type propagation algorithm not settling */"
+      ]
+    },
+    {
+      "artifact": "p3-damage-writers-manager.json",
+      "address": "14039cf80",
+      "warnings": [
+        "/* WARNING: Function: _alloca_probe replaced with injection: alloca_probe */"
+      ]
+    },
+    {
+      "artifact": "p3-damage-writers-manager.json",
+      "address": "14039d7d0",
+      "warnings": [
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */"
+      ]
+    },
+    {
+      "artifact": "p3-damage-writers-manager.json",
+      "address": "140a2dd60",
+      "warnings": [
+        "/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */"
+      ]
+    },
+    {
+      "artifact": "p3-damage-writers-manager.json",
+      "address": "140786dc0",
+      "warnings": [
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */"
+      ]
+    },
+    {
+      "artifact": "p3-game-update-caller.json",
+      "address": "140784760",
+      "warnings": [
+        "/* WARNING: Function: _alloca_probe replaced with injection: alloca_probe */"
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "file": "p3-battle-lifecycle.json",
+      "sha256": "92f9482951cbac4199c2b597fa99d3c06fab3f692af27e114b1deb828a3cf935",
+      "bytes": 401903,
+      "mode": "function"
+    },
+    {
+      "file": "p3-conclusion-extended.json",
+      "sha256": "8346e5ad13c798d6d7f52ab79cd91b4317328b9900391ccc9565a2f7a1ce3add",
+      "bytes": 1012074,
+      "mode": "function"
+    },
+    {
+      "file": "p3-config-and-stub-listing.json",
+      "sha256": "9e2130dbe650d1eee3619c87ddf1a2a0866a4bcaf79d8efae781c3fc26d9de2d",
+      "bytes": 22306,
+      "mode": "listing"
+    },
+    {
+      "file": "p3-config-scheduler-xrefs.json",
+      "sha256": "e05c5b6ed6c004ec2c0c1401f59c27ff58eea6bcb85211e6366591c67df45a6c",
+      "bytes": 4393,
+      "mode": "xrefs"
+    },
+    {
+      "file": "p3-construction-relations.json",
+      "sha256": "e8a01a81e48383c8ffbfda1afbbda5c4474e1a0867590470f8cba58705c83555",
+      "bytes": 248943,
+      "mode": "function"
+    },
+    {
+      "file": "p3-damage-registry.json",
+      "sha256": "168c377babb752d0405d426b9b42376b470a206ed1551755a5d00b9f04354deb",
+      "bytes": 286224,
+      "mode": "function"
+    },
+    {
+      "file": "p3-damage-writers-manager.json",
+      "sha256": "0e138f40e9289d1a734e5a2ee4162aa472691f65b755f79b5d7d7a9eb35a6df5",
+      "bytes": 612455,
+      "mode": "function"
+    },
+    {
+      "file": "p3-final-contracts.json",
+      "sha256": "993628450baa50dda8a54927fc22820bd024fad1c0f0641e303c7953f0119d57",
+      "bytes": 103263,
+      "mode": "function"
+    },
+    {
+      "file": "p3-formulas-removal.json",
+      "sha256": "93a2762b215210c3e9fcdb2c13942d4a081e213bf12463fa6d20ab48936c80cf",
+      "bytes": 198015,
+      "mode": "function"
+    },
+    {
+      "file": "p3-game-update-caller.json",
+      "sha256": "b63dd642ab42bd14b2fd9f2010fd56538cb94042f0d2aad73cd918903ddd0eb6",
+      "bytes": 234799,
+      "mode": "function"
+    },
+    {
+      "file": "p3-initiation.json",
+      "sha256": "e9a8008f85fa9d0672c6fc41bd280a9c870c463b531c06ba6b1956c0dd9ddd0d",
+      "bytes": 363412,
+      "mode": "function"
+    },
+    {
+      "file": "p3-scheduler-category-math.json",
+      "sha256": "4bb2179678ed2637eca9d78fe39f28a0da8aeccad90367230311d0dc8d4163b7",
+      "bytes": 85820,
+      "mode": "function"
+    },
+    {
+      "file": "p3-side-conclusion.json",
+      "sha256": "c17e1bfa3c283109635affcdea5ee458f7244e8e4294358d466f01fc50d65970",
+      "bytes": 1066940,
+      "mode": "function"
+    }
+  ],
+  "support_artifacts": [
+    {
+      "file": "phase3-category-index-tables.json",
+      "sha256": "c6eb5a0d4c65aaff04ae255d1ccb7111ecaf8ab600be4099d0f036b4174f39ed"
+    },
+    {
+      "file": "phase3-combat-vtables.json",
+      "sha256": "12a0b6ea37b7429d90a1e9c55f97fb5c1ea405dd28df7fdfbb51d420083962da"
+    },
+    {
+      "file": "phase3-side-vtable.json",
+      "sha256": "419e10e9ad92c1a0228f682fc657fa9c6e6c765dbdac117a6847d736d0172d99"
+    },
+    {
+      "file": "phase3-subunit-vtable.json",
+      "sha256": "70192c22c7e31439e8735596d35b1f2ea5b79a534db61740b8d3db5f4a185a50"
+    }
+  ],
+  "markdown_files_checked": 14,
+  "local_links_checked": 185,
+  "project_locks": [],
+  "integrity_failures": [],
+  "scope": "Static artifact identity/completeness checks; not runtime or semantic validation"
+}

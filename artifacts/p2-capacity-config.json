@@ -1,0 +1,242 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "listing",
+  "query": "140480a70:25",
+  "result": [
+    {
+      "requested_address": "140480a70",
+      "limit": 25,
+      "instructions": [
+        {
+          "address": "140480a74",
+          "text": "MOV RCX,RAX",
+          "references": []
+        },
+        {
+          "address": "140480a77",
+          "text": "CALL 0x14048c870",
+          "references": [
+            {
+              "to": "14048c870",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140480a7c",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140480a7d",
+          "text": "LEA RCX,[RBP + 0x6768]",
+          "references": [
+            {
+              "to": "Stack[-0x39a0]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140480a84",
+          "text": "CALL 0x14048c800",
+          "references": [
+            {
+              "to": "14048c800",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140480a89",
+          "text": "LEA R8,[0x1416e26ac]",
+          "references": [
+            {
+              "to": "1416e26ac",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140480a90",
+          "text": "LEA RDX,[0x14109f150]",
+          "references": [
+            {
+              "to": "14109f150",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140480a97",
+          "text": "LEA RCX,[RBP + 0x1aa0]",
+          "references": [
+            {
+              "to": "Stack[-0x8668]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140480a9e",
+          "text": "CALL 0x140474ab0",
+          "references": [
+            {
+              "to": "140474ab0",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140480aa3",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140480aa4",
+          "text": "LEA RCX,[RBP + 0x1aa0]",
+          "references": [
+            {
+              "to": "Stack[-0x8668]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140480aab",
+          "text": "CALL 0x140474840",
+          "references": [
+            {
+              "to": "140474840",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140480ab0",
+          "text": "LEA R8,[0x14109b7d8]",
+          "references": [
+            {
+              "to": "14109b7d8",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140480ab7",
+          "text": "LEA RDX,[RBP + 0x6780]",
+          "references": [
+            {
+              "to": "Stack[-0x3988]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140480abe",
+          "text": "LEA RCX,[RSP + 0x20]",
+          "references": [
+            {
+              "to": "Stack[-0xa1e8]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140480ac3",
+          "text": "CALL 0x14048c960",
+          "references": [
+            {
+              "to": "14048c960",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140480ac8",
+          "text": "LEA RDX,[RBP + 0x1ab0]",
+          "references": [
+            {
+              "to": "Stack[-0x8658]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140480acf",
+          "text": "MOV RCX,RAX",
+          "references": []
+        },
+        {
+          "address": "140480ad2",
+          "text": "CALL 0x14048c870",
+          "references": [
+            {
+              "to": "14048c870",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140480ad7",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140480ad8",
+          "text": "LEA RCX,[RBP + 0x6780]",
+          "references": [
+            {
+              "to": "Stack[-0x3988]",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140480adf",
+          "text": "CALL 0x14048c800",
+          "references": [
+            {
+              "to": "14048c800",
+              "type": "UNCONDITIONAL_CALL"
+            }
+          ]
+        },
+        {
+          "address": "140480ae4",
+          "text": "LEA R8,[0x1416e2a1c]",
+          "references": [
+            {
+              "to": "1416e2a1c",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140480aeb",
+          "text": "LEA RDX,[0x14109f170]",
+          "references": [
+            {
+              "to": "14109f170",
+              "type": "DATA"
+            }
+          ]
+        },
+        {
+          "address": "140480af2",
+          "text": "LEA RCX,[RBP + 0x1ab0]",
+          "references": [
+            {
+              "to": "Stack[-0x8658]",
+              "type": "DATA"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

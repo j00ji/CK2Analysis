@@ -1,0 +1,214 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "function",
+  "query": "14080e8a0",
+  "result": [
+    {
+      "entry": "14080e8a0",
+      "name": "FUN_14080e8a0",
+      "signature": "undefined FUN_14080e8a0(void)",
+      "body": "[[14080e8a0, 14080e902]]",
+      "decompile_completed": true,
+      "decompile_error": "",
+      "pseudocode": "\r\nvoid FUN_14080e8a0(longlong param_1)\r\n\r\n{\r\n  int iVar1;\r\n  undefined1 uVar2;\r\n  longlong lVar3;\r\n  \r\n  FUN_1403829c0(*(undefined8 *)(param_1 + 0x28));\r\n  iVar1 \u003d *(int *)(*(longlong *)(param_1 + 0x28) + 0x18);\r\n  lVar3 \u003d FUN_1400aea20();\r\n  uVar2 \u003d FUN_140da1950(*(undefined8 *)(DAT_1416e3b28 + 0x1c0));\r\n  *(undefined1 *)(lVar3 + 0x65) \u003d uVar2;\r\n  *(bool *)(lVar3 + 99) \u003d iVar1 \u003d\u003d 0x34cae411;\r\n  **(undefined1 **)(param_1 + 0x30) \u003d 1;\r\n  return;\r\n}\r\n\r\n",
+      "incoming_references": {
+        "items": [
+          {
+            "from": "14190ddb8",
+            "to": "14080e8a0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "1410defc8",
+            "to": "14080e8a0",
+            "type": "DATA",
+            "operand": 0
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      },
+      "instructions": [
+        {
+          "address": "14080e8a0",
+          "text": "MOV qword ptr [RSP + 0x8],RBX",
+          "references": [
+            {
+              "to": "Stack[0x8]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "14080e8a5",
+          "text": "MOV qword ptr [RSP + 0x10],RSI",
+          "references": [
+            {
+              "to": "Stack[0x10]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "14080e8aa",
+          "text": "PUSH RDI",
+          "references": []
+        },
+        {
+          "address": "14080e8ab",
+          "text": "SUB RSP,0x20",
+          "references": []
+        },
+        {
+          "address": "14080e8af",
+          "text": "MOV RSI,RCX",
+          "references": []
+        },
+        {
+          "address": "14080e8b2",
+          "text": "MOV RCX,qword ptr [RCX + 0x28]",
+          "references": []
+        },
+        {
+          "address": "14080e8b6",
+          "text": "CALL 0x1403829c0",
+          "references": [
+            {
+              "to": "1403829c0",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "14080e8bb",
+          "text": "MOV RAX,qword ptr [RSI + 0x28]",
+          "references": []
+        },
+        {
+          "address": "14080e8bf",
+          "text": "MOV EBX,dword ptr [RAX + 0x18]",
+          "references": []
+        },
+        {
+          "address": "14080e8c2",
+          "text": "CALL 0x1400aea20",
+          "references": [
+            {
+              "to": "1400aea20",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "14080e8c7",
+          "text": "MOV RDX,qword ptr [0x1416e3b28]",
+          "references": [
+            {
+              "to": "1416e3b28",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "14080e8ce",
+          "text": "MOV RDI,RAX",
+          "references": []
+        },
+        {
+          "address": "14080e8d1",
+          "text": "MOV RCX,qword ptr [RDX + 0x1c0]",
+          "references": []
+        },
+        {
+          "address": "14080e8d8",
+          "text": "CALL 0x140da1950",
+          "references": [
+            {
+              "to": "140da1950",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "14080e8dd",
+          "text": "CMP EBX,0x34cae411",
+          "references": []
+        },
+        {
+          "address": "14080e8e3",
+          "text": "MOV byte ptr [RDI + 0x65],AL",
+          "references": []
+        },
+        {
+          "address": "14080e8e6",
+          "text": "MOV RBX,qword ptr [RSP + 0x30]",
+          "references": [
+            {
+              "to": "Stack[0x8]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "14080e8eb",
+          "text": "SETZ CL",
+          "references": []
+        },
+        {
+          "address": "14080e8ee",
+          "text": "MOV byte ptr [RDI + 0x63],CL",
+          "references": []
+        },
+        {
+          "address": "14080e8f1",
+          "text": "MOV RAX,qword ptr [RSI + 0x30]",
+          "references": []
+        },
+        {
+          "address": "14080e8f5",
+          "text": "MOV RSI,qword ptr [RSP + 0x38]",
+          "references": [
+            {
+              "to": "Stack[0x10]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "14080e8fa",
+          "text": "MOV byte ptr [RAX],0x1",
+          "references": []
+        },
+        {
+          "address": "14080e8fd",
+          "text": "ADD RSP,0x20",
+          "references": []
+        },
+        {
+          "address": "14080e901",
+          "text": "POP RDI",
+          "references": []
+        },
+        {
+          "address": "14080e902",
+          "text": "RET",
+          "references": []
+        }
+      ],
+      "instructions_truncated": false
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

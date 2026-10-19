@@ -1,0 +1,134 @@
+{
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "method": "Static read of 0x90 bytes at constructor-installed table; no execution",
+  "table_va": "0x141144510",
+  "entries": [
+    {
+      "slot_offset": "0x0",
+      "cell_va": "0x141144510",
+      "file_offset": 18102544,
+      "raw_hex": "6087ba4001000000",
+      "target_va": "0x140ba8760"
+    },
+    {
+      "slot_offset": "0x8",
+      "cell_va": "0x141144518",
+      "file_offset": 18102552,
+      "raw_hex": "d080c34001000000",
+      "target_va": "0x140c380d0"
+    },
+    {
+      "slot_offset": "0x10",
+      "cell_va": "0x141144520",
+      "file_offset": 18102560,
+      "raw_hex": "e08cba4001000000",
+      "target_va": "0x140ba8ce0"
+    },
+    {
+      "slot_offset": "0x18",
+      "cell_va": "0x141144528",
+      "file_offset": 18102568,
+      "raw_hex": "1081c34001000000",
+      "target_va": "0x140c38110"
+    },
+    {
+      "slot_offset": "0x20",
+      "cell_va": "0x141144530",
+      "file_offset": 18102576,
+      "raw_hex": "b08eba4001000000",
+      "target_va": "0x140ba8eb0"
+    },
+    {
+      "slot_offset": "0x28",
+      "cell_va": "0x141144538",
+      "file_offset": 18102584,
+      "raw_hex": "d0fb0a4001000000",
+      "target_va": "0x1400afbd0"
+    },
+    {
+      "slot_offset": "0x30",
+      "cell_va": "0x141144540",
+      "file_offset": 18102592,
+      "raw_hex": "8089ba4001000000",
+      "target_va": "0x140ba8980"
+    },
+    {
+      "slot_offset": "0x38",
+      "cell_va": "0x141144548",
+      "file_offset": 18102600,
+      "raw_hex": "d08cba4001000000",
+      "target_va": "0x140ba8cd0"
+    },
+    {
+      "slot_offset": "0x40",
+      "cell_va": "0x141144550",
+      "file_offset": 18102608,
+      "raw_hex": "f0e94d4001000000",
+      "target_va": "0x1404de9f0"
+    },
+    {
+      "slot_offset": "0x48",
+      "cell_va": "0x141144558",
+      "file_offset": 18102616,
+      "raw_hex": "f022c44001000000",
+      "target_va": "0x140c422f0"
+    },
+    {
+      "slot_offset": "0x50",
+      "cell_va": "0x141144560",
+      "file_offset": 18102624,
+      "raw_hex": "0023c44001000000",
+      "target_va": "0x140c42300"
+    },
+    {
+      "slot_offset": "0x58",
+      "cell_va": "0x141144568",
+      "file_offset": 18102632,
+      "raw_hex": "1023c44001000000",
+      "target_va": "0x140c42310"
+    },
+    {
+      "slot_offset": "0x60",
+      "cell_va": "0x141144570",
+      "file_offset": 18102640,
+      "raw_hex": "40e50a4001000000",
+      "target_va": "0x1400ae540"
+    },
+    {
+      "slot_offset": "0x68",
+      "cell_va": "0x141144578",
+      "file_offset": 18102648,
+      "raw_hex": "1090ba4001000000",
+      "target_va": "0x140ba9010"
+    },
+    {
+      "slot_offset": "0x70",
+      "cell_va": "0x141144580",
+      "file_offset": 18102656,
+      "raw_hex": "a091ba4001000000",
+      "target_va": "0x140ba91a0"
+    },
+    {
+      "slot_offset": "0x78",
+      "cell_va": "0x141144588",
+      "file_offset": 18102664,
+      "raw_hex": "40e50a4001000000",
+      "target_va": "0x1400ae540"
+    },
+    {
+      "slot_offset": "0x80",
+      "cell_va": "0x141144590",
+      "file_offset": 18102672,
+      "raw_hex": "40e50a4001000000",
+      "target_va": "0x1400ae540"
+    },
+    {
+      "slot_offset": "0x88",
+      "cell_va": "0x141144598",
+      "file_offset": 18102680,
+      "raw_hex": "e0230b4001000000",
+      "target_va": "0x1400b23e0"
+    }
+  ],
+  "qualification": "Bounded pointer window; complete table extent is not established"
+}

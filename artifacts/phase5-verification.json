@@ -1,0 +1,154 @@
+{
+  "generated_utc": "2026-10-18T03:01:58.718973+00:00",
+  "target_sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "target_unchanged": true,
+  "query_count": 10,
+  "function_requests": 28,
+  "unique_function_addresses_requested": 28,
+  "unique_successful_decompilations": 27,
+  "requests_without_successful_decompilation": [
+    "140a2bbe0"
+  ],
+  "retained_analysis_limitations": [
+    {
+      "artifact": "p5-load-assignment-registry.json",
+      "address": "140a2bbe0",
+      "reason": "No analyzed function contains this address"
+    }
+  ],
+  "incoming_reference_caps": [
+    "140c38110",
+    "14109b7d8"
+  ],
+  "decompiler_warnings": [
+    {
+      "artifact": "p5-combat-hash-consumer.json",
+      "address": "14078d170",
+      "warnings": [
+        "/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */"
+      ]
+    },
+    {
+      "artifact": "p5-identity-unit-serialization.json",
+      "address": "140b9bc70",
+      "warnings": [
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */"
+      ]
+    },
+    {
+      "artifact": "p5-load-wrapper-file-hash-split.json",
+      "address": "140c38110",
+      "warnings": [
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */"
+      ]
+    },
+    {
+      "artifact": "p5-load-wrapper-file-hash-split.json",
+      "address": "140bb2050",
+      "warnings": [
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */"
+      ]
+    },
+    {
+      "artifact": "p5-task-and-assignment-codec.json",
+      "address": "1409ee110",
+      "warnings": [
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Subroutine does not return */",
+        "/* WARNING: Could not recover jumptable at 0x0001409ee3c4. Too many branches */",
+        "/* WARNING: Treating indirect jump as call */"
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "file": "p5-combat-hash-consumer.json",
+      "sha256": "ae97c3d6166f8594f2f56283b58a0904374b9d73cd0377dca0c0659985b2304c",
+      "bytes": 164080,
+      "mode": "function"
+    },
+    {
+      "file": "p5-component-postload-config-scope.json",
+      "sha256": "661eeba041162f05560bd020e211efa2ad0345801f7d731840e6bb72e0ad5b1a",
+      "bytes": 18086,
+      "mode": "listing"
+    },
+    {
+      "file": "p5-config-scope-hash-dispatch.json",
+      "sha256": "a4fab6efbe8ed1578bf228778161a1b2021b0a7bf96225de1ba4be8855d89db3",
+      "bytes": 27570,
+      "mode": "listing"
+    },
+    {
+      "file": "p5-hash-and-component-transfer.json",
+      "sha256": "3f8aa3ecd01dca5299ac4b1f78fd2e16119da47cfb2e8936b08af2d3ae8aaa98",
+      "bytes": 185486,
+      "mode": "function"
+    },
+    {
+      "file": "p5-hash-removal-leads.json",
+      "sha256": "d83b4c8fccc4a83fd33c5146c9d305186b3878c5cc27efaf41a071c384143b01",
+      "bytes": 8288,
+      "mode": "xrefs"
+    },
+    {
+      "file": "p5-identity-unit-serialization.json",
+      "sha256": "ae974719d615c32b23e80e071fcaa931a98c9b9924923dd75e3ef4bda6db08fb",
+      "bytes": 293495,
+      "mode": "function"
+    },
+    {
+      "file": "p5-load-assignment-registry.json",
+      "sha256": "96d79ea5be6ae1677dfa862fbcbf8e11a87fbad25038687d2bf98c12757d2406",
+      "bytes": 180686,
+      "mode": "function"
+    },
+    {
+      "file": "p5-load-wrapper-file-hash-split.json",
+      "sha256": "88c2731314d87a961db4c13deea1b5294c83784d191f6d04f1f71fe9629c627f",
+      "bytes": 425486,
+      "mode": "function"
+    },
+    {
+      "file": "p5-task-and-assignment-codec.json",
+      "sha256": "9f940b4d594fba864bd65418e4ee6801ad14251567c719a20202878e9f4c53ce",
+      "bytes": 76175,
+      "mode": "function"
+    },
+    {
+      "file": "p5-task-capacity-config-callers.json",
+      "sha256": "fa98d117a20762def594673629df426040e9f98206b5142de168b6b58870787c",
+      "bytes": 25923,
+      "mode": "xrefs"
+    }
+  ],
+  "support_artifacts": [
+    {
+      "file": "phase5-checksum-task-table.json",
+      "sha256": "84d6beb56371d34f42f31aa3c9db6e48fdef3183becb4f5156d08321ff37254d"
+    },
+    {
+      "file": "phase5-static-followup.json",
+      "sha256": "85095db923984d14f13fb500f7a368e8b6f2fd2c75ebf5f18277bdd8aacaac58"
+    },
+    {
+      "file": "phase5-unit-component-tables.json",
+      "sha256": "e6efde82eb98e84e494f0f9598392ec7ea9b7af7b147db1ed705d853ce9cb927"
+    }
+  ],
+  "markdown_files_checked": 18,
+  "local_links_checked": 279,
+  "project_locks": [],
+  "integrity_failures": [],
+  "scope": "Static artifact identity/completeness checks; not runtime or semantic validation"
+}

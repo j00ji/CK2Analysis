@@ -1,0 +1,1167 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "search",
+  "query": "fleet|embark|naval|transport",
+  "result": {
+    "matches": [
+      {
+        "address": "14100f848",
+        "value": "ERROR_UNABLE_TO_INVENTORY_TRANSPORT",
+        "references": {
+          "items": [],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "14100f870",
+        "value": "ERROR_TRANSPORT_FULL",
+        "references": {
+          "items": [
+            {
+              "from": "14000bd82",
+              "to": "14100f870",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140002f50",
+              "function_name": "FUN_140002f50"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141019590",
+        "value": "ERROR_IPSEC_TRANSPORT_FILTER_EXISTS",
+        "references": {
+          "items": [
+            {
+              "from": "14000668a",
+              "to": "141019590",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140002f50",
+              "function_name": "FUN_140002f50"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410195b8",
+        "value": "ERROR_IPSEC_TRANSPORT_FILTER_NOT_FOUND",
+        "references": {
+          "items": [
+            {
+              "from": "14000de0e",
+              "to": "1410195b8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140002f50",
+              "function_name": "FUN_140002f50"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141019730",
+        "value": "ERROR_IPSEC_TRANSPORT_FILTER_PENDING_DELETION",
+        "references": {
+          "items": [
+            {
+              "from": "14000de81",
+              "to": "141019730",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140002f50",
+              "function_name": "FUN_140002f50"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "14101c418",
+        "value": "VFW_E_NO_TRANSPORT",
+        "references": {
+          "items": [],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "14101cc60",
+        "value": "WBEM_E_TRANSPORT_FAILURE",
+        "references": {
+          "items": [],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "14101d838",
+        "value": "WBEM_E_FATAL_TRANSPORT_ERROR",
+        "references": {
+          "items": [],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141022d18",
+        "value": "Current pin connection is not using the IOverlay transport.",
+        "references": {
+          "items": [
+            {
+              "from": "14000125c",
+              "to": "141022d18",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140001000",
+              "function_name": "FUN_140001000"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141022d60",
+        "value": "Current pin connection is not using the IMemInputPin transport.",
+        "references": {
+          "items": [
+            {
+              "from": "140001264",
+              "to": "141022d60",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140001000",
+              "function_name": "FUN_140001000"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141023ce8",
+        "value": "Pins cannot connect due to not supporting the same transport.",
+        "references": {
+          "items": [
+            {
+              "from": "140001439",
+              "to": "141023ce8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140001000",
+              "function_name": "FUN_140001000"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141054b10",
+        "value": "Transport:",
+        "references": {
+          "items": [
+            {
+              "from": "140e90fad",
+              "to": "141054b10",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140e90db0",
+              "function_name": "FUN_140e90db0"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141054b20",
+        "value": "Transport: %s\r\n",
+        "references": {
+          "items": [
+            {
+              "from": "140e91002",
+              "to": "141054b20",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140e90db0",
+              "function_name": "FUN_140e90db0"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141054b30",
+        "value": "Refusing to issue an RTSP SETUP without a Transport: header.",
+        "references": {
+          "items": [
+            {
+              "from": "140e9102d",
+              "to": "141054b30",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140e90db0",
+              "function_name": "FUN_140e90db0"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "14108dbc8",
+        "value": "/cursors/embark.cur",
+        "references": {
+          "items": [
+            {
+              "from": "140384bab",
+              "to": "14108dbc8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "1403843f0",
+              "function_name": "FUN_1403843f0"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410904a0",
+        "value": "naval_battle_background",
+        "references": {
+          "items": [
+            {
+              "from": "14002a0e1",
+              "to": "1410904a0",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14002a0c0",
+              "function_name": "FUN_14002a0c0"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141090528",
+        "value": "naval_battle_splash_",
+        "references": {
+          "items": [
+            {
+              "from": "1403c1fed",
+              "to": "141090528",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "1403c1880",
+              "function_name": "FUN_1403c1880"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "14109f8c0",
+        "value": "NAVAL_ATTRITION",
+        "references": {
+          "items": [
+            {
+              "from": "140482483",
+              "to": "14109f8c0",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140474d40",
+              "function_name": "FUN_140474d40"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410a01b8",
+        "value": "LIEGE_FLEET_SIZE_MULTIPLIER",
+        "references": {
+          "items": [
+            {
+              "from": "1404836a4",
+              "to": "1410a01b8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140474d40",
+              "function_name": "FUN_140474d40"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410a1400",
+        "value": "NAVAL_INVASION_RANGE",
+        "references": {
+          "items": [
+            {
+              "from": "140486dd3",
+              "to": "1410a1400",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140474d40",
+              "function_name": "FUN_140474d40"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410a84b8",
+        "value": "FLEET_LEVIES",
+        "references": {
+          "items": [
+            {
+              "from": "140503613",
+              "to": "1410a84b8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "1405023b0",
+              "function_name": "FUN_1405023b0"
+            },
+            {
+              "from": "140504558",
+              "to": "1410a84b8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "1405023b0",
+              "function_name": "FUN_1405023b0"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410bfd38",
+        "value": "DISBAND_FLEET",
+        "references": {
+          "items": [
+            {
+              "from": "1405b6df8",
+              "to": "1410bfd38",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "1405b6d80",
+              "function_name": "FUN_1405b6d80"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410cae38",
+        "value": "unitpanel_navy_embarked",
+        "references": {
+          "items": [
+            {
+              "from": "140648b43",
+              "to": "1410cae38",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140647bb0",
+              "function_name": "FUN_140647bb0"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410cec40",
+        "value": "eu4_converter/fleet_names/",
+        "references": {
+          "items": [
+            {
+              "from": "1406a5078",
+              "to": "1410cec40",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "1406a4160",
+              "function_name": "FUN_1406a4160"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410dfbb8",
+        "value": "navaldist_cache.bin",
+        "references": {
+          "items": [
+            {
+              "from": "14081809c",
+              "to": "1410dfbb8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140817c00",
+              "function_name": "FUN_140817c00"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410dfc48",
+        "value": "navaldist_cache_chksum.bin",
+        "references": {
+          "items": [
+            {
+              "from": "1408180f2",
+              "to": "1410dfc48",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140817c00",
+              "function_name": "FUN_140817c00"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410dfd80",
+        "value": "NavalDists",
+        "references": {
+          "items": [
+            {
+              "from": "14081ec7c",
+              "to": "1410dfd80",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14081eb60",
+              "function_name": "FUN_14081eb60"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410e2dd8",
+        "value": "RAISE_LIEGEFLEET",
+        "references": {
+          "items": [
+            {
+              "from": "140bb0a9f",
+              "to": "1410e2dd8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bafcb0",
+              "function_name": "FUN_140bafcb0"
+            },
+            {
+              "from": "140bb0099",
+              "to": "1410e2dd8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bafcb0",
+              "function_name": "FUN_140bafcb0"
+            },
+            {
+              "from": "1408533cc",
+              "to": "1410e2dd8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140852680",
+              "function_name": "FUN_140852680"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410e3334",
+        "value": "FLEET",
+        "references": {
+          "items": [
+            {
+              "from": "140b9bbc7",
+              "to": "1410e3334",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140b9b660",
+              "function_name": "FUN_140b9b660"
+            },
+            {
+              "from": "14085b95d",
+              "to": "1410e3334",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14085abd0",
+              "function_name": "FUN_14085abd0"
+            },
+            {
+              "from": "14085c8dd",
+              "to": "1410e3334",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14085abd0",
+              "function_name": "FUN_14085abd0"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410e51e0",
+        "value": "naval_maintenance",
+        "references": {
+          "items": [
+            {
+              "from": "140082772",
+              "to": "1410e51e0",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            },
+            {
+              "from": "1408778ef",
+              "to": "1410e51e0",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140877040",
+              "function_name": "FUN_140877040"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410edd88",
+        "value": "Naval distance: ",
+        "references": {
+          "items": [
+            {
+              "from": "140917382",
+              "to": "1410edd88",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "1409167c0",
+              "function_name": "FUN_1409167c0"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410f29b8",
+        "value": "RAISE_PROVINCE_LIEGEFLEET",
+        "references": {
+          "items": [
+            {
+              "from": "140972336",
+              "to": "1410f29b8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14096e210",
+              "function_name": "FUN_14096e210"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1410fc3d0",
+        "value": "TECH_NAVAL",
+        "references": {
+          "items": [
+            {
+              "from": "140a39c1b",
+              "to": "1410fc3d0",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140a39250",
+              "function_name": "FUN_140a39250"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1411039a0",
+        "value": "naval_combat",
+        "references": {
+          "items": [
+            {
+              "from": "14008281a",
+              "to": "1411039a0",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141103a08",
+        "value": "naval_morale",
+        "references": {
+          "items": [
+            {
+              "from": "14008272a",
+              "to": "141103a08",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141103e28",
+        "value": "leader_naval_manuever",
+        "references": {
+          "items": [
+            {
+              "from": "140082ce2",
+              "to": "141103e28",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1411043c8",
+        "value": "transport_cost",
+        "references": {
+          "items": [
+            {
+              "from": "140083852",
+              "to": "1411043c8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1411043d8",
+        "value": "transport_fraction",
+        "references": {
+          "items": [
+            {
+              "from": "14008383a",
+              "to": "1411043d8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1411043f0",
+        "value": "transport",
+        "references": {
+          "items": [
+            {
+              "from": "140083822",
+              "to": "1411043f0",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141104758",
+        "value": "reduced_naval_attrition",
+        "references": {
+          "items": [
+            {
+              "from": "140083f8a",
+              "to": "141104758",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141104ce8",
+        "value": "naval_organisation",
+        "references": {
+          "items": [
+            {
+              "from": "14008452a",
+              "to": "141104ce8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1411056c0",
+        "value": "embark_army",
+        "references": {
+          "items": [
+            {
+              "from": "140085892",
+              "to": "1411056c0",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1411059d8",
+        "value": "remove_fleet",
+        "references": {
+          "items": [
+            {
+              "from": "140085a5a",
+              "to": "1411059d8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141109098",
+        "value": "spawn_fleet",
+        "references": {
+          "items": [
+            {
+              "from": "14008a0c2",
+              "to": "141109098",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "14110e128",
+        "value": "any_fleet",
+        "references": {
+          "items": [
+            {
+              "from": "1400902ba",
+              "to": "14110e128",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "14110e138",
+        "value": "random_fleet",
+        "references": {
+          "items": [
+            {
+              "from": "1400902a2",
+              "to": "14110e138",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1411130b8",
+        "value": "mass_embark",
+        "references": {
+          "items": [
+            {
+              "from": "140095d62",
+              "to": "1411130b8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1411144c0",
+        "value": "can_naval_path_to",
+        "references": {
+          "items": [
+            {
+              "from": "140097832",
+              "to": "1411144c0",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "1411144d8",
+        "value": "naval_distance",
+        "references": {
+          "items": [
+            {
+              "from": "14009784a",
+              "to": "1411144d8",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "14007d930",
+              "function_name": "FUN_14007d930"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141118a60",
+        "value": "EMBARK_UNITS",
+        "references": {
+          "items": [
+            {
+              "from": "140aa07bb",
+              "to": "141118a60",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140a9d8d0",
+              "function_name": "FUN_140a9d8d0"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141118a70",
+        "value": "EMBARK_UNITS_DRO",
+        "references": {
+          "items": [
+            {
+              "from": "140aa07e2",
+              "to": "141118a70",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140a9d8d0",
+              "function_name": "FUN_140a9d8d0"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "14113ce10",
+        "value": "NAVAL_PATH_DISTANCE_TRIGGER",
+        "references": {
+          "items": [
+            {
+              "from": "140b76b19",
+              "to": "14113ce10",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140b768f0",
+              "function_name": "FUN_140b768f0"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "14113ce30",
+        "value": "NOT_NAVAL_PATH_TRIGGER",
+        "references": {
+          "items": [
+            {
+              "from": "140b76bed",
+              "to": "14113ce30",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140b768f0",
+              "function_name": "FUN_140b768f0"
+            },
+            {
+              "from": "140b76bfe",
+              "to": "14113ce30",
+              "type": "PARAM",
+              "operand": 0,
+              "function_entry": "140b768f0",
+              "function_name": "FUN_140b768f0"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "14113ce48",
+        "value": "NAVAL_PATH_TRIGGER",
+        "references": {
+          "items": [
+            {
+              "from": "140b76bf4",
+              "to": "14113ce48",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140b768f0",
+              "function_name": "FUN_140b768f0"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141143338",
+        "value": "RAISE_PROVINCE_OWNFLEET",
+        "references": {
+          "items": [
+            {
+              "from": "140bb05f5",
+              "to": "141143338",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bafcb0",
+              "function_name": "FUN_140bafcb0"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141144818",
+        "value": "DISBAND_AFFECTS_EMBARKED",
+        "references": {
+          "items": [
+            {
+              "from": "140bbf2e9",
+              "to": "141144818",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bbe760",
+              "function_name": "FUN_140bbe760"
+            },
+            {
+              "from": "140bbdaca",
+              "to": "141144818",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bbd200",
+              "function_name": "FUN_140bbd200"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141145450",
+        "value": "button_embarked",
+        "references": {
+          "items": [
+            {
+              "from": "140bd5818",
+              "to": "141145450",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd55f0",
+              "function_name": "FUN_140bd55f0"
+            },
+            {
+              "from": "140bd53ec",
+              "to": "141145450",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd4dc0",
+              "function_name": "FUN_140bd4dc0"
+            },
+            {
+              "from": "140bd2bcc",
+              "to": "141145450",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd2990",
+              "function_name": "FUN_140bd2990"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141145460",
+        "value": "embarked_unit",
+        "references": {
+          "items": [
+            {
+              "from": "140bd5fdd",
+              "to": "141145460",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd5c40",
+              "function_name": "FUN_140bd5c40"
+            },
+            {
+              "from": "140bd6098",
+              "to": "141145460",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd5c40",
+              "function_name": "FUN_140bd5c40"
+            },
+            {
+              "from": "140bd61a2",
+              "to": "141145460",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd5c40",
+              "function_name": "FUN_140bd5c40"
+            },
+            {
+              "from": "140bd61f0",
+              "to": "141145460",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd5c40",
+              "function_name": "FUN_140bd5c40"
+            },
+            {
+              "from": "140bd583f",
+              "to": "141145460",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd55f0",
+              "function_name": "FUN_140bd55f0"
+            },
+            {
+              "from": "140bd541d",
+              "to": "141145460",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd4dc0",
+              "function_name": "FUN_140bd4dc0"
+            },
+            {
+              "from": "140bd558e",
+              "to": "141145460",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd4dc0",
+              "function_name": "FUN_140bd4dc0"
+            },
+            {
+              "from": "140bd329c",
+              "to": "141145460",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd3060",
+              "function_name": "FUN_140bd3060"
+            },
+            {
+              "from": "140bd2bf3",
+              "to": "141145460",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140bd2990",
+              "function_name": "FUN_140bd2990"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      }
+    ],
+    "scan_stopped_at_limit": false,
+    "limit": 250
+  },
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

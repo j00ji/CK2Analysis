@@ -1,0 +1,4484 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "function",
+  "query": "140a98220,140a981f0,140a98370,140a982b0,140d68080",
+  "result": [
+    {
+      "entry": "140a98220",
+      "name": "FUN_140a98220",
+      "signature": "undefined FUN_140a98220(void)",
+      "body": "[[140a98220, 140a98248]]",
+      "decompile_completed": true,
+      "decompile_error": "",
+      "pseudocode": "\r\nundefined4 * FUN_140a98220(undefined4 *param_1,undefined4 param_2,undefined8 param_3)\r\n\r\n{\r\n  *param_1 \u003d param_2;\r\n  FUN_140e3b2e0(param_1 + 1,param_3,0xd);\r\n  return param_1;\r\n}\r\n\r\n",
+      "incoming_references": {
+        "items": [
+          {
+            "from": "14191bea0",
+            "to": "140a98220",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "14007e59d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ea4d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007eaf5",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007eca5",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ed95",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ee3d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007efed",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f04d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f065",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f16d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f19d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f275",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f3f5",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f40d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f4cd",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f55d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f635",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f875",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007fe15",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007fe2d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ffdd",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400800e5",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080115",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080145",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008021d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400802ad",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008078d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080b35",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080ded",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080e4d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080f55",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080fb5",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008129d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400813d5",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081615",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081a05",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081b85",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081d1d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081fa5",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400822a5",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082515",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400825d5",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400825ed",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082605",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008261d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082695",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008273d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008282d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082845",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008285d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008291d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082ab5",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082b15",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082bbd",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082c95",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082cdd",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082d55",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082ed5",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082f95",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008309d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400832ad",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400834bd",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400839b5",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400839cd",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084015",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084165",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400843ed",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084435",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400845e5",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084615",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008468d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084a35",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084a7d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084c15",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084c75",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084f15",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084fd5",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085065",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400850ad",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400851cd",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008537d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085515",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085665",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400857cd",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085815",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008585d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400858d5",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085965",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008597d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400859c5",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085a6d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085c4d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085e45",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085e5d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085f1d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008600d",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140086055",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140086145",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400862ad",
+            "to": "140a98220",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          }
+        ],
+        "truncated": true,
+        "limit": 100
+      },
+      "instructions": [
+        {
+          "address": "140a98220",
+          "text": "PUSH RBX",
+          "references": []
+        },
+        {
+          "address": "140a98222",
+          "text": "SUB RSP,0x20",
+          "references": []
+        },
+        {
+          "address": "140a98226",
+          "text": "MOV RAX,R8",
+          "references": []
+        },
+        {
+          "address": "140a98229",
+          "text": "MOV dword ptr [RCX],EDX",
+          "references": []
+        },
+        {
+          "address": "140a9822b",
+          "text": "MOV RBX,RCX",
+          "references": []
+        },
+        {
+          "address": "140a9822e",
+          "text": "MOV RDX,RAX",
+          "references": []
+        },
+        {
+          "address": "140a98231",
+          "text": "ADD RCX,0x4",
+          "references": []
+        },
+        {
+          "address": "140a98235",
+          "text": "MOV R8D,0xd",
+          "references": []
+        },
+        {
+          "address": "140a9823b",
+          "text": "CALL 0x140e3b2e0",
+          "references": [
+            {
+              "to": "140e3b2e0",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140a98240",
+          "text": "MOV RAX,RBX",
+          "references": []
+        },
+        {
+          "address": "140a98243",
+          "text": "ADD RSP,0x20",
+          "references": []
+        },
+        {
+          "address": "140a98247",
+          "text": "POP RBX",
+          "references": []
+        },
+        {
+          "address": "140a98248",
+          "text": "RET",
+          "references": []
+        }
+      ],
+      "instructions_truncated": false
+    },
+    {
+      "entry": "140a981f0",
+      "name": "FUN_140a981f0",
+      "signature": "undefined FUN_140a981f0(void)",
+      "body": "[[140a981f0, 140a98218]]",
+      "decompile_completed": true,
+      "decompile_error": "",
+      "pseudocode": "\r\nundefined4 * FUN_140a981f0(undefined4 *param_1,undefined4 param_2,undefined8 param_3)\r\n\r\n{\r\n  *param_1 \u003d param_2;\r\n  FUN_140e3b2e0(param_1 + 1,param_3,0xc);\r\n  return param_1;\r\n}\r\n\r\n",
+      "incoming_references": {
+        "items": [
+          {
+            "from": "14191be94",
+            "to": "140a981f0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "14007e345",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007e375",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007e6bd",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007e71d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007e80d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007e92d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ea1d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ea35",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ec75",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ed35",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ee25",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ee85",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ee9d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ef45",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ef5d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ef75",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f1b5",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f215",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f455",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f515",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f5a5",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f70d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f73d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f815",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f995",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f9f5",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007fa3d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007fa55",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007fb15",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007fcad",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007fcdd",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007fde5",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008006d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080265",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400803fd",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080415",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080abd",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080b65",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080ccd",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081285",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400812b5",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400813bd",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400814dd",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081555",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400816ed",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400818fd",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081a65",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081ac5",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081f2d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400821e5",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400822d5",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008258d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082725",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082815",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082bed",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082cc5",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082d85",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400834ed",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083595",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400835ad",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083655",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400836fd",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083805",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400838f5",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083aed",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083b95",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083c6d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083f3d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083fe5",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008438d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084555",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084585",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400845cd",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084885",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400849bd",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084a1d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084b6d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084be5",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084dc5",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084ddd",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084ecd",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085125",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085425",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085485",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400854fd",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085575",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400857e5",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400858a5",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400858bd",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085d9d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085e2d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085f35",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085f4d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085f95",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008615d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140086355",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140086445",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008651d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008666d",
+            "to": "140a981f0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          }
+        ],
+        "truncated": true,
+        "limit": 100
+      },
+      "instructions": [
+        {
+          "address": "140a981f0",
+          "text": "PUSH RBX",
+          "references": []
+        },
+        {
+          "address": "140a981f2",
+          "text": "SUB RSP,0x20",
+          "references": []
+        },
+        {
+          "address": "140a981f6",
+          "text": "MOV RAX,R8",
+          "references": []
+        },
+        {
+          "address": "140a981f9",
+          "text": "MOV dword ptr [RCX],EDX",
+          "references": []
+        },
+        {
+          "address": "140a981fb",
+          "text": "MOV RBX,RCX",
+          "references": []
+        },
+        {
+          "address": "140a981fe",
+          "text": "MOV RDX,RAX",
+          "references": []
+        },
+        {
+          "address": "140a98201",
+          "text": "ADD RCX,0x4",
+          "references": []
+        },
+        {
+          "address": "140a98205",
+          "text": "MOV R8D,0xc",
+          "references": []
+        },
+        {
+          "address": "140a9820b",
+          "text": "CALL 0x140e3b2e0",
+          "references": [
+            {
+              "to": "140e3b2e0",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140a98210",
+          "text": "MOV RAX,RBX",
+          "references": []
+        },
+        {
+          "address": "140a98213",
+          "text": "ADD RSP,0x20",
+          "references": []
+        },
+        {
+          "address": "140a98217",
+          "text": "POP RBX",
+          "references": []
+        },
+        {
+          "address": "140a98218",
+          "text": "RET",
+          "references": []
+        }
+      ],
+      "instructions_truncated": false
+    },
+    {
+      "entry": "140a98370",
+      "name": "FUN_140a98370",
+      "signature": "undefined FUN_140a98370(void)",
+      "body": "[[140a98370, 140a98398]]",
+      "decompile_completed": true,
+      "decompile_error": "",
+      "pseudocode": "\r\nundefined4 * FUN_140a98370(undefined4 *param_1,undefined4 param_2,undefined8 param_3)\r\n\r\n{\r\n  *param_1 \u003d param_2;\r\n  FUN_140e3b2e0(param_1 + 1,param_3,0x12);\r\n  return param_1;\r\n}\r\n\r\n",
+      "incoming_references": {
+        "items": [
+          {
+            "from": "14191bef4",
+            "to": "140a98370",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "14007e6a5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007e95d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f6f5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f7fd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007f965",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007fa25",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007fb5d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ff7d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ff95",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008036d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080835",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008087d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080895",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080bad",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008144d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081465",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081add",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008201d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082035",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008213d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400825bd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082785",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400827b5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082dcd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082f65",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082fad",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082fc5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400835c5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400838ad",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400838c5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400838dd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083b7d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083dd5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083e05",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083ec5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083fcd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084195",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400842cd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400842e5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084525",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085305",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008582d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008588d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008591d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085ebd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085f65",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008678d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400867d5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008687d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140086ccd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008741d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400874f5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008750d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400876a5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140087765",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008789d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140087b0d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140087efd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008801d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140088365",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008837d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400883f5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008840d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008843d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140088455",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400885d5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140088b15",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140088d85",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140088fc5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400890fd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008912d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140089415",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008948d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400894bd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400896e5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400897d5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140089b35",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140089bf5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140089edd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140089f55",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140089fb5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140089ffd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008a105",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008a459",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008a6b1",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008a8cd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008addd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008aeb5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008aecd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008b13d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008b1e5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008b25d",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008b3c5",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008b485",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008b4fd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008b575",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008b8bd",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008ba85",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008bb75",
+            "to": "140a98370",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          }
+        ],
+        "truncated": true,
+        "limit": 100
+      },
+      "instructions": [
+        {
+          "address": "140a98370",
+          "text": "PUSH RBX",
+          "references": []
+        },
+        {
+          "address": "140a98372",
+          "text": "SUB RSP,0x20",
+          "references": []
+        },
+        {
+          "address": "140a98376",
+          "text": "MOV RAX,R8",
+          "references": []
+        },
+        {
+          "address": "140a98379",
+          "text": "MOV dword ptr [RCX],EDX",
+          "references": []
+        },
+        {
+          "address": "140a9837b",
+          "text": "MOV RBX,RCX",
+          "references": []
+        },
+        {
+          "address": "140a9837e",
+          "text": "MOV RDX,RAX",
+          "references": []
+        },
+        {
+          "address": "140a98381",
+          "text": "ADD RCX,0x4",
+          "references": []
+        },
+        {
+          "address": "140a98385",
+          "text": "MOV R8D,0x12",
+          "references": []
+        },
+        {
+          "address": "140a9838b",
+          "text": "CALL 0x140e3b2e0",
+          "references": [
+            {
+              "to": "140e3b2e0",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140a98390",
+          "text": "MOV RAX,RBX",
+          "references": []
+        },
+        {
+          "address": "140a98393",
+          "text": "ADD RSP,0x20",
+          "references": []
+        },
+        {
+          "address": "140a98397",
+          "text": "POP RBX",
+          "references": []
+        },
+        {
+          "address": "140a98398",
+          "text": "RET",
+          "references": []
+        }
+      ],
+      "instructions_truncated": false
+    },
+    {
+      "entry": "140a982b0",
+      "name": "FUN_140a982b0",
+      "signature": "undefined FUN_140a982b0(void)",
+      "body": "[[140a982b0, 140a982d8]]",
+      "decompile_completed": true,
+      "decompile_error": "",
+      "pseudocode": "\r\nundefined4 * FUN_140a982b0(undefined4 *param_1,undefined4 param_2,undefined8 param_3)\r\n\r\n{\r\n  *param_1 \u003d param_2;\r\n  FUN_140e3b2e0(param_1 + 1,param_3,0xf);\r\n  return param_1;\r\n}\r\n\r\n",
+      "incoming_references": {
+        "items": [
+          {
+            "from": "14191bec4",
+            "to": "140a982b0",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "14007e315",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007e3a5",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007e50d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007e675",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007e8b5",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007e9a5",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007e9ed",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007ed7d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007efd5",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007fc65",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007fdcd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14007feed",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400800fd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400801ed",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400802dd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400803cd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400803e5",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400806fd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080c3d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080d5d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140080edd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008147d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081585",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008168d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400816a5",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008189d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081b6d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081bfd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081ced",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081d95",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081e9d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140081ee5",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082005",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082425",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082acd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082b75",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140082f4d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008300d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008306d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083355",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008345d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083475",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008348d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008354d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083865",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083a2d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083b05",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140083e4d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084225",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008432d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084645",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084675",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008471d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008492d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084b9d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084cbd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084cd5",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084d4d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084e0d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084e6d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140084fed",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085095",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085155",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400857fd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085845",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085ae5",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085afd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085bbd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085d6d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085dcd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140085fc5",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008603d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140086235",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400863cd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400864a5",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140086505",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400865ad",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140086625",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140086bad",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140086c3d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400872fd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008771d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140087855",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140087885",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140087aad",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140087cd5",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140087dc5",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008804d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140088065",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400882a5",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "14008834d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400883dd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140088425",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140088965",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140088995",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "1400889c5",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140088a25",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140088a6d",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140088acd",
+            "to": "140a982b0",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          }
+        ],
+        "truncated": true,
+        "limit": 100
+      },
+      "instructions": [
+        {
+          "address": "140a982b0",
+          "text": "PUSH RBX",
+          "references": []
+        },
+        {
+          "address": "140a982b2",
+          "text": "SUB RSP,0x20",
+          "references": []
+        },
+        {
+          "address": "140a982b6",
+          "text": "MOV RAX,R8",
+          "references": []
+        },
+        {
+          "address": "140a982b9",
+          "text": "MOV dword ptr [RCX],EDX",
+          "references": []
+        },
+        {
+          "address": "140a982bb",
+          "text": "MOV RBX,RCX",
+          "references": []
+        },
+        {
+          "address": "140a982be",
+          "text": "MOV RDX,RAX",
+          "references": []
+        },
+        {
+          "address": "140a982c1",
+          "text": "ADD RCX,0x4",
+          "references": []
+        },
+        {
+          "address": "140a982c5",
+          "text": "MOV R8D,0xf",
+          "references": []
+        },
+        {
+          "address": "140a982cb",
+          "text": "CALL 0x140e3b2e0",
+          "references": [
+            {
+              "to": "140e3b2e0",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140a982d0",
+          "text": "MOV RAX,RBX",
+          "references": []
+        },
+        {
+          "address": "140a982d3",
+          "text": "ADD RSP,0x20",
+          "references": []
+        },
+        {
+          "address": "140a982d7",
+          "text": "POP RBX",
+          "references": []
+        },
+        {
+          "address": "140a982d8",
+          "text": "RET",
+          "references": []
+        }
+      ],
+      "instructions_truncated": false
+    },
+    {
+      "entry": "140d68080",
+      "name": "FUN_140d68080",
+      "signature": "undefined FUN_140d68080(void)",
+      "body": "[[140d68080, 140d681d0] [140d681d2, 140d681e4]]",
+      "decompile_completed": true,
+      "decompile_error": "",
+      "pseudocode": "\r\nundefined8 FUN_140d68080(longlong param_1,undefined8 param_2,int param_3)\r\n\r\n{\r\n  longlong lVar1;\r\n  char *pcVar2;\r\n  longlong lVar3;\r\n  char local_a8;\r\n  undefined7 uStack_a7;\r\n  undefined8 local_98;\r\n  ulonglong local_90;\r\n  char local_88;\r\n  undefined7 uStack_87;\r\n  undefined8 local_78;\r\n  ulonglong local_70;\r\n  undefined **local_68;\r\n  undefined4 local_60;\r\n  undefined1 local_58 [16];\r\n  undefined8 local_48;\r\n  undefined8 local_40;\r\n  undefined1 local_38 [16];\r\n  undefined8 local_28;\r\n  undefined8 local_20;\r\n  undefined8 local_18;\r\n  \r\n  local_18 \u003d 0xfffffffffffffffe;\r\n  lVar1 \u003d PHYSFS_read(*(undefined8 *)(param_1 + 0x38),param_2,1,param_3);\r\n  if (lVar1 \u003d\u003d param_3) {\r\n    return 1;\r\n  }\r\n  pcVar2 \u003d (char *)PHYSFS_getLastError();\r\n  local_70 \u003d 0xf;\r\n  lVar1 \u003d 0;\r\n  local_78 \u003d 0;\r\n  local_88 \u003d \u0027\\0\u0027;\r\n  if (*pcVar2 \u003d\u003d \u0027\\0\u0027) {\r\n    lVar3 \u003d 0;\r\n  }\r\n  else {\r\n    lVar3 \u003d -1;\r\n    do {\r\n      lVar3 \u003d lVar3 + 1;\r\n    } while (pcVar2[lVar3] !\u003d \u0027\\0\u0027);\r\n  }\r\n  FUN_1400b0300(\u0026local_88,pcVar2,lVar3);\r\n  local_90 \u003d 0xf;\r\n  local_98 \u003d 0;\r\n  local_a8 \u003d \u0027\\0\u0027;\r\n  FUN_1400b0300(\u0026local_a8,\r\n                \"D:\\\\jenkins\\\\workspace\\\\ck2-steam\\\\clausewitz\\\\pdx_core\\\\virtualfilesystem.cpp\");\r\n  local_68 \u003d \u0026PTR_FUN_1410d8908;\r\n  local_60 \u003d 0x347;\r\n  pcVar2 \u003d \u0026local_a8;\r\n  if (0xf \u003c local_90) {\r\n    pcVar2 \u003d (char *)CONCAT71(uStack_a7,local_a8);\r\n  }\r\n  local_40 \u003d 0xf;\r\n  local_48 \u003d 0;\r\n  local_58[0] \u003d 0;\r\n  lVar3 \u003d lVar1;\r\n  if (*pcVar2 !\u003d \u0027\\0\u0027) {\r\n    lVar3 \u003d -1;\r\n    do {\r\n      lVar3 \u003d lVar3 + 1;\r\n    } while (pcVar2[lVar3] !\u003d \u0027\\0\u0027);\r\n  }\r\n  FUN_1400b0300(local_58,pcVar2,lVar3);\r\n  pcVar2 \u003d \u0026local_88;\r\n  if (0xf \u003c local_70) {\r\n    pcVar2 \u003d (char *)CONCAT71(uStack_87,local_88);\r\n  }\r\n  local_20 \u003d 0xf;\r\n  local_28 \u003d 0;\r\n  local_38[0] \u003d 0;\r\n  if (*pcVar2 !\u003d \u0027\\0\u0027) {\r\n    lVar1 \u003d -1;\r\n    do {\r\n      lVar1 \u003d lVar1 + 1;\r\n    } while (pcVar2[lVar1] !\u003d \u0027\\0\u0027);\r\n  }\r\n  FUN_1400b0300(local_38,pcVar2,lVar1);\r\n  local_68 \u003d \u0026PTR_FUN_1410d8908;\r\n                    /* WARNING: Subroutine does not return */\r\n  FUN_140e3d190(\u0026local_68,\u0026DAT_141442840);\r\n}\r\n\r\n",
+      "incoming_references": {
+        "items": [
+          {
+            "from": "1419354f0",
+            "to": "140d68080",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "140c99a91",
+            "to": "140d68080",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140c99920",
+            "function_name": "FUN_140c99920"
+          },
+          {
+            "from": "14141f2b8",
+            "to": "140d68080",
+            "type": "DATA",
+            "operand": 0
+          },
+          {
+            "from": "140817025",
+            "to": "140d68080",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140814440",
+            "function_name": "FUN_140814440"
+          },
+          {
+            "from": "140d65920",
+            "to": "140d68080",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140d657a0",
+            "function_name": "FUN_140d657a0"
+          },
+          {
+            "from": "140d6a792",
+            "to": "140d68080",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140d6a6b0",
+            "function_name": "FUN_140d6a6b0"
+          },
+          {
+            "from": "140d807f1",
+            "to": "140d68080",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140d80490",
+            "function_name": "FUN_140d80490"
+          },
+          {
+            "from": "140630aa8",
+            "to": "140d68080",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140630830",
+            "function_name": "FUN_140630830"
+          },
+          {
+            "from": "140d5abd1",
+            "to": "140d68080",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140d5a4f0",
+            "function_name": "FUN_140d5a4f0"
+          },
+          {
+            "from": "140d5ae90",
+            "to": "140d68080",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140d5a4f0",
+            "function_name": "FUN_140d5a4f0"
+          },
+          {
+            "from": "1407035fd",
+            "to": "140d68080",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "1407028f0",
+            "function_name": "FUN_1407028f0"
+          },
+          {
+            "from": "140704ab7",
+            "to": "140d68080",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "1407028f0",
+            "function_name": "FUN_1407028f0"
+          },
+          {
+            "from": "14081b1e8",
+            "to": "140d68080",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14081b0f0",
+            "function_name": "FUN_14081b0f0"
+          },
+          {
+            "from": "14081b33b",
+            "to": "140d68080",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "14081b0f0",
+            "function_name": "FUN_14081b0f0"
+          },
+          {
+            "from": "140c9a8bb",
+            "to": "140d68080",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140c9a510",
+            "function_name": "FUN_140c9a510"
+          },
+          {
+            "from": "140cf7b46",
+            "to": "140d68080",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140cf79d0",
+            "function_name": "FUN_140cf79d0"
+          },
+          {
+            "from": "140cf7f3e",
+            "to": "140d68080",
+            "type": "UNCONDITIONAL_CALL",
+            "operand": 0,
+            "function_entry": "140cf7df0",
+            "function_name": "FUN_140cf7df0"
+          },
+          {
+            "from": "1411616b0",
+            "to": "140d68080",
+            "type": "DATA",
+            "operand": 0
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      },
+      "instructions": [
+        {
+          "address": "140d68080",
+          "text": "PUSH RBP",
+          "references": []
+        },
+        {
+          "address": "140d68082",
+          "text": "LEA RBP,[RSP + -0x57]",
+          "references": [
+            {
+              "to": "Stack[-0x5f]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68087",
+          "text": "SUB RSP,0xc0",
+          "references": []
+        },
+        {
+          "address": "140d6808e",
+          "text": "MOV qword ptr [RBP + 0x47],-0x2",
+          "references": [
+            {
+              "to": "Stack[-0x18]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68096",
+          "text": "MOV qword ptr [RSP + 0xd8],RBX",
+          "references": [
+            {
+              "to": "Stack[0x10]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d6809e",
+          "text": "MOVSXD RBX,R8D",
+          "references": []
+        },
+        {
+          "address": "140d680a1",
+          "text": "MOV R9D,EBX",
+          "references": []
+        },
+        {
+          "address": "140d680a4",
+          "text": "MOV R8D,0x1",
+          "references": []
+        },
+        {
+          "address": "140d680aa",
+          "text": "MOV RCX,qword ptr [RCX + 0x38]",
+          "references": []
+        },
+        {
+          "address": "140d680ae",
+          "text": "CALL qword ptr [0x140ff9ae8]",
+          "references": [
+            {
+              "to": "140ff9ae8",
+              "type": "READ",
+              "operand": 0
+            },
+            {
+              "to": "EXTERNAL:0000014f",
+              "type": "COMPUTED_CALL",
+              "operand": -1
+            }
+          ]
+        },
+        {
+          "address": "140d680b4",
+          "text": "CMP RAX,RBX",
+          "references": []
+        },
+        {
+          "address": "140d680b7",
+          "text": "JZ 0x140d681d2",
+          "references": [
+            {
+              "to": "140d681d2",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d680bd",
+          "text": "CALL qword ptr [0x140ff9b30]",
+          "references": [
+            {
+              "to": "140ff9b30",
+              "type": "READ",
+              "operand": 0
+            },
+            {
+              "to": "EXTERNAL:00000158",
+              "type": "COMPUTED_CALL",
+              "operand": -1
+            }
+          ]
+        },
+        {
+          "address": "140d680c3",
+          "text": "MOV qword ptr [RBP + -0x11],0xf",
+          "references": [
+            {
+              "to": "Stack[-0x70]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d680cb",
+          "text": "XOR EBX,EBX",
+          "references": []
+        },
+        {
+          "address": "140d680cd",
+          "text": "MOV qword ptr [RBP + -0x19],RBX",
+          "references": [
+            {
+              "to": "Stack[-0x78]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d680d1",
+          "text": "MOV byte ptr [RBP + -0x29],BL",
+          "references": [
+            {
+              "to": "Stack[-0x88]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d680d4",
+          "text": "CMP byte ptr [RAX],BL",
+          "references": []
+        },
+        {
+          "address": "140d680d6",
+          "text": "JNZ 0x140d680dd",
+          "references": [
+            {
+              "to": "140d680dd",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d680d8",
+          "text": "MOV R8D,EBX",
+          "references": []
+        },
+        {
+          "address": "140d680db",
+          "text": "JMP 0x140d680ea",
+          "references": [
+            {
+              "to": "140d680ea",
+              "type": "UNCONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d680dd",
+          "text": "OR R8,-0x1",
+          "references": []
+        },
+        {
+          "address": "140d680e1",
+          "text": "INC R8",
+          "references": []
+        },
+        {
+          "address": "140d680e4",
+          "text": "CMP byte ptr [RAX + R8*0x1],BL",
+          "references": []
+        },
+        {
+          "address": "140d680e8",
+          "text": "JNZ 0x140d680e1",
+          "references": [
+            {
+              "to": "140d680e1",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d680ea",
+          "text": "MOV RDX,RAX",
+          "references": []
+        },
+        {
+          "address": "140d680ed",
+          "text": "LEA RCX,[RBP + -0x29]",
+          "references": [
+            {
+              "to": "Stack[-0x88]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d680f1",
+          "text": "CALL 0x1400b0300",
+          "references": [
+            {
+              "to": "1400b0300",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d680f6",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140d680f7",
+          "text": "MOV qword ptr [RBP + -0x31],0xf",
+          "references": [
+            {
+              "to": "Stack[-0x90]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d680ff",
+          "text": "MOV qword ptr [RBP + -0x39],RBX",
+          "references": [
+            {
+              "to": "Stack[-0x98]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68103",
+          "text": "MOV byte ptr [RBP + -0x49],0x0",
+          "references": [
+            {
+              "to": "Stack[-0xa8]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68107",
+          "text": "MOV R8D,0x48",
+          "references": []
+        },
+        {
+          "address": "140d6810d",
+          "text": "LEA RDX,[0x141161610]",
+          "references": [
+            {
+              "to": "141161610",
+              "type": "DATA",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140d68114",
+          "text": "LEA RCX,[RBP + -0x49]",
+          "references": [
+            {
+              "to": "Stack[-0xa8]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68118",
+          "text": "CALL 0x1400b0300",
+          "references": [
+            {
+              "to": "1400b0300",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d6811d",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140d6811e",
+          "text": "LEA RAX,[0x1410d8908]",
+          "references": [
+            {
+              "to": "1410d8908",
+              "type": "DATA",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140d68125",
+          "text": "MOV qword ptr [RBP + -0x9],RAX",
+          "references": [
+            {
+              "to": "1410d8908",
+              "type": "DATA",
+              "operand": 1
+            },
+            {
+              "to": "Stack[-0x68]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68129",
+          "text": "MOV dword ptr [RBP + -0x1],0x347",
+          "references": [
+            {
+              "to": "Stack[-0x60]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68130",
+          "text": "LEA RDX,[RBP + -0x49]",
+          "references": [
+            {
+              "to": "Stack[-0xa8]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68134",
+          "text": "CMP qword ptr [RBP + -0x31],0x10",
+          "references": [
+            {
+              "to": "Stack[-0x90]",
+              "type": "READ",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68139",
+          "text": "CMOVNC RDX,qword ptr [RBP + -0x49]",
+          "references": [
+            {
+              "to": "Stack[-0xa8]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d6813e",
+          "text": "MOV qword ptr [RBP + 0x1f],0xf",
+          "references": [
+            {
+              "to": "Stack[-0x40]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68146",
+          "text": "MOV qword ptr [RBP + 0x17],RBX",
+          "references": [
+            {
+              "to": "Stack[-0x48]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d6814a",
+          "text": "MOV byte ptr [RBP + 0x7],0x0",
+          "references": [
+            {
+              "to": "Stack[-0x58]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d6814e",
+          "text": "CMP byte ptr [RDX],0x0",
+          "references": [
+            {
+              "to": "Stack[-0xa8]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68151",
+          "text": "JNZ 0x140d68158",
+          "references": [
+            {
+              "to": "140d68158",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68153",
+          "text": "MOV R8,RBX",
+          "references": []
+        },
+        {
+          "address": "140d68156",
+          "text": "JMP 0x140d6816a",
+          "references": [
+            {
+              "to": "140d6816a",
+              "type": "UNCONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68158",
+          "text": "OR R8,-0x1",
+          "references": []
+        },
+        {
+          "address": "140d6815c",
+          "text": "NOP dword ptr [RAX]",
+          "references": []
+        },
+        {
+          "address": "140d68160",
+          "text": "INC R8",
+          "references": []
+        },
+        {
+          "address": "140d68163",
+          "text": "CMP byte ptr [RDX + R8*0x1],0x0",
+          "references": [
+            {
+              "to": "Stack[-0xa8]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68168",
+          "text": "JNZ 0x140d68160",
+          "references": [
+            {
+              "to": "140d68160",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d6816a",
+          "text": "LEA RCX,[RBP + 0x7]",
+          "references": [
+            {
+              "to": "Stack[-0x58]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d6816e",
+          "text": "CALL 0x1400b0300",
+          "references": [
+            {
+              "to": "1400b0300",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68173",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140d68174",
+          "text": "LEA RDX,[RBP + -0x29]",
+          "references": [
+            {
+              "to": "Stack[-0x88]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68178",
+          "text": "CMP qword ptr [RBP + -0x11],0x10",
+          "references": [
+            {
+              "to": "Stack[-0x70]",
+              "type": "READ",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d6817d",
+          "text": "CMOVNC RDX,qword ptr [RBP + -0x29]",
+          "references": [
+            {
+              "to": "Stack[-0x88]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68182",
+          "text": "MOV qword ptr [RBP + 0x3f],0xf",
+          "references": [
+            {
+              "to": "Stack[-0x20]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d6818a",
+          "text": "MOV qword ptr [RBP + 0x37],RBX",
+          "references": [
+            {
+              "to": "Stack[-0x28]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d6818e",
+          "text": "MOV byte ptr [RBP + 0x27],0x0",
+          "references": [
+            {
+              "to": "Stack[-0x38]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68192",
+          "text": "CMP byte ptr [RDX],0x0",
+          "references": [
+            {
+              "to": "Stack[-0x88]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68195",
+          "text": "JZ 0x140d681a9",
+          "references": [
+            {
+              "to": "140d681a9",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d68197",
+          "text": "OR RBX,-0x1",
+          "references": []
+        },
+        {
+          "address": "140d6819b",
+          "text": "NOP dword ptr [RAX + RAX*0x1]",
+          "references": []
+        },
+        {
+          "address": "140d681a0",
+          "text": "INC RBX",
+          "references": []
+        },
+        {
+          "address": "140d681a3",
+          "text": "CMP byte ptr [RDX + RBX*0x1],0x0",
+          "references": [
+            {
+              "to": "Stack[-0x88]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d681a7",
+          "text": "JNZ 0x140d681a0",
+          "references": [
+            {
+              "to": "140d681a0",
+              "type": "CONDITIONAL_JUMP",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d681a9",
+          "text": "MOV R8,RBX",
+          "references": []
+        },
+        {
+          "address": "140d681ac",
+          "text": "LEA RCX,[RBP + 0x27]",
+          "references": [
+            {
+              "to": "Stack[-0x38]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d681b0",
+          "text": "CALL 0x1400b0300",
+          "references": [
+            {
+              "to": "1400b0300",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d681b5",
+          "text": "NOP",
+          "references": []
+        },
+        {
+          "address": "140d681b6",
+          "text": "LEA RAX,[0x1410d8908]",
+          "references": [
+            {
+              "to": "1410d8908",
+              "type": "DATA",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140d681bd",
+          "text": "MOV qword ptr [RBP + -0x9],RAX",
+          "references": [
+            {
+              "to": "1410d8908",
+              "type": "DATA",
+              "operand": 1
+            },
+            {
+              "to": "Stack[-0x68]",
+              "type": "WRITE",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d681c1",
+          "text": "LEA RDX,[0x141442840]",
+          "references": [
+            {
+              "to": "141442840",
+              "type": "DATA",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140d681c8",
+          "text": "LEA RCX,[RBP + -0x9]",
+          "references": [
+            {
+              "to": "Stack[-0x68]",
+              "type": "DATA",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d681cc",
+          "text": "CALL 0x140e3d190",
+          "references": [
+            {
+              "to": "140e3d190",
+              "type": "UNCONDITIONAL_CALL",
+              "operand": 0
+            }
+          ]
+        },
+        {
+          "address": "140d681d2",
+          "text": "MOV AL,0x1",
+          "references": []
+        },
+        {
+          "address": "140d681d4",
+          "text": "MOV RBX,qword ptr [RSP + 0xd8]",
+          "references": [
+            {
+              "to": "Stack[0x10]",
+              "type": "READ",
+              "operand": 1
+            }
+          ]
+        },
+        {
+          "address": "140d681dc",
+          "text": "ADD RSP,0xc0",
+          "references": []
+        },
+        {
+          "address": "140d681e3",
+          "text": "POP RBP",
+          "references": []
+        },
+        {
+          "address": "140d681e4",
+          "text": "RET",
+          "references": []
+        }
+      ],
+      "instructions_truncated": false
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

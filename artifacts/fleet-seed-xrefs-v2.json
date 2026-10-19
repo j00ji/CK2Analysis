@@ -1,0 +1,104 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "xrefs",
+  "query": "1411039a0,1410e5220,141109098,1411144c0,141103a08",
+  "result": [
+    {
+      "address": "1411039a0",
+      "references": {
+        "items": [
+          {
+            "from": "14008281a",
+            "to": "1411039a0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1410e5220",
+      "references": {
+        "items": [
+          {
+            "from": "140083d62",
+            "to": "1410e5220",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          },
+          {
+            "from": "140877802",
+            "to": "1410e5220",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "140877040",
+            "function_name": "FUN_140877040"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "141109098",
+      "references": {
+        "items": [
+          {
+            "from": "14008a0c2",
+            "to": "141109098",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "1411144c0",
+      "references": {
+        "items": [
+          {
+            "from": "140097832",
+            "to": "1411144c0",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "141103a08",
+      "references": {
+        "items": [
+          {
+            "from": "14008272a",
+            "to": "141103a08",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "14007d930",
+            "function_name": "FUN_14007d930"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

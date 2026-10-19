@@ -1,0 +1,14 @@
+# Local game executable: keep analysis bound to a private copy, never commit it.
+/CK2game.exe
+
+# Machine-local Ghidra database/preferences and temporary runtime state.
+/ghidra/
+/runtime/
+
+# Generated builds and logs.
+/native/build/
+/logs/
+
+# Per-user agent configuration/skills.
+/.agents/
+/.codex/

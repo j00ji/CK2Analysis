@@ -1,0 +1,54 @@
+{
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "method": "Static PE pointer-window read; table extent and meaning need code corroboration",
+  "size": 48,
+  "tables": [
+    {
+      "start": "0x1410defc0",
+      "entries": [
+        {
+          "slot": "0x0",
+          "cell": "0x1410defc0",
+          "file_offset": 17687488,
+          "bytes": "20e8804001000000",
+          "target": "0x14080e820"
+        },
+        {
+          "slot": "0x8",
+          "cell": "0x1410defc8",
+          "file_offset": 17687496,
+          "bytes": "a0e8804001000000",
+          "target": "0x14080e8a0"
+        },
+        {
+          "slot": "0x10",
+          "cell": "0x1410defd0",
+          "file_offset": 17687504,
+          "bytes": "a018384001000000",
+          "target": "0x1403818a0"
+        },
+        {
+          "slot": "0x18",
+          "cell": "0x1410defd8",
+          "file_offset": 17687512,
+          "bytes": "90ea804001000000",
+          "target": "0x14080ea90"
+        },
+        {
+          "slot": "0x20",
+          "cell": "0x1410defe0",
+          "file_offset": 17687520,
+          "bytes": "6672616d655f554c",
+          "target": "0x4c555f656d617266"
+        },
+        {
+          "slot": "0x28",
+          "cell": "0x1410defe8",
+          "file_offset": 17687528,
+          "bytes": "5f636f726e657200",
+          "target": "0x72656e726f635f"
+        }
+      ]
+    }
+  ]
+}

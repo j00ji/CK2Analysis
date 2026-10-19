@@ -1,0 +1,236 @@
+{
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "method": "Static PE pointer-window read; table extent and meaning need code corroboration",
+  "size": 256,
+  "tables": [
+    {
+      "start": "0x141145900",
+      "entries": [
+        {
+          "slot": "0x0",
+          "cell": "0x141145900",
+          "file_offset": 18107648,
+          "bytes": "f05bbd4001000000",
+          "target": "0x140bd5bf0"
+        },
+        {
+          "slot": "0x8",
+          "cell": "0x141145908",
+          "file_offset": 18107656,
+          "bytes": "5029bd4001000000",
+          "target": "0x140bd2950"
+        },
+        {
+          "slot": "0x10",
+          "cell": "0x141145910",
+          "file_offset": 18107664,
+          "bytes": "d0b5bc4001000000",
+          "target": "0x140bcb5d0"
+        },
+        {
+          "slot": "0x18",
+          "cell": "0x141145918",
+          "file_offset": 18107672,
+          "bytes": "c084154001000000",
+          "target": "0x1401584c0"
+        },
+        {
+          "slot": "0x20",
+          "cell": "0x141145920",
+          "file_offset": 18107680,
+          "bytes": "3084154001000000",
+          "target": "0x140158430"
+        },
+        {
+          "slot": "0x28",
+          "cell": "0x141145928",
+          "file_offset": 18107688,
+          "bytes": "2084154001000000",
+          "target": "0x140158420"
+        },
+        {
+          "slot": "0x30",
+          "cell": "0x141145930",
+          "file_offset": 18107696,
+          "bytes": "6095c54001000000",
+          "target": "0x140c59560"
+        },
+        {
+          "slot": "0x38",
+          "cell": "0x141145938",
+          "file_offset": 18107704,
+          "bytes": "a095c54001000000",
+          "target": "0x140c595a0"
+        },
+        {
+          "slot": "0x40",
+          "cell": "0x141145940",
+          "file_offset": 18107712,
+          "bytes": "1063444001000000",
+          "target": "0x140446310"
+        },
+        {
+          "slot": "0x48",
+          "cell": "0x141145948",
+          "file_offset": 18107720,
+          "bytes": "e095c54001000000",
+          "target": "0x140c595e0"
+        },
+        {
+          "slot": "0x50",
+          "cell": "0x141145950",
+          "file_offset": 18107728,
+          "bytes": "40b6bc4001000000",
+          "target": "0x140bcb640"
+        },
+        {
+          "slot": "0x58",
+          "cell": "0x141145958",
+          "file_offset": 18107736,
+          "bytes": "a038c54001000000",
+          "target": "0x140c538a0"
+        },
+        {
+          "slot": "0x60",
+          "cell": "0x141145960",
+          "file_offset": 18107744,
+          "bytes": "40e50a4001000000",
+          "target": "0x1400ae540"
+        },
+        {
+          "slot": "0x68",
+          "cell": "0x141145968",
+          "file_offset": 18107752,
+          "bytes": "d0fb0a4001000000",
+          "target": "0x1400afbd0"
+        },
+        {
+          "slot": "0x70",
+          "cell": "0x141145970",
+          "file_offset": 18107760,
+          "bytes": "a004bd4001000000",
+          "target": "0x140bd04a0"
+        },
+        {
+          "slot": "0x78",
+          "cell": "0x141145978",
+          "file_offset": 18107768,
+          "bytes": "f0cdbc4001000000",
+          "target": "0x140bccdf0"
+        },
+        {
+          "slot": "0x80",
+          "cell": "0x141145980",
+          "file_offset": 18107776,
+          "bytes": "20d64b4001000000",
+          "target": "0x1404bd620"
+        },
+        {
+          "slot": "0x88",
+          "cell": "0x141145988",
+          "file_offset": 18107784,
+          "bytes": "c084154001000000",
+          "target": "0x1401584c0"
+        },
+        {
+          "slot": "0x90",
+          "cell": "0x141145990",
+          "file_offset": 18107792,
+          "bytes": "3084154001000000",
+          "target": "0x140158430"
+        },
+        {
+          "slot": "0x98",
+          "cell": "0x141145998",
+          "file_offset": 18107800,
+          "bytes": "2084154001000000",
+          "target": "0x140158420"
+        },
+        {
+          "slot": "0xa0",
+          "cell": "0x1411459a0",
+          "file_offset": 18107808,
+          "bytes": "6095c54001000000",
+          "target": "0x140c59560"
+        },
+        {
+          "slot": "0xa8",
+          "cell": "0x1411459a8",
+          "file_offset": 18107816,
+          "bytes": "a095c54001000000",
+          "target": "0x140c595a0"
+        },
+        {
+          "slot": "0xb0",
+          "cell": "0x1411459b0",
+          "file_offset": 18107824,
+          "bytes": "1063444001000000",
+          "target": "0x140446310"
+        },
+        {
+          "slot": "0xb8",
+          "cell": "0x1411459b8",
+          "file_offset": 18107832,
+          "bytes": "e095c54001000000",
+          "target": "0x140c595e0"
+        },
+        {
+          "slot": "0xc0",
+          "cell": "0x1411459c0",
+          "file_offset": 18107840,
+          "bytes": "d0fbbb4001000000",
+          "target": "0x140bbfbd0"
+        },
+        {
+          "slot": "0xc8",
+          "cell": "0x1411459c8",
+          "file_offset": 18107848,
+          "bytes": "a038c54001000000",
+          "target": "0x140c538a0"
+        },
+        {
+          "slot": "0xd0",
+          "cell": "0x1411459d0",
+          "file_offset": 18107856,
+          "bytes": "40e50a4001000000",
+          "target": "0x1400ae540"
+        },
+        {
+          "slot": "0xd8",
+          "cell": "0x1411459d8",
+          "file_offset": 18107864,
+          "bytes": "d0fb0a4001000000",
+          "target": "0x1400afbd0"
+        },
+        {
+          "slot": "0xe0",
+          "cell": "0x1411459e0",
+          "file_offset": 18107872,
+          "bytes": "b0f4bb4001000000",
+          "target": "0x140bbf4b0"
+        },
+        {
+          "slot": "0xe8",
+          "cell": "0x1411459e8",
+          "file_offset": 18107880,
+          "bytes": "702c624001000000",
+          "target": "0x140622c70"
+        },
+        {
+          "slot": "0xf0",
+          "cell": "0x1411459f0",
+          "file_offset": 18107888,
+          "bytes": "d0fb0a4001000000",
+          "target": "0x1400afbd0"
+        },
+        {
+          "slot": "0xf8",
+          "cell": "0x1411459f8",
+          "file_offset": 18107896,
+          "bytes": "90b0514001000000",
+          "target": "0x14051b090"
+        }
+      ]
+    }
+  ]
+}

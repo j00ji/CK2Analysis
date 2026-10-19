@@ -1,0 +1,489 @@
+{
+  "generated_utc": "2026-10-18T01:17:28.220162+00:00",
+  "source_path": "G:\\Projects\\CK2Analysis\\CK2game.exe",
+  "file_size": 24756992,
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "method": "Static Python standard-library PE header/directory parser; no target loading/execution",
+  "pe_header_file_offset": "0x170",
+  "machine": "0x8664",
+  "architecture": "x86-64",
+  "optional_header_magic": "0x20b",
+  "format": "PE32+",
+  "image_base": "0x140000000",
+  "entry_rva": "0xe1ca54",
+  "entry_va": "0x140e1ca54",
+  "coff_timestamp_raw": 1571125318,
+  "coff_timestamp_utc": "2019-10-15T07:41:58+00:00",
+  "coff_characteristics": "0x22",
+  "coff_symbol_table_file_offset": "0x0",
+  "coff_symbol_count": 0,
+  "subsystem": 2,
+  "dll_characteristics": "0x8160",
+  "image_size": 26845184,
+  "header_size": 1024,
+  "section_alignment": 4096,
+  "file_alignment": 512,
+  "sections": [
+    {
+      "name": ".text",
+      "rva": "0x1000",
+      "va": "0x140001000",
+      "virtual_size": 16743970,
+      "raw_offset": 1024,
+      "raw_size": 16744448,
+      "characteristics": "0x60000020",
+      "executable": true,
+      "readable": true,
+      "writable": false
+    },
+    {
+      "name": ".rdata",
+      "rva": "0xff9000",
+      "va": "0x140ff9000",
+      "virtual_size": 4508706,
+      "raw_offset": 16745472,
+      "raw_size": 4509184,
+      "characteristics": "0x40000040",
+      "executable": false,
+      "readable": true,
+      "writable": false
+    },
+    {
+      "name": ".data",
+      "rva": "0x1446000",
+      "va": "0x141446000",
+      "virtual_size": 4792868,
+      "raw_offset": 21254656,
+      "raw_size": 2717696,
+      "characteristics": "0xc0000040",
+      "executable": false,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": ".pdata",
+      "rva": "0x18d9000",
+      "va": "0x1418d9000",
+      "virtual_size": 588084,
+      "raw_offset": 23972352,
+      "raw_size": 588288,
+      "characteristics": "0x40000040",
+      "executable": false,
+      "readable": true,
+      "writable": false
+    },
+    {
+      "name": ".gfids",
+      "rva": "0x1969000",
+      "va": "0x141969000",
+      "virtual_size": 2852,
+      "raw_offset": 24560640,
+      "raw_size": 3072,
+      "characteristics": "0x40000040",
+      "executable": false,
+      "readable": true,
+      "writable": false
+    },
+    {
+      "name": ".tls",
+      "rva": "0x196a000",
+      "va": "0x14196a000",
+      "virtual_size": 9,
+      "raw_offset": 24563712,
+      "raw_size": 512,
+      "characteristics": "0xc0000040",
+      "executable": false,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "_RDATA",
+      "rva": "0x196b000",
+      "va": "0x14196b000",
+      "virtual_size": 9120,
+      "raw_offset": 24564224,
+      "raw_size": 9216,
+      "characteristics": "0x40000040",
+      "executable": false,
+      "readable": true,
+      "writable": false
+    },
+    {
+      "name": ".rsrc",
+      "rva": "0x196e000",
+      "va": "0x14196e000",
+      "virtual_size": 26712,
+      "raw_offset": 24573440,
+      "raw_size": 27136,
+      "characteristics": "0x40000040",
+      "executable": false,
+      "readable": true,
+      "writable": false
+    },
+    {
+      "name": ".reloc",
+      "rva": "0x1975000",
+      "va": "0x141975000",
+      "virtual_size": 148676,
+      "raw_offset": 24600576,
+      "raw_size": 148992,
+      "characteristics": "0x42000040",
+      "executable": false,
+      "readable": true,
+      "writable": false
+    }
+  ],
+  "directories": [
+    {
+      "index": 0,
+      "name": "export",
+      "address": "0x0",
+      "size": 0,
+      "address_kind": "rva"
+    },
+    {
+      "index": 1,
+      "name": "import",
+      "address": "0x1442b04",
+      "size": 460,
+      "address_kind": "rva"
+    },
+    {
+      "index": 2,
+      "name": "resource",
+      "address": "0x196e000",
+      "size": 26712,
+      "address_kind": "rva"
+    },
+    {
+      "index": 3,
+      "name": "exception",
+      "address": "0x18d9000",
+      "size": 588084,
+      "address_kind": "rva"
+    },
+    {
+      "index": 4,
+      "name": "security",
+      "address": "0x179a600",
+      "size": 7424,
+      "address_kind": "file_offset"
+    },
+    {
+      "index": 5,
+      "name": "base_relocation",
+      "address": "0x1975000",
+      "size": 148676,
+      "address_kind": "rva"
+    },
+    {
+      "index": 6,
+      "name": "debug",
+      "address": "0x11dddc0",
+      "size": 84,
+      "address_kind": "rva"
+    },
+    {
+      "index": 7,
+      "name": "architecture",
+      "address": "0x0",
+      "size": 0,
+      "address_kind": "rva"
+    },
+    {
+      "index": 8,
+      "name": "global_ptr",
+      "address": "0x0",
+      "size": 0,
+      "address_kind": "rva"
+    },
+    {
+      "index": 9,
+      "name": "tls",
+      "address": "0x11ddeb8",
+      "size": 40,
+      "address_kind": "rva"
+    },
+    {
+      "index": 10,
+      "name": "load_config",
+      "address": "0x11dde20",
+      "size": 148,
+      "address_kind": "rva"
+    },
+    {
+      "index": 11,
+      "name": "bound_import",
+      "address": "0x0",
+      "size": 0,
+      "address_kind": "rva"
+    },
+    {
+      "index": 12,
+      "name": "iat",
+      "address": "0xff9000",
+      "size": 3472,
+      "address_kind": "rva"
+    },
+    {
+      "index": 13,
+      "name": "delay_import",
+      "address": "0x0",
+      "size": 0,
+      "address_kind": "rva"
+    },
+    {
+      "index": 14,
+      "name": "clr",
+      "address": "0x0",
+      "size": 0,
+      "address_kind": "rva"
+    },
+    {
+      "index": 15,
+      "name": "reserved",
+      "address": "0x0",
+      "size": 0,
+      "address_kind": "rva"
+    }
+  ],
+  "import_count": 412,
+  "import_dlls": {
+    "ADVAPI32.dll": 6,
+    "CRYPT32.dll": 4,
+    "KERNEL32.dll": 158,
+    "PDXBrowser_IPC.dll": 1,
+    "PSAPI.DLL": 1,
+    "RPCRT4.dll": 3,
+    "SDL2.dll": 45,
+    "SDL2_mixer.dll": 23,
+    "SHELL32.dll": 3,
+    "SHLWAPI.dll": 2,
+    "USER32.dll": 19,
+    "VERSION.dll": 3,
+    "WINMM.dll": 3,
+    "WS2_32.dll": 36,
+    "XINPUT1_3.dll": 1,
+    "d3d9.dll": 1,
+    "d3dx9_41.dll": 9,
+    "ole32.dll": 1,
+    "physfs.dll": 29,
+    "pops_api.dll": 16,
+    "steam_api64.dll": 23,
+    "tbb.dll": 25
+  },
+  "exports": [],
+  "debug": [
+    {
+      "type": 2,
+      "size": 85,
+      "rva": "0x11e51f4",
+      "file_offset": "0x11e45f4",
+      "timestamp_raw": 1571125318,
+      "format": "RSDS",
+      "pdb_guid": "3f1a2971-2e7d-4e7d-be44-da6349318298",
+      "age": 1,
+      "pdb_path": "D:\\jenkins\\workspace\\ck2-steam\\outputdir\\Release\\CK2game.pdb"
+    },
+    {
+      "type": 12,
+      "size": 20,
+      "rva": "0x11e524c",
+      "file_offset": "0x11e464c",
+      "timestamp_raw": 1571125318
+    },
+    {
+      "type": 13,
+      "size": 1040,
+      "rva": "0x11e5260",
+      "file_offset": "0x11e4660",
+      "timestamp_raw": 1571125318
+    }
+  ],
+  "resources": [
+    {
+      "path": [
+        3,
+        1,
+        1053
+      ],
+      "rva": "0x196e2b0",
+      "file_offset": "0x176f8b0",
+      "size": 296,
+      "codepage": 0
+    },
+    {
+      "path": [
+        3,
+        2,
+        1053
+      ],
+      "rva": "0x196e3d8",
+      "file_offset": "0x176f9d8",
+      "size": 1384,
+      "codepage": 0
+    },
+    {
+      "path": [
+        3,
+        3,
+        1053
+      ],
+      "rva": "0x196e940",
+      "file_offset": "0x176ff40",
+      "size": 1128,
+      "codepage": 0
+    },
+    {
+      "path": [
+        3,
+        4,
+        1053
+      ],
+      "rva": "0x196eda8",
+      "file_offset": "0x17703a8",
+      "size": 744,
+      "codepage": 0
+    },
+    {
+      "path": [
+        3,
+        5,
+        1053
+      ],
+      "rva": "0x196f090",
+      "file_offset": "0x1770690",
+      "size": 2216,
+      "codepage": 0
+    },
+    {
+      "path": [
+        3,
+        6,
+        1053
+      ],
+      "rva": "0x196f938",
+      "file_offset": "0x1770f38",
+      "size": 4264,
+      "codepage": 0
+    },
+    {
+      "path": [
+        3,
+        7,
+        1053
+      ],
+      "rva": "0x19709e0",
+      "file_offset": "0x1771fe0",
+      "size": 1640,
+      "codepage": 0
+    },
+    {
+      "path": [
+        3,
+        8,
+        1053
+      ],
+      "rva": "0x1971048",
+      "file_offset": "0x1772648",
+      "size": 3752,
+      "codepage": 0
+    },
+    {
+      "path": [
+        3,
+        9,
+        1053
+      ],
+      "rva": "0x1971ef0",
+      "file_offset": "0x17734f0",
+      "size": 9640,
+      "codepage": 0
+    },
+    {
+      "path": [
+        14,
+        107,
+        1053
+      ],
+      "rva": "0x1974498",
+      "file_offset": "0x1775a98",
+      "size": 132,
+      "codepage": 0
+    },
+    {
+      "path": [
+        16,
+        1,
+        1053
+      ],
+      "rva": "0x1974520",
+      "file_offset": "0x1775b20",
+      "size": 668,
+      "codepage": 0
+    },
+    {
+      "path": [
+        24,
+        1,
+        1033
+      ],
+      "rva": "0x19747c0",
+      "file_offset": "0x1775dc0",
+      "size": 145,
+      "codepage": 0
+    }
+  ],
+  "version_resources": [
+    {
+      "resource_path": [
+        16,
+        1,
+        1053
+      ],
+      "file_offset": "0x1775b20",
+      "file_version": "1.0.0.0",
+      "product_version": "1.0.0.0",
+      "utf16_printable_runs": [
+        "VS_VERSION_INFO",
+        "StringFileInfo",
+        "041d04b0",
+        "CompanyName",
+        "Paradox Interactive",
+        "FileDescription",
+        "FileVersion",
+        "InternalName",
+        "LegalCopyright",
+        "Copyright ",
+        " 2008",
+        "OriginalFilename",
+        "ck2game.exe",
+        "ProductName",
+        "Crusader Kings 2",
+        "ProductVersion",
+        "VarFileInfo",
+        "Translation"
+      ]
+    }
+  ],
+  "ascii_string_count": 222283,
+  "ascii_string_section_counts": {
+    "headers": 11,
+    ".text": 188524,
+    ".rdata": 33182,
+    ".data": 319,
+    "_RDATA": 34,
+    ".rsrc": 83,
+    "unmapped": 130
+  },
+  "ascii_overlong_runs_excluded": 0,
+  "overlay_offset": "0x179a600",
+  "overlay_size": 7424,
+  "limitations": [
+    "Timestamp is a header assertion, not independently verified build time.",
+    "ASCII runs include instruction bytes and incidental printable data; strings alone do not establish behavior.",
+    "Preferred virtual addresses are not runtime addresses if the image is relocated.",
+    "No disassembly, decompilation, runtime execution, signature verification, delay-import parsing or external symbol lookup was performed.",
+    "Version strings are extracted as UTF-16 printable runs without key/value association."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "xrefs",
+  "query": "1410a57e8",
+  "result": [
+    {
+      "address": "1410a57e8",
+      "references": {
+        "items": [
+          {
+            "from": "1404dcf91",
+            "to": "1410a57e8",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "1404dcad0",
+            "function_name": "FUN_1404dcad0"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}
