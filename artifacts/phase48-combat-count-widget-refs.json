@@ -1,0 +1,109 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "search",
+  "query": "light_infantry_total|units_total|heavy_cavalry_total",
+  "result": {
+    "matches": [
+      {
+        "address": "1410906a0",
+        "value": "units_total",
+        "references": {
+          "items": [
+            {
+              "from": "14097991c",
+              "to": "1410906a0",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140977a70",
+              "function_name": "FUN_140977a70"
+            },
+            {
+              "from": "140979fda",
+              "to": "1410906a0",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140977a70",
+              "function_name": "FUN_140977a70"
+            },
+            {
+              "from": "1403c5400",
+              "to": "1410906a0",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "1403c4470",
+              "function_name": "FUN_1403c4470"
+            },
+            {
+              "from": "1403c351f",
+              "to": "1410906a0",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "1403c2200",
+              "function_name": "FUN_1403c2200"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141090788",
+        "value": "light_infantry_total",
+        "references": {
+          "items": [
+            {
+              "from": "140978f4a",
+              "to": "141090788",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "140977a70",
+              "function_name": "FUN_140977a70"
+            },
+            {
+              "from": "14085637a",
+              "to": "141090788",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "1408560b0",
+              "function_name": "FUN_1408560b0"
+            },
+            {
+              "from": "1403c48e4",
+              "to": "141090788",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "1403c4470",
+              "function_name": "FUN_1403c4470"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      },
+      {
+        "address": "141090930",
+        "value": "heavy_cavalry_total",
+        "references": {
+          "items": [
+            {
+              "from": "1403c4fb9",
+              "to": "141090930",
+              "type": "DATA",
+              "operand": 1,
+              "function_entry": "1403c4470",
+              "function_name": "FUN_1403c4470"
+            }
+          ],
+          "truncated": false,
+          "limit": 100
+        }
+      }
+    ],
+    "scan_stopped_at_limit": false,
+    "limit": 250
+  },
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

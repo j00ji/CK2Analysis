@@ -37,6 +37,12 @@ using OpponentPredicateFn = std::uint8_t(__fastcall*)(void*, void*, std::uint8_t
                                                        std::uint8_t);
 using CombatFactoryFn = void(__fastcall*)(void*, void*, int, void*, void*,
                                           std::uint32_t*);
+using CombatCountUpdateFn = void(__fastcall*)(void*, char);
+using EngineStringInitFn = void(__fastcall*)(void*, const char*, std::size_t);
+using EngineStringDestroyFn = void(__fastcall*)(void*);
+using IntegerToUiStringFn = void*(__fastcall*)(void*, std::int32_t);
+using UiNamedLookupFn = void*(__fastcall*)(void*, void*);
+using SetUiTextFn = void(__fastcall*)(void*, void*, std::uint32_t);
 
 ExistingCombatArrivalFn g_existing_combat_arrival = nullptr;
 NewEncounterAdmissionFn g_new_encounter_admission = nullptr;
@@ -53,6 +59,11 @@ ProvinceLookupFn g_province_lookup = nullptr;
 MovementEdgeCostFn g_movement_edge_cost = nullptr;
 OpponentPredicateFn g_opponent_predicate = nullptr;
 CombatFactoryFn g_combat_factory = nullptr;
+CombatCountUpdateFn g_combat_count_update = nullptr;
+EngineStringInitFn g_engine_string_init = nullptr;
+EngineStringDestroyFn g_engine_string_destroy = nullptr;
+IntegerToUiStringFn g_integer_to_ui_string = nullptr;
+SetUiTextFn g_set_ui_text = nullptr;
 std::uintptr_t g_module_base = 0;
 
 std::atomic<bool> g_manual_prototype_enabled{false};
@@ -63,6 +74,8 @@ std::atomic<std::uint64_t> g_naval_update_calls{0};
 std::atomic<std::uint64_t> g_completion_check_calls{0};
 std::atomic<std::uint64_t> g_empty_scan_calls{0};
 std::atomic<std::uint64_t> g_blocked_embarked_orders{0};
+std::atomic<bool> g_galleys_widget_missing_logged{false};
+std::atomic<bool> g_galleys_widget_updated_logged{false};
 
 constexpr std::uint64_t kInitialLogLimit = 64;
 constexpr std::size_t kMaximumProvinceUnits = 4096;
@@ -139,6 +152,95 @@ bool TryReadInt32(const void* base, const std::size_t offset,
         value = 0;
         return false;
     }
+}
+
+void* FindUiChild(void* parent, const std::size_t vtable_offset,
+                  void* name) noexcept {
+    std::uintptr_t vtable = 0;
+    std::uintptr_t lookup = 0;
+    if (parent == nullptr || name == nullptr ||
+        !TryReadPointer(parent, 0, vtable) ||
+        !TryReadPointer(reinterpret_cast<const void*>(vtable), vtable_offset,
+                        lookup) ||
+        lookup == 0) {
+        return nullptr;
+    }
+    return reinterpret_cast<UiNamedLookupFn>(lookup)(parent, name);
+}
+
+void UpdateGalleysCountWidget(void* view, const char side_selector) noexcept {
+    if (view == nullptr || g_engine_string_init == nullptr ||
+        g_engine_string_destroy == nullptr || g_integer_to_ui_string == nullptr ||
+        g_set_ui_text == nullptr || g_side_aggregate == nullptr) {
+        return;
+    }
+
+    std::uintptr_t ui_context = 0;
+    std::uintptr_t battle_state = 0;
+    if (!TryReadPointer(view, 0x38, ui_context) || ui_context == 0 ||
+        !TryReadPointer(view, 0x40, battle_state) || battle_state == 0) {
+        return;
+    }
+
+    alignas(16) std::array<std::byte, 0x20> side_name{};
+    const char* const side_key = side_selector == 0 ? "attacker" : "defender";
+    g_engine_string_init(side_name.data(), side_key, 8);
+    void* side_window = FindUiChild(reinterpret_cast<void*>(ui_context), 0xE8,
+                                    side_name.data());
+    g_engine_string_destroy(side_name.data());
+    if (side_window == nullptr) {
+        return;
+    }
+
+    alignas(16) std::array<std::byte, 0x20> control_name{};
+    g_engine_string_init(control_name.data(), "galleys_total", 13);
+    void* count_control = FindUiChild(side_window, 0x88, control_name.data());
+    g_engine_string_destroy(control_name.data());
+    if (count_control == nullptr) {
+        if (!g_galleys_widget_missing_logged.exchange(true)) {
+            log::Write(
+                "GALLEYS count widget not found; add galleys_total to both combat side layouts");
+        }
+        return;
+    }
+
+    std::uintptr_t side = 0;
+    const std::size_t side_offset = side_selector == 0 ? 0x10 : 0x18;
+    if (!TryReadPointer(reinterpret_cast<const void*>(battle_state), side_offset,
+                        side) ||
+        side == 0) {
+        return;
+    }
+
+    alignas(16) std::array<std::byte, 0x80> aggregate{};
+    void* aggregate_data =
+        g_side_aggregate(reinterpret_cast<void*>(side), aggregate.data());
+    std::int32_t fixed_count = 0;
+    if (aggregate_data == nullptr ||
+        !TryReadInt32(aggregate_data, 0x2C, fixed_count)) {
+        return;
+    }
+
+    alignas(16) std::array<std::byte, 0x20> formatted_count{};
+    void* formatted_text = nullptr;
+    if (fixed_count < 1) {
+        g_engine_string_init(formatted_count.data(), "", 0);
+        formatted_text = formatted_count.data();
+    } else {
+        std::int32_t display_count = fixed_count / 1000;
+        if (fixed_count % 1000 != 0) {
+            ++display_count;
+        }
+        formatted_text = g_integer_to_ui_string(formatted_count.data(),
+                                                display_count);
+    }
+    if (formatted_text != nullptr) {
+        g_set_ui_text(count_control, formatted_text, 0);
+        if (!g_galleys_widget_updated_logged.exchange(true)) {
+            log::Write("GALLEYS count widget connected to live category-7 aggregate");
+        }
+    }
+    g_engine_string_destroy(formatted_count.data());
 }
 
 bool TryReadByte(const void* base, const std::size_t offset,
@@ -741,13 +843,18 @@ void __fastcall GuardLoserHandling(void* side, const std::uint8_t disposition) {
     g_loser_handling(side, disposition);
 }
 
+void __fastcall UpdateCombatCountWidgets(void* view, const char side_selector) {
+    g_combat_count_update(view, side_selector);
+    UpdateGalleysCountWidget(view, side_selector);
+}
+
 struct HookSpec final {
     std::uintptr_t rva;
     void* detour;
     void** original;
 };
 
-std::array<HookSpec, 8> HookSpecs() noexcept {
+std::array<HookSpec, 9> HookSpecs() noexcept {
     return {{{
                  rva::kExistingCombatArrival,
                  reinterpret_cast<void*>(&ObserveExistingCombatArrival),
@@ -787,6 +894,11 @@ std::array<HookSpec, 8> HookSpecs() noexcept {
                  rva::kMovementRequest,
                  reinterpret_cast<void*>(&GuardEmbarkedArmyMovementDuringNavalCombat),
                  reinterpret_cast<void**>(&g_movement_request),
+             },
+             {
+                 rva::kCombatCountUpdate,
+                 reinterpret_cast<void*>(&UpdateCombatCountWidgets),
+                 reinterpret_cast<void**>(&g_combat_count_update),
              }}};
 }
 
@@ -820,6 +932,14 @@ bool InstallObservationHooks(const std::uintptr_t module_base, std::string& erro
         module_base + rva::kProvinceLookup);
     g_movement_edge_cost = reinterpret_cast<MovementEdgeCostFn>(
         module_base + rva::kMovementEdgeCost);
+    g_engine_string_init = reinterpret_cast<EngineStringInitFn>(
+        module_base + rva::kEngineStringInit);
+    g_engine_string_destroy = reinterpret_cast<EngineStringDestroyFn>(
+        module_base + rva::kEngineStringDestroy);
+    g_integer_to_ui_string = reinterpret_cast<IntegerToUiStringFn>(
+        module_base + rva::kIntegerToUiString);
+    g_set_ui_text = reinterpret_cast<SetUiTextFn>(
+        module_base + rva::kSetUiText);
 
     MH_STATUS status = MH_Initialize();
     if (status != MH_OK && status != MH_ERROR_ALREADY_INITIALIZED) {
@@ -867,7 +987,7 @@ bool InstallObservationHooks(const std::uintptr_t module_base, std::string& erro
         return false;
     }
 
-    log::Write("installed 8 guarded hooks; automatic prototype=%u",
+    log::Write("installed 9 guarded hooks; automatic prototype=%u",
                g_manual_prototype_enabled.load());
     return true;
 }

@@ -1,0 +1,5 @@
+{
+    "query":  "light_infantry_total|units_total|heavy_cavalry_total",
+    "decompile_timeout_seconds":  90,
+    "mode":  "search"
+}

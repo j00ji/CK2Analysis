@@ -9,9 +9,10 @@ Current outputs:
 
 - `d3d9.dll`: target-specific proxy that forwards CK2's sole imported D3D9
   entry point and loads `ck2_naval.dll` from the same directory.
-- `ck2_naval.dll`: verifies the exact supported executable and installs eight
-  guarded hooks. With the prototype disabled, every gameplay path calls the
-  original function and returns its original result.
+- `ck2_naval.dll`: verifies the exact supported executable and installs nine
+  guarded hooks. With the prototype disabled, gameplay paths preserve the
+  original function behavior. A presentation-only post-hook fills the optional
+  `galleys_total` controls supplied by the interface package under `mod/`.
 - `ck2_naval_verify.exe`: validates the copied executable's SHA-256 and hook
   prologue bytes without executing CK2.
 - `ck2_naval.ini`: defaults the mutating prototype to disabled.
@@ -35,6 +36,8 @@ MinHook is pinned under `third_party/minhook` at release `v1.3.4`, commit
 - It separately checks 16 bytes at each guarded hook before patching memory.
 - Hook installation is all-or-nothing.
 - No executable file is modified.
+- The GALLEYS count extension is skipped safely when the mod-side GUI control
+  is absent; see `../mod/README.md` for the matching interface package.
 - Do not copy these binaries into the game directory until the static verifier
   passes and the observation test is deliberately scheduled.
 

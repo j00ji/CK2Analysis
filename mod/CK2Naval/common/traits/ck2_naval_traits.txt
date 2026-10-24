@@ -1,0 +1,10 @@
+# Prototype naval commander trait.
+# The `galleys` command_modifier key is experimental: vanilla land traits use
+# land-unit keys, and this needs an in-game test with the naval combat DLL.
+galley_leader = {
+	leader = yes
+
+	command_modifier = {
+		galleys = 0.2
+	}
+}

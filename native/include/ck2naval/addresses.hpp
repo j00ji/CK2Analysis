@@ -24,6 +24,11 @@ inline constexpr std::uintptr_t kHalfwayMovementLock = 0x00BA1FF0;
 inline constexpr std::uintptr_t kMovementEdgeCost = 0x00BA2760;
 inline constexpr std::uintptr_t kProvinceLookup = 0x00822200;
 inline constexpr std::uintptr_t kCombatFactory = 0x003BC270;
+inline constexpr std::uintptr_t kCombatCountUpdate = 0x003C4470;
+inline constexpr std::uintptr_t kEngineStringInit = 0x0000B0300;
+inline constexpr std::uintptr_t kEngineStringDestroy = 0x0000AE4F0;
+inline constexpr std::uintptr_t kIntegerToUiString = 0x00D5EBC0;
+inline constexpr std::uintptr_t kSetUiText = 0x00C58B10;
 
 inline constexpr std::uintptr_t kGameStateGlobal = 0x016E3260;
 inline constexpr std::uintptr_t kProvinceManagerGlobal = 0x016E32D8;
@@ -39,7 +44,7 @@ struct HookSignature final {
     std::array<std::uint8_t, 16> bytes;
 };
 
-inline constexpr std::array<HookSignature, 8> kObservationHookSignatures{{
+inline constexpr std::array<HookSignature, 9> kObservationHookSignatures{{
     {
         "existing-combat-arrival",
         rva::kExistingCombatArrival,
@@ -87,6 +92,12 @@ inline constexpr std::array<HookSignature, 8> kObservationHookSignatures{{
         rva::kMovementRequest,
         {0x48, 0x8B, 0xC4, 0x56, 0x57, 0x41, 0x56, 0x48,
          0x83, 0xEC, 0x60, 0x48, 0xC7, 0x40, 0xB8, 0xFE},
+    },
+    {
+        "combat-count-update",
+        rva::kCombatCountUpdate,
+        {0x48, 0x8B, 0xC4, 0x88, 0x50, 0x10, 0x48, 0x89,
+         0x48, 0x08, 0x55, 0x53, 0x56, 0x57, 0x41, 0x54},
     },
 }};
 

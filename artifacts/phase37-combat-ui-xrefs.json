@@ -1,0 +1,45 @@
+{
+  "tool": "CK2Query.java / Ghidra",
+  "sha256": "cc2d65b51d9099b3d632fe3269fa647aaf7c00fcb00cc0240adbaa8e6bbbb75e",
+  "language": "x86:LE:64:default",
+  "image_base": "140000000",
+  "mode": "xrefs",
+  "query": "14108f940,141090808",
+  "result": [
+    {
+      "address": "14108f940",
+      "references": {
+        "items": [
+          {
+            "from": "14039e6cb",
+            "to": "14108f940",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "14039e690",
+            "function_name": "FUN_14039e690"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    },
+    {
+      "address": "141090808",
+      "references": {
+        "items": [
+          {
+            "from": "1403c3533",
+            "to": "141090808",
+            "type": "DATA",
+            "operand": 1,
+            "function_entry": "1403c2200",
+            "function_name": "FUN_1403c2200"
+          }
+        ],
+        "truncated": false,
+        "limit": 100
+      }
+    }
+  ],
+  "limitations": "Static saved-database observations; unresolved indirect calls and missing analyzer references remain unknown. Pseudocode types/names may be inferred. Reference lists capped at 100 per address."
+}

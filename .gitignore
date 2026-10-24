@@ -12,3 +12,4 @@
 # Per-user agent configuration/skills.
 /.agents/
 /.codex/
+.env
